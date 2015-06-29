@@ -20,7 +20,8 @@ The following scripts must be executed on the SQL database to create the require
 ## Running your Unified Views
     docker run --name unified-views \
         -p 8080:8080 --link my-mysql:mysql \
-        -v /path/to/my/unified-views:/unified-views \
+        -v /path/to/lib:/unified-view/lib \
+        -v /path/to/dpus:/dpus \
         -e MYSQL_HOST=188.12.34.56 \
         -e MYSQL_PORT=3306 \
         -e MYSQL_USER=unified_views_user \
@@ -30,7 +31,7 @@ The following scripts must be executed on the SQL database to create the require
         -e MASTER_PASSWORD=commander \
         -d unified-views
 
-The Unified Views folder is mounted in `/unified-views`. This folder should contain a `/dpu` folder with the DPUs and a `/lib` folder with the additional JAR libraries to be loaded on startup.
+Additional JAR libraries to be loaded on startup (for example DPU dependencies) should be mounted in `/unified-views/lib`. DPU JAR files mounted in `/dpus` will be installed automatically on container startup.
 
 The Docker image exposes port 8080 (frontend) and 5001 (backend). The Unified Views GUI is available at http://docker-container-ip:8080/unifiedviews. The master REST API is available at http://docker-container-ip:8080/master. The credentials of the master REST API can be configured via the environment variables `MASTER_USER` and `MASTER_PASSWORD`. They default to `master` and `commander` respectively.
 
