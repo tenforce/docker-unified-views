@@ -1,6 +1,18 @@
 #!/bin/bash
 chown -R tomcat7:tomcat7 /unified-views
 chown -R tomcat7:tomcat7 /logs
+
+cd /config
+ORIG_URL="database.sql.url  = jdbc:mysql:\/\/mysql:3306\/unified_views?characterEncoding=utf8"
+ORIG_USER="database.sql.user = unified_views"
+ORIG_PASSWORD="database.sql.password = unified_views"
+URL="database.sql.url = jdbc:mysql:\/\/$MYSQL_HOST:$MYSQL_PORT\/$MYSQL_DATABASE?characterEncoding=utf8"
+USER="database.sql.user = $MYSQL_USER"
+PASSWORD="database.sql.password = $MYSQL_PASSWORD"
+sed -i "s/$ORIG_URL/$URL/" *.properties
+sed -i "s/$ORIG_USER/$USER/" *.properties
+sed -i "s/$ORIG_PASSWORD/$PASSWORD/" *.properties
+
 cd /unified-views
 
 nohup java -DconfigFileLocation=/config/backend-config.properties -jar /packages/backend-2.1.0.jar &

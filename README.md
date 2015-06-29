@@ -12,7 +12,7 @@ Unified Views requires an SQL database to store its configuration. If you want t
                -e MYSQL_DATABASE=unified_views_db \
                -d mariadb
 
-The following scripts must be executed on the SQL database to create the required tables and populate the Unified Views database:
+The following scripts must be executed on the SQL database to create the required tables and populate the Unified Views database before the Unified Views container is started:
 - [schema.sql](https://github.com/UnifiedViews/Core/blob/UV_v2.1.0/db/mysql/schema.sql)
 - [data-core.sql](https://github.com/UnifiedViews/Core/blob/UV_v2.1.0/db/mysql/data-core.sql)
 - [data-permission.sql](https://github.com/UnifiedViews/Core/blob/UV_v2.1.0/db/mysql/data-permissions.sql)
@@ -21,12 +21,17 @@ The following scripts must be executed on the SQL database to create the require
     docker run --name unified-views \
         -p 8080:8080 --link my-mysql:mysql \
         -v /path/to/my/unified-views:/unified-views \
+        -e MYSQL_HOST=188.12.34.56 \
+        -e MYSQL_PORT=3306 \
+        -e MYSQL_USER=unified_views_user \
+        -e MYSQL_PASSWORD=unified_views_pwd \
+        -e MYSQL_DATABASE=unified_views_db \
         -d unified-views
 
 The Unified Views folder is mounted in `/unified-views`. This folder should contain a `/dpu` folder with the DPUs and a `/lib` folder with the additional JAR libraries to be loaded on startup.
 
 The Docker image exposes port 8080. The Unified Views frontend is available at http://docker-container-ip:8080/unifiedviews.
 
-If the SQL database is setup using a Docker container, the container should be linked as `mysql` to the Unified Views container.
+If the SQL database is setup using a Docker container, the container should be linked as `mysql` to the Unified Views container. The SQL connection details can be configured using the following enviroment variables (default value between brackets): MYSQL_HOST (mysql), MYSQL_PORT (3306), MYSQL_USER (unified_views), MYSQL_PASSWORD (unified_views) and MYSQL_DATABASE (unified_views).
 
-If output should be written to a Virtuoso running in a Docker container it might be helpful to link the Virtuoso container to the Unified Views container using the option `--link my-virtuoso:virtuoso`.
+If the resulting RDF should be written to a Virtuoso running in a Docker container it might be helpful to link the Virtuoso container to the Unified Views container using the option `--link my-virtuoso:virtuoso`.
