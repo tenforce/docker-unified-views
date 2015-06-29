@@ -13,9 +13,9 @@ Unified Views requires an SQL database to store its configuration. If you want t
                -d mariadb
 
 The following scripts must be executed on the SQL database to create the required tables and populate the Unified Views database before the Unified Views container is started:
-- [schema.sql](https://github.com/UnifiedViews/Core/blob/UV_v2.1.0/db/mysql/schema.sql)
-- [data-core.sql](https://github.com/UnifiedViews/Core/blob/UV_v2.1.0/db/mysql/data-core.sql)
-- [data-permission.sql](https://github.com/UnifiedViews/Core/blob/UV_v2.1.0/db/mysql/data-permissions.sql)
+- [schema.sql](https://raw.githubusercontent.com/UnifiedViews/Core/UV_v2.1.0/db/mysql/schema.sql)
+- [data-core.sql](https://raw.githubusercontent.com/UnifiedViews/Core/UV_v2.1.0/db/mysql/data-core.sql)
+- [data-permission.sql](https://raw.githubusercontent.com/UnifiedViews/Core/UV_v2.1.0/db/mysql/data-permissions.sql)
 
 ## Running your Unified Views
     docker run --name unified-views \
