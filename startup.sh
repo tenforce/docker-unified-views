@@ -15,6 +15,15 @@ sed -i "s/$ORIG_URL/$URL/" *.properties
 sed -i "s/$ORIG_USER/$USER/" *.properties
 sed -i "s/$ORIG_PASSWORD/$PASSWORD/" *.properties
 
+# Master credentials
+cd /config
+ORIG_USER="master.api.user=master"
+ORIG_PASSWORD="master.api.password=commander"
+USER="master.api.user = $MASTER_USER"
+PASSWORD="master.api.password = $MASTER_PASSWORD"
+sed -i "s/$ORIG_USER/$USER/" *.properties
+sed -i "s/$ORIG_PASSWORD/$PASSWORD/" *.properties
+
 # Unified Views backend
 cd /unified-views
 nohup java -DconfigFileLocation=/config/backend-config.properties -jar /packages/backend-2.1.0.jar &
