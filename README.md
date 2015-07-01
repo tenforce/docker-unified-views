@@ -20,7 +20,7 @@ The following scripts must be executed on the SQL database to create the require
 ## Running your Unified Views
     docker run --name unified-views \
         -p 8080:8080 --link my-mysql:mysql \
-        -v /path/to/lib:/unified-view/lib \
+        -v /path/to/lib:/unified-views/lib \
         -v /path/to/dpus:/dpus \
         -e MYSQL_HOST=188.12.34.56 \
         -e MYSQL_PORT=3306 \
