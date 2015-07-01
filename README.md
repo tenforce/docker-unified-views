@@ -29,7 +29,7 @@ The following scripts must be executed on the SQL database to create the require
         -e MYSQL_DATABASE=unified_views_db \
         -e MASTER_USER=master \
         -e MASTER_PASSWORD=commander \
-        -d unified-views
+        -d tenforce/unified-views
 
 Additional JAR libraries to be loaded on startup (for example DPU dependencies) should be mounted in `/unified-views/lib`. DPU JAR files mounted in `/dpus` will be installed automatically on container startup.
 
