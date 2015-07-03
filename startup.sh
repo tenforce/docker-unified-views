@@ -5,24 +5,24 @@ chmod +x /add-dpu.sh
 
 # Database connection details
 cd /config
-ORIG_URL="database.sql.url  = jdbc:mysql:\/\/mysql:3306\/unified_views?characterEncoding=utf8"
-ORIG_USER="database.sql.user = unified_views"
-ORIG_PASSWORD="database.sql.password = unified_views"
+ORIG_URL="database.sql.url"
+ORIG_USER="database.sql.user"
+ORIG_PASSWORD="database.sql.password"
 URL="database.sql.url = jdbc:mysql:\/\/$MYSQL_HOST:$MYSQL_PORT\/$MYSQL_DATABASE?characterEncoding=utf8"
 USER="database.sql.user = $MYSQL_USER"
 PASSWORD="database.sql.password = $MYSQL_PASSWORD"
-sed -i "s/$ORIG_URL/$URL/" *.properties
-sed -i "s/$ORIG_USER/$USER/" *.properties
-sed -i "s/$ORIG_PASSWORD/$PASSWORD/" *.properties
+sed -i "s/^${ORIG_URL}.*/$URL/" *.properties
+sed -i "s/^${ORIG_USER}.*/$USER/" *.properties
+sed -i "s/^${ORIG_PASSWORD}.*/$PASSWORD/" *.properties
 
 # Master credentials
 cd /config
-ORIG_USER="master.api.user=master"
-ORIG_PASSWORD="master.api.password=commander"
+ORIG_USER="master.api.user"
+ORIG_PASSWORD="master.api.password"
 USER="master.api.user = $MASTER_USER"
 PASSWORD="master.api.password = $MASTER_PASSWORD"
-sed -i "s/$ORIG_USER/$USER/" *.properties
-sed -i "s/$ORIG_PASSWORD/$PASSWORD/" *.properties
+sed -i "s/^${ORIG_USER}.*/$USER/" *.properties
+sed -i "s/^${ORIG_PASSWORD}.*/$PASSWORD/" *.properties
 
 # Unified Views backend
 cd /unified-views
