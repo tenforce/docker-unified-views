@@ -10,7 +10,9 @@ RUN apt-get update \
       && mkdir /config \
       && mkdir /dpus \
       && mkdir /logs && touch /logs/frontend.log && touch /logs/frontend_err.log \
-      && mkdir -p /unified-views/dpu
+      && mkdir -p /unified-views/dpu \
+      && sed -i "s/^TOMCAT7_USER.*/TOMCAT7_USER=root/" /etc/default/tomcat7 \
+      && sed -i "s/^TOMCAT7_GROUP.*/TOMCAT7_GROUP=root/" /etc/default/tomcat7
 
 ADD tomcat-setenv.sh /usr/share/tomcat7/bin/setenv.sh
 ADD packages /packages
