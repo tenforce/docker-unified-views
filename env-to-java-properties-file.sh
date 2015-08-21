@@ -15,7 +15,7 @@ then
 	echo "$key=$value" >> /config/frontend-config.properties
 	echo "$key=$value" >> /config/backend-config.properties
     done
-    touch /.dba_pwd_set
+    touch /.settings_set
 fi
 echo "Finished converting environment variables to Java properties"
 
