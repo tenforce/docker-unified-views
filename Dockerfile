@@ -19,6 +19,7 @@ ADD packages /packages
 ADD config /config
 ADD startup.sh /
 ADD add-dpu.sh /
+ADD env-to-java-properties-file.sh /
 
 WORKDIR /unified-views
 
