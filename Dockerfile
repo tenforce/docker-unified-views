@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
 
-ENV MYSQL_HOST=mysql MYSQL_PORT=3306 MYSQL_USER=unified_views MYSQL_PASSWORD=unified_views MYSQL_DATABASE=unified_views MASTER_USER=master MASTER_PASSWORD=commander
+ENV UV_DATABASE_SQL_URL=jdbc:mysql://mysql:3306/unified_views_?characterEncoding=utf8  UV_DATABASE_SQL_USER=unified_views UV_DATABASE_SQL_PASSWORD=unified_views MASTER_USER=master MASTER_PASSWORD=commander
 
 RUN apt-get update \
       && apt-get install -y openjdk-7-jdk maven tomcat7 curl git mysql-client \
