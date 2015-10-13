@@ -4,8 +4,12 @@ MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
 
 ENV UV_DATABASE_SQL_URL=jdbc:mysql://mysql:3306/unified_views_?characterEncoding=utf8  UV_DATABASE_SQL_USER=unified_views UV_DATABASE_SQL_PASSWORD=unified_views MASTER_USER=master MASTER_PASSWORD=commander
 ENV DOWNLOAD_DPUS=true
-ENV PLUGINS_VERSION_TAG=UV_Plugins_v2.2.0
 ENV UV_VERSION=2.2.0
+ENV PLUGINS_VERSION_TAG=UV_Plugins_v$UV_VERSION
+ENV CORE_VERSION_TAG=UV_Core_v$UV_VERSION
+
+ADD  http://maven.eea.sk/artifactory/public/eu/unifiedviews/lib-core/$UV_VERSION/pom.xml /packages/lib
+
 RUN apt-get update \
       && apt-get install -y openjdk-7-jdk maven tomcat7 curl git mysql-client \
       && mkdir /packages \
@@ -15,6 +19,13 @@ RUN apt-get update \
       && mkdir -p /unified-views/dpu \
       && sed -i "s/^TOMCAT7_USER.*/TOMCAT7_USER=root/" /etc/default/tomcat7 \
       && sed -i "s/^TOMCAT7_GROUP.*/TOMCAT7_GROUP=root/" /etc/default/tomcat7
+			&& sed -n -i '1h;1!H;${g;s/<parent>.*<\/parent>//;p;}' /packages/lib/pom.xml
+      && sed -i "s#<artifactId>lib-core</artifactId>#<artifactId>lib-core</artifactId><version>$UV_VERSION</version><groupId>eu.unifiedviews</groupId>#" /packages/lib/pom.xml 
+			&& sed -i 's#${project.output.lib}#/packages/lib#' /packages/lib/pom.xml
+			&& pushd /packages/lib/pom.xml 
+			&& mvn package:copy
+			&& popd
+
 
 ADD tomcat-setenv.sh /usr/share/tomcat7/bin/setenv.sh
 ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/frontend/$UV_VERSION/frontend-$UV_VERSION.war /packages/frontend.war
