@@ -5,6 +5,7 @@ MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
 ENV UV_DATABASE_SQL_URL=jdbc:mysql://mysql:3306/unified_views_?characterEncoding=utf8  UV_DATABASE_SQL_USER=unified_views UV_DATABASE_SQL_PASSWORD=unified_views MASTER_USER=master MASTER_PASSWORD=commander
 ENV DOWNLOAD_DPUS=true
 ENV PLUGINS_VERSION_TAG=UV_Plugins_v2.2.0
+ENV UV_VERSION=2.2.0
 RUN apt-get update \
       && apt-get install -y openjdk-7-jdk maven tomcat7 curl git mysql-client \
       && mkdir /packages \
@@ -16,7 +17,9 @@ RUN apt-get update \
       && sed -i "s/^TOMCAT7_GROUP.*/TOMCAT7_GROUP=root/" /etc/default/tomcat7
 
 ADD tomcat-setenv.sh /usr/share/tomcat7/bin/setenv.sh
-ADD packages /packages
+ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/frontend/$UV_VERSION/frontend-$UV_VERSION.war /packages/frontend.war
+ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/backend/$UV_VERSION/backend-$UV_VERSION.jar /packages/backend.jar
+ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/master/$UV_VERSION/master-$UV_VERSION.jar /packages/master.war
 ADD config /config
 ADD startup.sh /
 ADD add-dpu.sh /

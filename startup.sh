@@ -8,7 +8,7 @@ sh /env-to-java-properties-file.sh
 
 # Unified Views backend
 cd /unified-views
-nohup java -DconfigFileLocation=/config/backend-config.properties -jar /packages/backend-2.1.0.jar &
+nohup java -DconfigFileLocation=/config/backend-config.properties -jar /packages/backend.jar &
 
 # (optionally) download DPUs
 DPU_DIR=/dpus
@@ -24,6 +24,7 @@ if [[ $DOWNLOAD_DPUS  && ! -e $DPU_DIR/.downloaded ]]; then
 		  mvn dependency:copy-dependencies -DoutputDirectory=$DPU_DIR && date +%Y-%m-%dT%H:%M:%S%z > $DPU_DIR/.downloaded && rm $DPU_DIR/pom.xml
 		popd 
 fi
+
 # Unified Views frontend
 cp /packages/unifiedviews.war /var/lib/tomcat7/webapps/
 
