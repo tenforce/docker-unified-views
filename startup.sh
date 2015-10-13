@@ -10,6 +10,20 @@ sh /env-to-java-properties-file.sh
 cd /unified-views
 nohup java -DconfigFileLocation=/config/backend-config.properties -jar /packages/backend-2.1.0.jar &
 
+# (optionally) download DPUs
+DPU_DIR=/dpus
+if [[ $DOWNLOAD_DPUS  && ! -e $DPU_DIR/.downloaded ]]; then
+		pushd $DPU_DIR
+		curl --output /$DPU_DIR/pom.xml --silent https://raw.githubusercontent.com/UnifiedViews/Plugins/$PLUGINS_VERSION_TAG/debian/pom.xml 
+		# pom cleanup, to be removed later on
+		VERSION_STRING=`grep "<version>.*</version>" pom.xml | head -n 1`
+		echo $VERSION_STRING
+		sed -n -i '1h;1!H;${g;s/<parent>.*<\/parent>//;p;}' pom.xml
+		sed -i "s#<name>unifiedviews-plugins</name>#<name>unifiedviews-plugins</name>\n$VERSION_STRING#" pom.xml 
+		# pom cleanup end
+		  mvn dependency:copy-dependencies -DoutputDirectory=$DPU_DIR && date +%Y-%m-%dT%H:%M:%S%z > $DPU_DIR/.downloaded && rm $DPU_DIR/pom.xml
+		popd 
+fi
 # Unified Views frontend
 cp /packages/unifiedviews.war /var/lib/tomcat7/webapps/
 
