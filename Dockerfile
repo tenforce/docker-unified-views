@@ -27,7 +27,7 @@ RUN apt-get update \
 ADD tomcat-setenv.sh /usr/share/tomcat7/bin/setenv.sh
 ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/frontend/$UV_VERSION/frontend-$UV_VERSION.war /packages/frontend.war
 ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/backend/$UV_VERSION/backend-$UV_VERSION.jar /packages/backend.jar
-ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/master/$UV_VERSION/master-$UV_VERSION.jar /packages/master.war
+ADD http://maven.eea.sk/artifactory/public/eu/unifiedviews/master/$UV_VERSION/master-$UV_VERSION.war /packages/master.war
 ADD config /config
 ADD startup.sh /
 ADD add-dpu.sh /
