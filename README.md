@@ -30,7 +30,6 @@ docker run --name uv-sql tenforce/unified-views-mariadb
 docker run --name uv-backend -v /your/config/dir:/config -v /your/library/dir:/unified-views/lib -v /your/dpu/dir:/unified-views/dpu --link mysql:mysql tenforce/unified-views-backend
 docker run --name uv-frontend -v /your/config/dir:/config -v /your/library/dir:/unified-views/lib -v /your/dpu/dir:/unified-views/dpu --link mysql:mysql tenforce/unified-views-frontend
 ```
-tenforce/unified-views-shared is a docker image that hosts shared data for the unified-views frontend, master and backend dockers. It contains shared libraries available in /unified-views/lib and a configuration file in /config.
 
 
 ## adding dpu's
@@ -41,7 +40,7 @@ By default the unified-views installation is provided without DPU's, DPU's can b
 To add your own dpu's use the following command with your dpu directory.
 `docker run --rm -v /your/dpu/directory:/dpus --link uv-frontend:frontend tenforce/unified-views-add-dpus` 
 
-## Updating the SQL connection details
+## Update the SQL connection details
 By default the configuration from uv-shared is configured to connect to a mariadb as follows, this corresponds to the configuration of uv-mariadb.
 ```
 database.sql.driver  =  org.mariadb.jdbc.Driver
@@ -50,8 +49,11 @@ database.sql.user = unified_views
 database.sql.password = s00pers3cur3
 ```
 
-It is recommended to update these credentials, you can do so by running uv-shared with the following environment variables: `UV_DATABASE_SQL_USER`, `UV_DATABASE_SQL_PASSWORD` and for uv-mariadb use `MYSQL_USER` and `MYSQL_PASSWORD`. *NOTE*: Currently it is not possible to change the database name when using uv-mariadb
+It is recommended to update these credentials, you can do so by running uv-shared with the following environment variables: `UV_DATABASE_SQL_USER`, `UV_DATABASE_SQL_PASSWORD` and for uv-mariadb use `MYSQL_USER` and `MYSQL_PASSWORD`. 
 
+*NOTE*: Currently it is not possible to change the database name when using uv-mariadb
+
+### use your own SQL service
 If you want to use an existing SQL installation on your host, run the following scripts on a database of your choice:
   * [schema.sql](https://raw.githubusercontent.com/UnifiedViews/Core/UV_Core_v2.3.0/debian/unifiedviews-backend-mysql/src/deb/usr/share/unifiedviews/mysql/schema.sql)
   * [data-core.sql](https://raw.githubusercontent.com/UnifiedViews/Core/UV_Core_v2.3.0/debian/unifiedviews-backend-mysql/src/deb/usr/share/unifiedviews/mysql/data-core.sql)
