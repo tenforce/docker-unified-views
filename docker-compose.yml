@@ -1,0 +1,25 @@
+frontend:
+  image: tenforce/unified-views-frontend:latest
+  ports:
+    - "8080:8080"
+  volumes_from:
+    - shared
+  links:
+    - mysql:mysql
+    - backend:backend
+    - virtuoso:virtuoso
+shared:
+  image: tenforce/unified-views-shared:latest
+backend:
+  image: tenforce/unified-views-backend:latest
+  volumes_from:
+    - shared
+  links:
+    - mysql:mysql
+    - virtuoso:virtuoso
+mysql:
+  image: tenforce/unified-views-mariadb
+  environment:
+    - MYSQL_ROOT_PASSWORD=iamroot!
+virtuoso:
+  image: tenforce/virtuoso:virtuoso-v7.2.0-latest
