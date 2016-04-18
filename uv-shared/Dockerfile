@@ -5,7 +5,7 @@ MAINTAINER Niels Vandekeybus <niels.vandekeybus@tenforce.com>
 ENV UNIFIED_VIEWS_VERSION 2.3.0
 ADD config /config
 ADD packages/lib /unified-views/lib
-ADD env-to-java-properties-file.sh /usr/local/bin
+ADD env-to-java-properties-file.sh /usr/local/bin/
 VOLUME /config
 VOLUME /unified-views/lib
 VOLUME /unified-views/dpu
