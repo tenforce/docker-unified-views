@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Maven Wagon API
+
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Plexus Common Utilities  org.codehaus.plexus:plexus-utils:jar:1.4.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

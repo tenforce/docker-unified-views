@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Description: Json-LD core implementation
+Bundle-License: https://raw.github.com/jsonld-java/jsonld-java/master/
+ LICENCE
+Bundle-SymbolicName: com.github.jsonld-java
+Built-By: peter
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1415930369686
+Import-Package: com.fasterxml.jackson.core;version="2.3",com.fasterxml
+ .jackson.databind;version="2.3",com.github.jsonldjava.core,com.github
+ .jsonldjava.utils,org.apache.http,org.apache.http.client,org.apache.h
+ ttp.client.cache,org.apache.http.client.methods,org.apache.http.clien
+ t.protocol,org.apache.http.impl.client,org.apache.http.impl.client.ca
+ che,org.apache.http.impl.cookie,org.apache.http.message,org.apache.ht
+ tp.protocol,org.slf4j;version="[1.0.0,2)"
+Tool: Bnd-0.0.357
+Export-Package: com.github.jsonldjava.core;uses:="com.github.jsonldjav
+ a.utils,org.apache.http.impl.client.cache,com.fasterxml.jackson.core,
+ org.apache.http,org.apache.http.impl.client,org.apache.http.client.ca
+ che,org.apache.http.client,org.apache.http.client.methods,org.apache.
+ http.client.protocol,com.fasterxml.jackson.databind,org.slf4j",com.gi
+ thub.jsonldjava.utils;uses:="org.slf4j,org.apache.http.client.cache,c
+ om.fasterxml.jackson.core,org.apache.http.impl.client.cache,org.apach
+ e.http.protocol,org.apache.http,org.apache.http.impl.cookie,com.faste
+ rxml.jackson.databind,org.apache.http.message,com.github.jsonldjava.c
+ ore"
+Bundle-Version: 0.5.1
+Bundle-Name: JSONLD Java :: Core
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_25
+

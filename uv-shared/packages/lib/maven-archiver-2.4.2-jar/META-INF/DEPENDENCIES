@@ -1,0 +1,37 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Maven Archiver
+
+
+From: 'an unknown organization'
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils) org.codehaus.plexus:plexus-utils:jar:3.0
+    License: Apache Public License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - Maven Artifact (http://maven.apache.org/maven-artifact) org.apache.maven:maven-artifact:jar:2.0.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Model (http://maven.apache.org/maven-model) org.apache.maven:maven-model:jar:2.0.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Default Plexus Container  org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+
+  - Plexus Interpolation API (http://plexus.codehaus.org/plexus-components/plexus-interpolation) org.codehaus.plexus:plexus-interpolation:jar:1.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus IO Components (http://plexus.codehaus.org/plexus-components/plexus-io) org.codehaus.plexus:plexus-io:jar:2.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Sonatype, Inc.' (http://www.sonatype.com/)
+  - Plexus Archiver Component (http://forge.sonatype.com/spice-parent/plexus-archiver/) org.codehaus.plexus:plexus-archiver:jar:2.0.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'The Codehaus' (http://codehaus.org/)
+  - classworlds (http://classworlds.codehaus.org/) classworlds:classworlds:jar:1.1-alpha-2
+
+
+
+
+

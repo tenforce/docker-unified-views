@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: org.pegdown
+Implementation-Title: pegdown
+Implementation-Version: 1.2.1
+Implementation-Vendor-Id: org.pegdown
+Specification-Vendor: org.pegdown
+Specification-Title: pegdown
+Implementation-URL: http://pegdown.org
+Specification-Version: 1.2.1
+

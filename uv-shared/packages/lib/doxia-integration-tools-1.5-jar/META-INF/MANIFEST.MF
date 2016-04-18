@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: Doxia Integration Tools
+Archiver-Version: Plexus Archiver
+Built-By: Dennis
+Build-Jdk: 1.5.0_22
+Created-By: Apache Maven
+Implementation-Title: Doxia Integration Tools
+Specification-Version: 1.5
+Specification-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.maven.doxia
+Implementation-Version: 1.5
+Implementation-Vendor: The Apache Software Foundation
+

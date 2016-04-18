@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<b:beans xmlns="http://www.springframework.org/schema/security"
+         xmlns:b="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+    <!-- Configure Authentication mechanism -->
+    <authentication-manager alias="authenticationManager">
+        <authentication-provider ref="authenticationProvider"/>
+    </authentication-manager>
+
+    <global-method-security secured-annotations="enabled" pre-post-annotations="enabled">
+        <expression-handler ref="expressionHandler"/>
+    </global-method-security>
+
+    <b:bean id="authenticationProvider" class="cz.cuni.mff.xrg.odcs.commons.app.auth.PasswordAuthenticationProvider">
+        <b:constructor-arg ref="userFacade"/>
+    </b:bean>
+
+    <b:bean id="expressionHandler"
+            class="org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler">
+        <b:property name="permissionEvaluator" ref="permissionEvaluator"/>
+    </b:bean>
+
+    <b:bean id="authenticationContext" class="cz.cuni.mff.xrg.odcs.commons.app.auth.AuthenticationContext"/>
+
+    <b:bean id="permissionEvaluator" class="cz.cuni.mff.xrg.odcs.commons.app.auth.DefaultPermissionEvaluator"/>
+    
+    <!-- Permission evaluation helper class -->
+    <b:bean id="permissionUtils" class="cz.cuni.mff.xrg.odcs.commons.app.auth.PermissionUtils"/>
+
+</b:beans>

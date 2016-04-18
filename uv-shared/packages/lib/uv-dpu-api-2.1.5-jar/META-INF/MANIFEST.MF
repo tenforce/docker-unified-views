@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1448275598865
+Build-Jdk: 1.7.0_76
+Built-By: jenkins
+Bundle-Description: Contains execution data processing unit APU definiti
+ ons.
+Bundle-License: https://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: uv-dpu-api
+Bundle-SymbolicName: eu.unifiedviews.uv-dpu-api
+Bundle-Version: 2.1.5
+Created-By: Apache Maven Bundle Plugin
+Export-Package: eu.unifiedviews.dataunit;uses:="org.openrdf.repository,o
+ rg.openrdf.model";version="2.1.5",eu.unifiedviews.dpu;version="2.1.5",e
+ u.unifiedviews.dpu.config;version="2.1.5"
+Import-Package: org.openrdf.model,org.openrdf.repository
+Tool: Bnd-1.50.0

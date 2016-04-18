@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: benson
+Build-Jdk: 1.6.0_26
+Specification-Title: Maven Wagon API
+Specification-Version: 1.0
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Maven Wagon API
+Implementation-Version: 1.0
+Implementation-Vendor-Id: org.apache.maven.wagon
+Implementation-Vendor: The Apache Software Foundation
+

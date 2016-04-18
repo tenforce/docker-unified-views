@@ -1,0 +1,43 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Doxia :: XDoc Module
+
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.0.2
+    License: Apache License  (../LICENSE.txt)
+  - HttpCore (http://hc.apache.org/httpcomponents-core/) org.apache.httpcomponents:httpcore:jar:4.0.1
+    License: Apache License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Plexus Classworlds  org.codehaus.plexus:plexus-classworlds:jar:1.2-alpha-9
+
+  - Plexus :: Component Annotations (http://plexus.codehaus.org/plexus-containers/plexus-component-annotations/) org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Default Plexus Container  org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils) org.codehaus.plexus:plexus-utils:jar:3.0.10
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Codec (http://jakarta.apache.org/commons/codec/) commons-codec:commons-codec:jar:1.3
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Doxia :: Core (http://maven.apache.org/doxia/doxia/doxia-core/) org.apache.maven.doxia:doxia-core:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Doxia :: Logging API (http://maven.apache.org/doxia/doxia/doxia-logging-api/) org.apache.maven.doxia:doxia-logging-api:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Doxia :: Sink API (http://maven.apache.org/doxia/doxia/doxia-sink-api/) org.apache.maven.doxia:doxia-sink-api:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

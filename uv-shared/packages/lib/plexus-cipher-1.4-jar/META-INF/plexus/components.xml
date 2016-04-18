@@ -1,0 +1,10 @@
+<component-set>
+  <components>
+    <component>
+      <role>org.sonatype.plexus.components.cipher.PlexusCipher</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.plexus.components.cipher.DefaultPlexusCipher</implementation>
+      <description></description>
+    </component>
+  </components>
+</component-set>

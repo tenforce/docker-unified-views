@@ -1,0 +1,35 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Maven Plugin API
+
+
+From: 'an unknown organization'
+  - Sisu - Guice (http://forge.sonatype.com/sisu-guice/) org.sonatype.sisu:sisu-guice:pom:2.1.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Plexus Classworlds (http://plexus.codehaus.org/plexus-classworlds/) org.codehaus.plexus:plexus-classworlds:jar:2.2.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus :: Component Annotations (http://plexus.codehaus.org/plexus-containers/plexus-component-annotations/) org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils) org.codehaus.plexus:plexus-utils:jar:2.0.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Sonatype, Inc.' (http://www.sonatype.com)
+  - Sisu - Inject (JSR330 bean support) (http://sisu.sonatype.org/sisu-inject/guice-bean/sisu-inject-bean/) org.sonatype.sisu:sisu-inject-bean:bundle:1.4.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sisu - Inject (Plexus bean support) (http://sisu.sonatype.org/sisu-inject/guice-bean/guice-plexus/sisu-inject-plexus/) org.sonatype.sisu:sisu-inject-plexus:bundle:1.4.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Maven Artifact (http://maven.apache.org/maven-artifact/) org.apache.maven:maven-artifact:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Model (http://maven.apache.org/maven-model/) org.apache.maven:maven-model:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

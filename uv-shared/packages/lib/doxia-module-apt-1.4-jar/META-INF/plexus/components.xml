@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+    <component>
+      <role>org.apache.maven.doxia.parser.Parser</role>
+      <role-hint>apt</role-hint>
+      <implementation>org.apache.maven.doxia.module.apt.AptParser</implementation>
+      <description />
+      <requirements>
+        <requirement>
+          <role>org.apache.maven.doxia.macro.manager.MacroManager</role>
+          <field-name>macroManager</field-name>
+        <role-hint /></requirement>
+      </requirements>
+    <isolated-realm>false</isolated-realm></component>
+  <component>
+      <role>org.apache.maven.doxia.sink.SinkFactory</role>
+      <role-hint>apt</role-hint>
+      <implementation>org.apache.maven.doxia.module.apt.AptSinkFactory</implementation>
+      <description />
+      <isolated-realm>false</isolated-realm>
+    </component><component>
+      <role>org.apache.maven.doxia.module.site.SiteModule</role>
+      <role-hint>apt</role-hint>
+      <implementation>org.apache.maven.doxia.module.apt.AptSiteModule</implementation>
+      <description />
+      <isolated-realm>false</isolated-realm>
+    </component></components>
+</component-set>

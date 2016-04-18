@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.5.3 
+Created-By: Apache Maven
+Built-By: Niall Pemberton
+Package: org.apache.commons.chain
+Build-Jdk: 1.4.2_12
+Extension-Name: commons-chain
+Specification-Title: Commons Chain
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: org.apache.commons.chain
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Version: 1.1
+Implementation-Vendor-Id: org.apache
+X-Compile-Source-JDK: 1.3
+X-Compile-Target-JDK: 1.3
+

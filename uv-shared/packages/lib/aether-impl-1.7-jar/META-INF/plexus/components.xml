@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+    <component>
+      <role>org.sonatype.aether.impl.ArtifactResolver</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultArtifactResolver</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.spi.io.FileProcessor</role>
+          <role-hint />
+          <field-name>fileProcessor</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.VersionResolver</role>
+          <role-hint />
+          <field-name>versionResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.UpdateCheckManager</role>
+          <role-hint />
+          <field-name>updateCheckManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.RemoteRepositoryManager</role>
+          <role-hint />
+          <field-name>remoteRepositoryManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.LocalRepositoryMaintainer</role>
+          <field-name>localRepositoryMaintainers</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.DependencyCollector</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultDependencyCollector</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.RemoteRepositoryManager</role>
+          <role-hint />
+          <field-name>remoteRepositoryManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.ArtifactDescriptorReader</role>
+          <role-hint />
+          <field-name>descriptorReader</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.VersionRangeResolver</role>
+          <role-hint />
+          <field-name>versionRangeResolver</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.Deployer</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultDeployer</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.spi.io.FileProcessor</role>
+          <role-hint />
+          <field-name>fileProcessor</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.RemoteRepositoryManager</role>
+          <role-hint />
+          <field-name>remoteRepositoryManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.UpdateCheckManager</role>
+          <role-hint />
+          <field-name>updateCheckManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.MetadataGeneratorFactory</role>
+          <field-name>metadataFactories</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.spi.io.FileProcessor</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultFileProcessor</implementation>
+      <isolated-realm>false</isolated-realm>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.Installer</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultInstaller</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.spi.io.FileProcessor</role>
+          <role-hint />
+          <field-name>fileProcessor</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.LocalRepositoryMaintainer</role>
+          <field-name>localRepositoryMaintainers</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.MetadataGeneratorFactory</role>
+          <field-name>metadataFactories</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.MetadataResolver</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultMetadataResolver</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.UpdateCheckManager</role>
+          <role-hint />
+          <field-name>updateCheckManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.RemoteRepositoryManager</role>
+          <role-hint />
+          <field-name>remoteRepositoryManager</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.RemoteRepositoryManager</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultRemoteRepositoryManager</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.UpdateCheckManager</role>
+          <role-hint />
+          <field-name>updateCheckManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.spi.connector.RepositoryConnectorFactory</role>
+          <field-name>connectorFactories</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.RepositorySystem</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultRepositorySystem</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.VersionResolver</role>
+          <role-hint />
+          <field-name>versionResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.VersionRangeResolver</role>
+          <role-hint />
+          <field-name>versionRangeResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.ArtifactResolver</role>
+          <role-hint />
+          <field-name>artifactResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.MetadataResolver</role>
+          <role-hint />
+          <field-name>metadataResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.ArtifactDescriptorReader</role>
+          <role-hint />
+          <field-name>artifactDescriptorReader</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.DependencyCollector</role>
+          <role-hint />
+          <field-name>dependencyCollector</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.Installer</role>
+          <role-hint />
+          <field-name>installer</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.Deployer</role>
+          <role-hint />
+          <field-name>deployer</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.UpdateCheckManager</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.DefaultUpdateCheckManager</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.spi.log.Logger</role>
+      <role-hint>default</role-hint>
+      <implementation>org.sonatype.aether.impl.internal.PlexusLogger</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.codehaus.plexus.logging.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+      </requirements>
+    </component>
+  </components>
+</component-set>

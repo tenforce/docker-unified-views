@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: Maven Artifact
+Implementation-Version: 3.3.3
+Implementation-Vendor-Id: org.apache.maven
+Built-By: jvanzyl
+Build-Jdk: 1.7.0_67
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Maven Artifact
+Created-By: Apache Maven 3.3.1
+Specification-Version: 3.3.3
+Main-Class: org.apache.maven.artifact.versioning.ComparableVersion
+Archiver-Version: Plexus Archiver
+

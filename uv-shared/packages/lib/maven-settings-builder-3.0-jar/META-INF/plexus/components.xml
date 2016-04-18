@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+    <component>
+      <role>org.apache.maven.settings.building.SettingsBuilder</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.settings.building.DefaultSettingsBuilder</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.apache.maven.settings.io.SettingsReader</role>
+          <role-hint />
+          <field-name>settingsReader</field-name>
+        </requirement>
+        <requirement>
+          <role>org.apache.maven.settings.io.SettingsWriter</role>
+          <role-hint />
+          <field-name>settingsWriter</field-name>
+        </requirement>
+        <requirement>
+          <role>org.apache.maven.settings.validation.SettingsValidator</role>
+          <role-hint />
+          <field-name>settingsValidator</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.apache.maven.settings.crypto.SettingsDecrypter</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.settings.crypto.DefaultSettingsDecrypter</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.plexus.components.sec.dispatcher.SecDispatcher</role>
+          <role-hint>maven</role-hint>
+          <field-name>securityDispatcher</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.apache.maven.settings.io.SettingsReader</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.settings.io.DefaultSettingsReader</implementation>
+      <isolated-realm>false</isolated-realm>
+    </component>
+    <component>
+      <role>org.apache.maven.settings.io.SettingsWriter</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.settings.io.DefaultSettingsWriter</implementation>
+      <isolated-realm>false</isolated-realm>
+    </component>
+    <component>
+      <role>org.apache.maven.settings.validation.SettingsValidator</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.settings.validation.DefaultSettingsValidator</implementation>
+      <isolated-realm>false</isolated-realm>
+    </component>
+  </components>
+</component-set>

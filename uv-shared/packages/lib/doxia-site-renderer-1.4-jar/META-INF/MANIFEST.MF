@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: Doxia :: Site Renderer
+Implementation-Version: 1.4
+Implementation-Vendor-Id: org.apache.maven.doxia
+Built-By: herve
+Build-Jdk: 1.6.0_27
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Doxia :: Site Renderer
+Created-By: Apache Maven 3.0.5
+Specification-Version: 1.4
+Archiver-Version: Plexus Archiver
+

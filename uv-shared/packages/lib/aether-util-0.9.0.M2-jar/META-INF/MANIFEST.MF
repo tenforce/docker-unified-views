@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: Benjamin
+Build-Jdk: 1.7.0_06
+Bnd-LastModified: 1361044535981
+Bundle-Description: A collection of utility classes to ease usage of t
+ he repository system.
+Bundle-DocURL: http://www.eclipse.org/aether/aether-util/
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Aether Utilities (Incubation)
+Bundle-SymbolicName: org.eclipse.aether.util
+Bundle-Vendor: The Eclipse Foundation
+Bundle-Version: 0.9.0.M2
+Export-Package: org.eclipse.aether.util;uses:="org.eclipse.aether";ver
+ sion="0.9.0.M2",org.eclipse.aether.util.artifact;uses:="org.eclipse.a
+ ether.artifact";version="0.9.0.M2",org.eclipse.aether.util.concurrenc
+ y;version="0.9.0.M2",org.eclipse.aether.util.filter;uses:="org.eclips
+ e.aether.graph,org.eclipse.aether.artifact,org.eclipse.aether.version
+ ";version="0.9.0.M2",org.eclipse.aether.util.graph.manager;uses:="org
+ .eclipse.aether.artifact,org.eclipse.aether.graph,org.eclipse.aether.
+ collection";version="0.9.0.M2",org.eclipse.aether.util.graph.selector
+ ;uses:="org.eclipse.aether.graph,org.eclipse.aether.collection,org.ec
+ lipse.aether.artifact";version="0.9.0.M2",org.eclipse.aether.util.gra
+ ph.transformer;uses:="org.eclipse.aether.graph,org.eclipse.aether,org
+ .eclipse.aether.collection,org.eclipse.aether.artifact,org.eclipse.ae
+ ther.util,org.eclipse.aether.version,org.eclipse.aether.util.graph.vi
+ sitor";version="0.9.0.M2",org.eclipse.aether.util.graph.traverser;use
+ s:="org.eclipse.aether.graph,org.eclipse.aether.artifact,org.eclipse.
+ aether.collection";version="0.9.0.M2",org.eclipse.aether.util.graph.v
+ isitor;uses:="org.eclipse.aether.graph,org.eclipse.aether.artifact";v
+ ersion="0.9.0.M2",org.eclipse.aether.util.listener;uses:="org.eclipse
+ .aether,org.eclipse.aether.transfer";version="0.9.0.M2",org.eclipse.a
+ ether.util.repository;uses:="org.eclipse.aether.repository,org.eclips
+ e.aether.artifact,org.eclipse.aether,org.eclipse.aether.resolution,or
+ g.eclipse.aether.metadata";version="0.9.0.M2",org.eclipse.aether.util
+ .repository.layout;uses:="org.eclipse.aether.artifact,org.eclipse.aet
+ her.metadata";version="0.9.0.M2",org.eclipse.aether.util.version;uses
+ :="org.eclipse.aether.version";version="0.9.0.M2"
+Import-Package: org.eclipse.aether;version="[0.9,1)",org.eclipse.aethe
+ r.artifact;version="[0.9,1)",org.eclipse.aether.collection;version="[
+ 0.9,1)",org.eclipse.aether.graph;version="[0.9,1)",org.eclipse.aether
+ .metadata;version="[0.9,1)",org.eclipse.aether.repository;version="[0
+ .9,1)",org.eclipse.aether.resolution;version="[0.9,1)",org.eclipse.ae
+ ther.transfer;version="[0.9,1)",org.eclipse.aether.version;version="[
+ 0.9,1)"
+Tool: Bnd-1.50.0
+

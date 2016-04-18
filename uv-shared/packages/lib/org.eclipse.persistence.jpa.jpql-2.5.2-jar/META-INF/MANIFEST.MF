@@ -1,0 +1,3571 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.persistence.jpa.jpql
+Export-Package: org.eclipse.persistence.jpa.jpql;version="2.5.2",org.e
+ clipse.persistence.jpa.jpql.parser;version="2.5.2",org.eclipse.persis
+ tence.jpa.jpql.tools;version="2.5.2",org.eclipse.persistence.jpa.jpql
+ .tools.model;version="2.5.2",org.eclipse.persistence.jpa.jpql.tools.m
+ odel.query;version="2.5.2",org.eclipse.persistence.jpa.jpql.tools.res
+ olver;version="2.5.2",org.eclipse.persistence.jpa.jpql.tools.spi;vers
+ ion="2.5.2",org.eclipse.persistence.jpa.jpql.tools.utility;version="2
+ .5.2",org.eclipse.persistence.jpa.jpql.tools.utility.filter;version="
+ 2.5.2",org.eclipse.persistence.jpa.jpql.tools.utility.iterable;versio
+ n="2.5.2",org.eclipse.persistence.jpa.jpql.tools.utility.iterator;ver
+ sion="2.5.2",org.eclipse.persistence.jpa.jpql.utility;version="2.5.2"
+ ,org.eclipse.persistence.jpa.jpql.utility.filter;version="2.5.2",org.
+ eclipse.persistence.jpa.jpql.utility.iterable;version="2.5.2",org.ecl
+ ipse.persistence.jpa.jpql.utility.iterator;version="2.5.2"
+Bundle-Version: 2.5.2.v20140319-9ad6abd
+Build-Jdk: 1.7.0_11
+Bundle-Vendor: Eclipse.org - EclipseLink Project
+Bundle-Name: EclipseLink Hermes Parser
+HK2-Bundle-Name: org.eclipse.persistence:org.eclipse.persistence.jpa.j
+ pql
+Archiver-Version: Plexus Archiver
+Created-By: 1.6.0_21 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$EncapsulatedExpressionVisitor.class
+SHA1-Digest: YNGgnu1sRnyhOSGvnowanuG2IgM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLQueryBNF$1.class
+SHA1-Digest: pJUD8YaSqdnLwZd8MycB8oj9nqw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExpressionVisitor.class
+SHA1-Digest: c7eWTHaT1JGAA1vQGkqlppwzm64=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterator/CloneIte
+ rator$Remover$ReadOnly.class
+SHA1-Digest: 7PMZHtT8fDhTJYJbNaDAKKCnm5Q=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CollectionMem
+ berDeclarationStateObject.class
+SHA1-Digest: FfgkAxnDo0TNRlN6aWsHQXtZiqY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OnClause.class
+SHA1-Digest: 6c8B7RLunu191AqJmexfzMQeHbU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SingleValuedObjectPathEx
+ pressionBNF.class
+SHA1-Digest: HeiEzY+tF4uHHfyt+xQ7vrOvhOk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$MappingCollector.class
+SHA1-Digest: /23E6BWBUXuNSIFpxqaEZntDsfo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractSchem
+ aNameStateObject.class
+SHA1-Digest: 1VOex57LDcKcHHQAELjSS/dlvgw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SumFunction.class
+SHA1-Digest: TiWizU94RECrAAIQAjp+BwzFqyo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractEclipseLinkTrave
+ rseParentVisitor.class
+SHA1-Digest: w5rxpPK8w2j0DFtYl1w0IFZJPkE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLExpression.class
+SHA1-Digest: P8Z9yzOzdDy/5vS1XljsSGhnT1g=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractEclipseLinkParameterTyp
+ eVisitor.class
+SHA1-Digest: KZo+YQHj0rVE7FnTtzrnhkPARYA=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator.cla
+ ss
+SHA1-Digest: waWaLy7QPfW1D/U3afTdYqBsN6s=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$OrderByClauseCollectionHelper.class
+SHA1-Digest: SUaMexQYJGHGwSpb3yWSlFE9FQs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLGrammar2_1.class
+SHA1-Digest: dPsthHAHmsCRrg5V6WYrID4BljA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CoalesceExpre
+ ssionStateObject.class
+SHA1-Digest: 9pnUTyNYpIz/bnFrOF1zrBztUdY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/EclipseLinkDecla
+ rationResolver$DeclarationVisitor.class
+SHA1-Digest: 7Ef6yCPwwL2H1WnlZKRTDi+0uvQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkParameterTypeV
+ isitor.class
+SHA1-Digest: B+SPJFqKtHLIY6Jf/gLd1gMIl0c=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IEclipseLinkConditi
+ onalStateObjectBuilder.class
+SHA1-Digest: tHG06AUx9TD9mgYHR5zxbulzqhg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LowerExpressionFactory.c
+ lass
+SHA1-Digest: LvTvEFm/+6lnOJugAA0CYRjC48E=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SimpleFromCla
+ useStateObject.class
+SHA1-Digest: HneoobZBMkaE8WWim0LXUw9vqbo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/package-info.
+ class
+SHA1-Digest: CpeUW+WauG41n4yA1HOTgCmPbOk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionExpression.cla
+ ss
+SHA1-Digest: 2HUmONXIo/N7WL3MVu/pck84v14=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$MappingTypeFilter.class
+SHA1-Digest: t+TLM924Tnywdp3olQJXhehVIiA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterator/CloneIte
+ rator.class
+SHA1-Digest: jdMDoOBpY62dA6+EKtfr07O2Sjs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DatabaseTypeFactory.clas
+ s
+SHA1-Digest: qJfr6bd9+RMLocns8YidVCx9PgU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Vari
+ ableNameRenamer.class
+SHA1-Digest: Y/2bmlJ/KwPAA8EdedN2eBlaQfA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractLiteralExpressio
+ nFactory.class
+SHA1-Digest: zXzVB+AQV1gx1spiGqma0f9o4vU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderSiblingsByClauseFac
+ tory.class
+SHA1-Digest: oNEPEN2pkeDxT/zwJ0g9PwCZghI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubExpression.class
+SHA1-Digest: NToY++QzZq69GL+rEOGEma9Zce4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkActualJP
+ QLQueryFormatter.class
+SHA1-Digest: sB5crHrTF1u+o837pPanGMSRLF0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IBuilder.class
+SHA1-Digest: EzDXsdkZzLMEWcqJamAyOLXqjS0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$PropertyMappingFilter.class
+SHA1-Digest: HYrNsBg8HsaQ0I4Kb5oUOa2hX1k=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractEncapsulatedExpr
+ ession.class
+SHA1-Digest: 7Jzn2amnREhUi7FK2p+V0sMAVYg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IExternalForm.class
+SHA1-Digest: NqFyBsXyf6sT667G//KUG7QcgsM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/NullResolver.cla
+ ss
+SHA1-Digest: 55OMgm2BJxE/MOcarz5+imoi+G4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticTermBNF.class
+SHA1-Digest: qjqg3vA3HTTOTOagTZcHJ8J5TnU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InExpressionExpressionBN
+ F.class
+SHA1-Digest: uL9783iwFh2ZMHhSqKwQRoBd5UM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$NotExpressionVisitor.class
+SHA1-Digest: +fugWQRx8CuV2n7SvNhhl300Oew=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$BypassParentS
+ ubExpressionVisitor.class
+SHA1-Digest: D+ptvCNQPWEmxCaKbuobZdFKyRw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectClauseBNF.class
+SHA1-Digest: RJU0Ob35NdYYMqV2XYKz9hO+R/U=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractTraverseParentVi
+ sitor.class
+SHA1-Digest: dk9+w3thY8tCaRN/5kHGI4hhIa4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TreatExpression.class
+SHA1-Digest: tus6KVklmi9nzdOhIkTtpLbfqag=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ArithmeticFac
+ torStateObject.class
+SHA1-Digest: ixTbpabB4iaVDe0BdKXwx+dsW2w=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Enum
+ ConstantRenamer.class
+SHA1-Digest: s6UCU4LZanE3ggtvZp1dAKwJtNY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterator/CloneIte
+ rator$Remover.class
+SHA1-Digest: Y+KViKEgylt4vEvgtqtgHr2ibRk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExistsExpressionBNF.clas
+ s
+SHA1-Digest: 5aPV8EgND3FVbInDU0bRlbrodT0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntityTypeLiteral.class
+SHA1-Digest: GQaUwuNDqZEFVhVlge0DUGXt7fQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/MinFunctionFactory.class
+SHA1-Digest: oLJhSJiGePrO+tQT/wyMZaX5y8I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RangeVariableDeclaration
+ .class
+SHA1-Digest: wkLPrXfDfIa+jQAI6p9fQ03cY+4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/Join.class
+SHA1-Digest: E2xFqcJB6xuzPNtFuxAoMPyD3Hs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleSelectClauseBNF.cl
+ ass
+SHA1-Digest: 01rWdKu1lM5Gb/eXR4bNs2GfkKE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar2_
+ 0.class
+SHA1-Digest: F8l5MvdqptinQzTJUcCo8rMebPY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/WhenClauseFactory.class
+SHA1-Digest: VcL/kLtcDEofStuioHYDr2dYunk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractJPQLQueryHelper.c
+ lass
+SHA1-Digest: EIpDBOIv3IEi5ViM2xxvllF5RyA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/BetweenExpres
+ sionStateObject.class
+SHA1-Digest: r+Qyrkg1NChM5OIdGC+FsSGRF1k=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LogicalExpression.class
+SHA1-Digest: StUeL21LEizBgaBitg9yqT4i+t8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteStatement.class
+SHA1-Digest: QyvrltiP9KaJEbvuAV2qiU+12FM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/filter/CompoundFi
+ lter.class
+SHA1-Digest: 4vIhQpJR1W6xt8S+Tgb5tYLT4ZY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkJPQLQuer
+ yFormatter.class
+SHA1-Digest: 7gq0RabN3qwUlSGvuYas0FcU6Gw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OnClauseBNF.class
+SHA1-Digest: pu3PV6CT1d/2tOm2nTIiVzX/RNc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LengthExpressionFactory.
+ class
+SHA1-Digest: /rdhmBEtbziNgkZxllxuGGBssus=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$FollowingClausesVisitor.class
+SHA1-Digest: XuvYlkpxA4AUsCfjGpyBVIQxHZg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SubtractionEx
+ pressionStateObject.class
+SHA1-Digest: ncnCprYfJgQHRymr8KDCD1losSM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkJPQLQueryHelpe
+ r.class
+SHA1-Digest: TF44R05wPqf7Ku/aZtsaOVCgzr4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IdentificationVariableType$5.class
+SHA1-Digest: GYSuePxPj6SQ7Fh963IQlAOovJM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/XmlEscapeCharacte
+ rConverter.class
+SHA1-Digest: eq28b6Wl8C+hR6kc4mDC/9P7MkQ=
+
+Name: org/eclipse/persistence/jpa/jpql/SemanticValidatorHelper.class
+SHA1-Digest: +CwnpbHNd4xisJNqmpyVUSzSo7k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$FollowingInvalidExpressionVisitor.class
+SHA1-Digest: QH550blVJ8AF41++XF5IiJB0NdY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConcatExpressionFactory.
+ class
+SHA1-Digest: PcR+g547k6hw33CkNjyCkJxk/ik=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/TypeExpressio
+ nStateObject.class
+SHA1-Digest: QQNeobF8P9W8uxvseWP49kBD/tI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SimpleFromClauseStatementHelper.class
+SHA1-Digest: 87+7r5P5R6LtmqWucHlBBtjXCpU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/KeyResolver.clas
+ s
+SHA1-Digest: AvTaFntXxvGI4VJkMkThTxtgudc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/MaxFunctionFactory.class
+SHA1-Digest: PIDOGPidzgO8aGDSQcqBsadRphU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalLocateStringExpr
+ essionBNF.class
+SHA1-Digest: gociPOUTJKU4X2x5dvmx1UcZFn0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ObjectExpressionBNF.clas
+ s
+SHA1-Digest: OnYsns+64/hEKYXpmwfQsIJoJvk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalFromClauseBNF.cl
+ ass
+SHA1-Digest: ujqjbIbznwyPcLH5hUtrOlqug98=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/CollectionEquiva
+ lentResolver.class
+SHA1-Digest: sheD4wZD9Afj3hxlry1DcS9FcmM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultProblem.clas
+ s
+SHA1-Digest: oCdPmUMRfv8+7yNqpXqrxz5jJ/A=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SubqueryAppendableExpressionVisitor.class
+SHA1-Digest: DV0cXPOjmOOyUG7Okz5I5mYF5eI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntryExpression.class
+SHA1-Digest: 4WyPWaG/PoSQZUdUFkKWVfhAG8s=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$5.clas
+ s
+SHA1-Digest: 83/meGjJF0IZOvwgImZNWJ7C2xU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/HierarchicalQueryClauseF
+ actory.class
+SHA1-Digest: haFIue84dk9MWteccEx2juwPvZM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NullIfExpressionFactory.
+ class
+SHA1-Digest: Fr4qMq8VmmJQ5HRVlSpJs6TjLQY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticExpressionFact
+ ory$ArithmeticExpressionVisitor.class
+SHA1-Digest: gtoCN9lRsxSxm2FRMLXz189s8tw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteClauseFactory.clas
+ s
+SHA1-Digest: DYQy+4ixzuSDfJdWiBqnSiuPa7w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DerivedCollectionMemberD
+ eclarationBNF.class
+SHA1-Digest: 6dDgA5a/WTg+cCVYLMwJSfbeNJw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AggregateExpressionBNF.c
+ lass
+SHA1-Digest: qcG/SPcZO+BCCPM/pFMIAhklTEU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TableExpressionFactory.c
+ lass
+SHA1-Digest: WKMq2V2L5AMEFMt7ik4/GhTPbZs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/JPQLQueryContext$InputPar
+ ameterVisitor.class
+SHA1-Digest: rdfmdnSLHy6YCE3k+IhjXuqA/9k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/ITypeRepository.class
+SHA1-Digest: HJec+QR/xpbDL6E1mZAQQBqejPo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IConstructor.class
+SHA1-Digest: 7GLV8IyH1s+4Fh88DqR6U1CwRcA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultCaseExpressi
+ onStateObjectBuilder.class
+SHA1-Digest: qAxfypt1nuIpJVKNARxoPY2lskg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar2_
+ 5.class
+SHA1-Digest: wONjEjQqvqAc6fOA2LJD8xMVJ3c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StateFieldPathExpression
+ Factory.class
+SHA1-Digest: 6EQg2Yvo1vwEWmwwgn1BGLLvLhM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/HavingClause.class
+SHA1-Digest: Uo130f48vxXk8PQnbmrcr7YJo4w=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/NumericTypeComparator.cla
+ ss
+SHA1-Digest: oszdGtCw+sK62wX54x6aOIYSjrg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ NullValueVisitor.class
+SHA1-Digest: pWMCgUySasLIVuOb5k1nSJZAgLk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/WhereClauseSt
+ ateObject.class
+SHA1-Digest: QdvbOhnm9leYfKo+JhgiZJ9CVBQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IJPQLQueryFormatter
+ .class
+SHA1-Digest: NJc1FXrX3vN+Oaq6iAd3I4kQg8I=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractHavingClauseStatementHelper.class
+SHA1-Digest: WbyWy3SedvO55EEKtwaXIi0gAEA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/EmptyCollecti
+ onComparisonExpressionStateObject.class
+SHA1-Digest: Zi1jecTA+s83F+i+zoB4mMBrUDg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IPropertyChangeEven
+ t.class
+SHA1-Digest: f9dE/887nzZc2blUOOa5MBO+shA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpperExpression.class
+SHA1-Digest: vjXIe3Je7CM+HsHulI6B3tShwEE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IEclipseLinkMappingTy
+ pe.class
+SHA1-Digest: spKCs4XdN+weuWXlvOuQykl4f0Q=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator$2.c
+ lass
+SHA1-Digest: zJRHJVMlU26AWBCCY7jQdC0ck/g=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EnumLiteralBNF.class
+SHA1-Digest: 2LWo4DY3H3IEP8Sh3b8070+on2A=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteClauseRangeVariabl
+ eDeclarationBNF.class
+SHA1-Digest: G2RsKrwdXhTiFGYkusq5GIC5avg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateClauseBNF.class
+SHA1-Digest: vS/CFYedYUqVUXmek4SlwCakKKI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionExpressionFactor
+ y$ParameterCount.class
+SHA1-Digest: uCCUtBY+xRqJ0mTycciDNqN8v0I=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$CollectionExpressionVisitor.class
+SHA1-Digest: bEk9lsluu0dmkh1H0xkmc1h/5Ew=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EnumPrimaryBNF.class
+SHA1-Digest: DDkqY1MtMIrzYEPunkiMDWu8ayQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AnonymousStat
+ eObjectVisitor.class
+SHA1-Digest: x5VAcgBa3P0b6QAlD5xkRTkG3nU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/INewValueStateObjec
+ tBuilder.class
+SHA1-Digest: 1ajwReKi3BYKEn2ILzNMOnWI5Fk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ResultVariableFactory$Se
+ lectClauseVisitor.class
+SHA1-Digest: GjHvxrw5u6xgKUZ5GVvhy2MQ2dw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentificationVariableBN
+ F.class
+SHA1-Digest: yPv9pFRzkL4C57QkSkbocHr/0sU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LengthExpression.class
+SHA1-Digest: l/1cehPw1n30wCrHShLcR7eHD8Q=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExtractExpressionBNF.cla
+ ss
+SHA1-Digest: Ijbe3saTr2M3/1CaeruxmFSVFU4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IManagedType.class
+SHA1-Digest: YLw2fPnlMmXJeglLwLwS+HjoXTQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DefaultJPQLGrammar.class
+SHA1-Digest: 8+65bPInGWv3FRlk0Vp8d+5PqEc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExtractExpression.class
+SHA1-Digest: kMWpvj2bae4zr3jknoLFp/d3mlY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$AbstractRangeDeclarationBuilder.class
+SHA1-Digest: Gwt7I9fs9JSoQEMVRiV0IJHCqEs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/IdentificationVa
+ riableResolver.class
+SHA1-Digest: bJl2QH6XAT9Bwkf6SsITUhF5qcg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DeclarationSt
+ ateObject.class
+SHA1-Digest: znzhgQz715n375+WDO7hTMJrlhA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IndexExpression.class
+SHA1-Digest: +KhyFtPH6yuBsnszli2svMJ1z38=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RangeDeclarationFactory.
+ class
+SHA1-Digest: jOgWi7Y4e+1grMwzcb7eg7Ocj+s=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator.
+ class
+SHA1-Digest: d0YgzRuVKf4FP43XQkVBbtmF6jM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/DeclarationResol
+ ver$DeclarationVisitor.class
+SHA1-Digest: JeRIEAxrwgpQp0lgqP1r/lBARkg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentifierRole.class
+SHA1-Digest: bP7f0L0dTPfss6S/4WkZlZTyj40=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RegexpExpression.class
+SHA1-Digest: ebsw9+i/9vuJKfSmoPPUVBa5Vus=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SimpleSelectC
+ lauseStateObject.class
+SHA1-Digest: B8MdhHwDhCd8GuBt4zas1QrQUow=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NumericLiteralBNF.class
+SHA1-Digest: nrby031fvVS6eV42o6ckcZoXffE=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$12.cla
+ ss
+SHA1-Digest: ZRZqglxl/7X3hKbfc/lSgjAHgRE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AnonymousExpressionVisit
+ or.class
+SHA1-Digest: Qg/dbLWnghPZ2ctB51BJmltHuYs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractSingl
+ eEncapsulatedExpressionStateObject.class
+SHA1-Digest: mDzEoLmr0fD2FgYeefywc6vrj5w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConcatExpression.class
+SHA1-Digest: qIFkQONqOI6MAzrAW4di3lHVVTw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$ConstrutorCollectionHelper.class
+SHA1-Digest: P0JzTwoMsDUAYu+10RJIzQIU3lk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateStatementBNF.class
+SHA1-Digest: gU48fd7AkKA/3vSG9kHT6nLJIAY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DatetimeExpressionBNF.cl
+ ass
+SHA1-Digest: t8ZPGEwiOPWuH3M/7+uEZCCYgzc=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/filter/Filter.class
+SHA1-Digest: 48Vr9hxxYNGhESmArJpC0wb2JPI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateItemFactory.class
+SHA1-Digest: bwmMLig1rjiduuh+9LQQGiK5q7U=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DerivedPathVa
+ riableDeclarationStateObject.class
+SHA1-Digest: QObvIYGvDPLK6l2yPrQBhmmNtek=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/UpdateClauseS
+ tateObject.class
+SHA1-Digest: 1aS3xM/mufrZF28INWSw1f8Xnzk=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$23.cla
+ ss
+SHA1-Digest: 8PYq9KoJcC5XgkQOtf40OKUTx2c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConditionalTermBNF.class
+SHA1-Digest: Gaqw9/ml30Vw6coGGscRDL3FSUM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractSimpleSelec
+ tExpressionStateObjectBuilder.class
+SHA1-Digest: WEF2sRNcvugJK627iNXSx5hRwcw=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterator/CloneListItera
+ tor$Mutator$ReadOnly.class
+SHA1-Digest: u1kWO4SdmHFd0oOTX9Xcw/Xn+yA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool.class
+SHA1-Digest: JN4SERP6I4KmZIu4bWNpQ19yavs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/OrderByItemSt
+ ateObject.class
+SHA1-Digest: Pzhc8s458SUW5akI20d5NCOXJEA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteClause.class
+SHA1-Digest: 4MHPyFaC1jUEHLc23aLVQ7D853k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/ContentAssistExtension$1.
+ class
+SHA1-Digest: GEeAuHplLQDpNv9+Vi8sBaPsWNA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ConstructorEx
+ pressionStateObject.class
+SHA1-Digest: kVqSJVRn6RJtZTcP/Ms+0TQsLJM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/CollectionDeclar
+ ation.class
+SHA1-Digest: /bhXXJ3ovd6fM32lpxTAkrDJEcQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractExpression$Info.
+ class
+SHA1-Digest: SzV0NQo0tSfq5XXB9dzld0cqqQc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultBasicRefactoringTo
+ ol.class
+SHA1-Digest: Ny7B0daywXVs02N8oMp3iBWp4A0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IListChangeEvent$Ev
+ entType.class
+SHA1-Digest: xmCKgh/aIlO3v9+zMCkAtfLMBWo=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$17.cla
+ ss
+SHA1-Digest: peNI+nM/s552MpPybVGkhDBYrQg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder.class
+SHA1-Digest: pczRRMEokElW/i0Rjj4HmIbdOUg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EnumExpressionBNF.class
+SHA1-Digest: RFuZXvKaD7heKywfSJffVjTzHWU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalOrderByItemFacto
+ ry.class
+SHA1-Digest: PHxKQ6d48pWoPfjvZz2Yzn7IEbY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$ChildrenColle
+ ctorVisitor.class
+SHA1-Digest: RBZLKUjq9dsrFyo2rCotEvP3+uA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SqrtExpression.class
+SHA1-Digest: DvnK0we6gDlusYQ1NeVkO1WZFyg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SimpleGroupByClauseStatementHelper.class
+SHA1-Digest: MPHeBShrv6etGoJ8w/b83E+1OGI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$DefaultMappingCollector.class
+SHA1-Digest: m+Lt/n6dAPOqEWm3cqRyez9O3cY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$2.class
+SHA1-Digest: MTY/YV/5hDDmAP6D5THUQJ5zUoE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CoalesceExpression.class
+SHA1-Digest: abvcutudccqSYB0J7HzMZ4Zu6nM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractDoubl
+ eEncapsulatedExpressionStateObject.class
+SHA1-Digest: 59/GWm1VwuT6DJrxbaJDmEBFuFI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$EndingQueryPositionBuilder.class
+SHA1-Digest: waphPjBQ/zqq/DoKqYu/WXhY7so=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$MappingFilterBuilder.class
+SHA1-Digest: kL+IFlN5zHNGPBe8V6UZHbP1y1k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$FromClauseStatementHelper.class
+SHA1-Digest: iwt+fbq/d3g6orT7ueFLn0bZ6BE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalCoalesceExpressi
+ onBNF.class
+SHA1-Digest: HOtfTtVnYvytdslku7fzdq3IBCo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConstructorItemBNF.class
+SHA1-Digest: bZj3L5wSiEPwWLfeppP7UnEYE0o=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AcceptableTypeVisitor.class
+SHA1-Digest: PZcDq7lwpcE8H86eTSBPhTV4lRc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$3.class
+SHA1-Digest: LonXNPwMUCpOll0OVu8LViMLYKs=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$Subqu
+ eryFirstDeclarationVisitor.class
+SHA1-Digest: 1kEEI2QvYqCxkYX0s78hN8tCm4M=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StartWithClauseFactory.c
+ lass
+SHA1-Digest: fozT3sLHyNRsr3T+WULQVwN1G2o=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionsReturningDateti
+ meBNF.class
+SHA1-Digest: kAK0hW+nsX/8nIAPUP61cvx/+ls=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteStatementBNF.class
+SHA1-Digest: sZ0uEcYaa+N+ntN5VWnlQWr4+5k=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CastExpression.class
+SHA1-Digest: Ac+AvAXg4JCR667IDJ0htq6eyo4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractJPQLQueryFo
+ rmatter.class
+SHA1-Digest: /fRt0co4Km6CQh/voeKCdOT2zhU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TrimExpressionFactory.cl
+ ass
+SHA1-Digest: ug0pBqwL/+lO1/XZJzGRPQGKHGg=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Abstra
+ ctTripleEncapsulatedExpressionHelper.class
+SHA1-Digest: avATzeJSeQ18GsFaOcsZ+HLWFAk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionExpressionFactor
+ y.class
+SHA1-Digest: SlTUB5JCahMAg5zyZYJ0lZ1uTyM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleEntityOrValueExpre
+ ssionBNF.class
+SHA1-Digest: ZtVLS7YLi6aP98xFgwKpoLK7WbQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractTrave
+ rseChildrenVisitor.class
+SHA1-Digest: +bI2NkyrU6u3hE+e1XfJJZyabzM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractSelectClauseStatementHelper.class
+SHA1-Digest: m4MPHQP2j1xFX4hQHQuu7wZjDzI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractCaseExpress
+ ionStateObjectBuilder.class
+SHA1-Digest: jR4wrDVh7xJwm9DG9Ik6++5HWVA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FromClauseBNF.class
+SHA1-Digest: Cz1MJxgkMdGQ+ooh1BEKBzZ6/I8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$TripleEncapsulatedCollectionHelper.class
+SHA1-Digest: 1yYTsJDVZU2zEJ6d7vFvSxQ2e9w=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/StringLiteral
+ StateObject.class
+SHA1-Digest: 4aKSxOvx2DuSg6CKmheWgpZxtRU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubSelectIdentificationV
+ ariableDeclarationBNF.class
+SHA1-Digest: ouLHmn6+AIHu6qDROWfTCRh8/xE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/UpperExpressi
+ onStateObject.class
+SHA1-Digest: V/fY4pIeorFKsmLqPbxJjykZYY8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/WhenClauseSta
+ teObject.class
+SHA1-Digest: edPAo6qGnLuVcqjhXW4WQw8ofAI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InExpressionItemBNF.clas
+ s
+SHA1-Digest: msbE99f5Xk50+TztDhR6a6TYSFY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionExpressionBNF.cl
+ ass
+SHA1-Digest: DcuGOIU+ISyhvD0lW7uU6iltS1o=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/OrderByClause
+ StateObject.class
+SHA1-Digest: WaH6B6g1Lzs/O/KABf2WlqIpgfw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StringLiteralBNF.class
+SHA1-Digest: skRB2VeP8IMS2Vw0Ne81OTUd+jE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InExpression.class
+SHA1-Digest: +ixXYmCtpQaUGJaLhDirlDjU1dc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ StringTypeValidator.class
+SHA1-Digest: acexsHis/wM5lEum11qh5FmD5/U=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractFromC
+ lauseStateObject.class
+SHA1-Digest: GDpztDGJ7TFz3MAv34Z0gv/Ezro=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterator/ArrayIterator.
+ class
+SHA1-Digest: bBJfHR5sdu+zcPUiiIEEh3ZSDfc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DatabaseTypeQueryBNF.cla
+ ss
+SHA1-Digest: qTWyGFA9qvcQOBM/xjOYcXESeNY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StringPrimaryBNF.class
+SHA1-Digest: QxLNojkVPTewXQipkxsaPRzANPM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AsOfClauseBNF.class
+SHA1-Digest: 6mAMb6CrfAeSkFIi3QM/rpzNxFM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GroupByClause.class
+SHA1-Digest: QoqHNXquYtjQnsqz31i2060xzMM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IAbstractConditiona
+ lExpressionStateObjectBuilder.class
+SHA1-Digest: rOKKPPjtRQv7SVZ2w7YOSBMRvuw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/FromSubqueryReso
+ lver.class
+SHA1-Digest: 0TDkyfER3SHepxiVhjVp9u3qRx8=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Collec
+ tionExpressionVisitor.class
+SHA1-Digest: 6Unodk9r+LPk5DGiqSSSKdV/Lsg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractTrave
+ rseParentVisitor.class
+SHA1-Digest: T8GgANZjIFwlQReQ2L1WIBNaH1c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CastExpressionFactory.cl
+ ass
+SHA1-Digest: VlGl+L6NuCh3YphI9i0+zr5Vq/Y=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterable/CloneListItera
+ ble$DefaultMutator.class
+SHA1-Digest: 9xu+zpoGuPQUZS6vNSaYmClJJNc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/InExpressionS
+ tateObject.class
+SHA1-Digest: IzP0fJH+gn+u327k7wXfWDCkRfs=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/filter/NullFilter.class
+SHA1-Digest: uViHSkxJG0EyLJvPBEOtlirVMQk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Attr
+ ibuteNameRenamer.class
+SHA1-Digest: U/XmoPl5Sl9BoACwLMAd/S6R60M=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalOrderByClauseBNF
+ .class
+SHA1-Digest: +bBOKraHZ3xB7y3zTnF3vTghCzs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ BooleanTypeValidator.class
+SHA1-Digest: Qtyk7um5gH2AipYCAitG1UXktPg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$HavingClauseStatementHelper.class
+SHA1-Digest: htxqq2Wu3tFfwFMmHmmD4ROsIpk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticExpressionBNF.
+ class
+SHA1-Digest: UvtJDe+sJ/c7mttNU19pd/+wmtE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Resu
+ ltVariableNameRenamer.class
+SHA1-Digest: QneDgWPytig+LXrwS60qrVwJiag=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AndExpressionFactory$OrE
+ xpressionVisitor.class
+SHA1-Digest: MPzZdmo5LSSaF19dSWd9xBCEndQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractEclip
+ seLinkStateObjectVisitor.class
+SHA1-Digest: RKITBMRlS/tkAfmfFHyQhnKRVWE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/JoinStateObje
+ ct.class
+SHA1-Digest: YLZqM6HOrMpbqj4yd3KCyjBKlZ0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkExpressionVis
+ itor.class
+SHA1-Digest: N/5G4pGhaoWBtZCwlloNuZtBsOU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$DeleteClauseCollectionHelper.class
+SHA1-Digest: iN3Fn9n2GxPK+nmNc6VZyuKQ0mw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BooleanExpressionBNF.cla
+ ss
+SHA1-Digest: IiJg/lybAdHqYNdERhZyKH/4KUE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$OrderByClauseStatementHelper.class
+SHA1-Digest: RsE2zv0HfOWllna+u4fegZMgm/k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ ResultVariableInOrderByVisitor.class
+SHA1-Digest: se0YnE7lOQb76l9/AxHHpMwyV8Y=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractState
+ Object.class
+SHA1-Digest: 0J6DG7rPYFFloWarn7PmYKFTjQw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Enti
+ tyNameRenamer.class
+SHA1-Digest: ZnI1KKQbCjWcBETAV8kZJDoePOg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/StateObject.c
+ lass
+SHA1-Digest: pghJbmp1pyoSZL+RKko1uGQ2kxc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ UpdateClauseAbstractSchemaNameFinder.class
+SHA1-Digest: Q/2xxOEeYCaGIFspKq6m3Vl4Dak=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByItem.class
+SHA1-Digest: t2Ph6gVUt0og1mn6AiIWN+1sJOU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultParameterTypeVisit
+ or.class
+SHA1-Digest: 30LOClwAWkpjcXCiS9LmOjnd4ZU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NullComparisonExpression
+ .class
+SHA1-Digest: XUWW22AfCmsEXz04jvxCFLjOWfA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$RangeDeclarationBuilder.class
+SHA1-Digest: gShi/FddB4OXiUZ69dwvUcHq2bk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/KeywordExpres
+ sionStateObject.class
+SHA1-Digest: tZfe2wlUTYcwf2xIbCrunkkd5Q8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/HavingClauseBNF.class
+SHA1-Digest: /Kgev0TDrSt8VgyAiCp6dVdGZZ4=
+
+Name: org/eclipse/persistence/jpa/jpql/JPQLQueryProblem.class
+SHA1-Digest: vOnebOz3/4tyqnS12jTbTzt5ohQ=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Abstra
+ ctEncapsulatedExpressionHelper.class
+SHA1-Digest: r3DvFnbCVt4SOAujHiO1pw6vVmU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/JPQLQueryBuilder2_0
+ .class
+SHA1-Digest: Yg7cTD6iN1ZfUcyzgZrDdZ1SlxA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IdentificationVariableType$3.class
+SHA1-Digest: AIR/YvPwhN9JYANEBTbfM7CHoGE=
+
+Name: org/eclipse/persistence/jpa/jpql/JPQLQueryProblemResourceBundle.
+ class
+SHA1-Digest: jXCquxH1YZ+defr0Mt+jpxH2JYs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CountFunction
+ StateObject.class
+SHA1-Digest: m5yBb7UCa4wVq+Ls7xr7vWvKzrA=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractEclipseLinkSemanticVali
+ dator$EclipseLinkOwningClauseVisitor.class
+SHA1-Digest: +lviRUCfHK8CKFMVoBhKFJ7m/pY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentificationVariable.c
+ lass
+SHA1-Digest: KloshrzRqGnxBF7QlEMo4vToLlE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JoinFetchBNF.class
+SHA1-Digest: jA2YEp+SXz9AC6Dj3nL8pVI/55E=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$SelectStatementBuilder.class
+SHA1-Digest: TCTGtWoxZZ1nLwFRMYROwPhuVoc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleFromClause.class
+SHA1-Digest: YK3IRvZIN3Bwsf3WV21g65o0e6E=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StringLiteral.class
+SHA1-Digest: bB3LSvneYBDHXu9wZmcZ1Kgm1go=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$WhereClauseDeleteStatementHelper.class
+SHA1-Digest: W9aCDE4VGjkv9XhBJGJFiHb3HH4=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$DateTi
+ meVisitor.class
+SHA1-Digest: x3PNL2N4S5VzZVLLXCPxeHR42LQ=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$3.clas
+ s
+SHA1-Digest: aCyK85ZlGhGVcWO5WZazbn5nQek=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$WithinInvalidExpressionVisitor.class
+SHA1-Digest: p5/5+BOIhI/qrImiHPHNR6uof14=
+
+Name: org/eclipse/persistence/jpa/jpql/LiteralVisitor.class
+SHA1-Digest: VPt4fwshzRZU2oxAGPLSHUWcoQM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/DerivedDeclarati
+ on.class
+SHA1-Digest: v9zJAJysEt1iNeeNGuJDrdaAQP0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticExpression.cla
+ ss
+SHA1-Digest: RP32Tqg/1EmLge4V5UV3S247FwY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$TopLe
+ velFirstDeclarationVisitor.class
+SHA1-Digest: rFjrADtDemr1uzpyiCjcoB5BP4U=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$FromClauseCollectionHelper.class
+SHA1-Digest: TbwxgMH/r1R9Y8KHq5fng4PWIlc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/StateObjectPr
+ oblem.class
+SHA1-Digest: llGTUs4Br98ktbwRs3XtuoQbvW0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CollectionMem
+ berExpressionStateObject.class
+SHA1-Digest: QfZCpXq1n9h4+J9J4X+D/RCM19g=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar2_
+ 3.class
+SHA1-Digest: noLk0jg9ouOOZuAadY6X5Ds/kcw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/StateObjectProblemC
+ onstants.class
+SHA1-Digest: 4U6yPcqV0iwEXw/fH/+Gzgwf3RY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SizeExpression.class
+SHA1-Digest: 2tm95U8AGlqb60r3vF/5gl9jFS0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConnectByClauseFactory.c
+ lass
+SHA1-Digest: 1uYiYeb8Cpwk1tXA88GhBf72RGo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConditionalExpressionBNF
+ .class
+SHA1-Digest: ea7kLJQhWvNgDs/nZMNg5huwpB0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExistsExpressionFactory.
+ class
+SHA1-Digest: O5o5wms7h0GyB0BcvvUXIRnR0DI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/OrExpressionS
+ tateObject.class
+SHA1-Digest: VDYPpXmy3SYmsmdT8Hyh8GV+NsM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/KeyExpression.class
+SHA1-Digest: 7oebO0ucU1LkrwvOnRFHZ+gqF+s=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JoinAssociationPathExpre
+ ssionBNF.class
+SHA1-Digest: nmogMjv9eNbH6tKczTqxWgsNlz8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionsReturningNumeri
+ csBNF.class
+SHA1-Digest: KaOUtES5cS66SaXVMDfquCcmTMI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLStatementBNF.class
+SHA1-Digest: mThjQQ/gQ58fLb01G2N8+8lkcv0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalLengthExpression
+ BNF.class
+SHA1-Digest: fD3LHdiFUEkepmMwCRUZ+wdP1VE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/KeywordExpression.class
+SHA1-Digest: H0KkXLrNpzWF32QGC69zoD7AAIQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultTextEdit.class
+SHA1-Digest: eeUiMAeMHongdQXi7sIsM0GKPzQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/CollectionValued
+ FieldResolver$MapManagedType.class
+SHA1-Digest: O0Czyl1k6RZSS3RkrpLyTo3L0fg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$SimpleRangeDeclarationBuilder.class
+SHA1-Digest: e/220OkQZ/6K7qSkF9IBJJ8avH8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/GenericTypeHelper.class
+SHA1-Digest: j62bT8fdcms6y4ybHb4r6D1agE4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractConditional
+ StateObjectBuilderWrapper.class
+SHA1-Digest: iEESL1CdDaK4Mi4tngsvfHBZDqI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/EnumLiteralResol
+ ver.class
+SHA1-Digest: 4UGkgLlwkiDmX5U4u3H8XdBq1aY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$8.clas
+ s
+SHA1-Digest: 2qFJI6WxSd/fSfiVrY4rfHd+Wjg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractExpressionVisito
+ r.class
+SHA1-Digest: WKfheqEMh7N03gbrYjHTCdtl/yw=
+
+Name: org/eclipse/persistence/jpa/jpql/Assert.class
+SHA1-Digest: i7fVR/3PxQjDulR8ui2aPtKriRw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteStatementFactory.c
+ lass
+SHA1-Digest: UATdT6m5K3aGquAr5rf6rA5Ub+4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UnknownExpressionFactory
+ .class
+SHA1-Digest: V/GxcgMn85aw7SQR5nk31hmaIF4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/DeclarationResol
+ ver.class
+SHA1-Digest: 9eNZZrdHBhpd0MH4CoEjt7NufQ0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LikeExpressionFactory.cl
+ ass
+SHA1-Digest: pQa5WnA0vXTnBrNb/Eu6O+3DUdM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BetweenExpression.class
+SHA1-Digest: TzyGoOrkSaTV+zXqmZQn0s2XO4A=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/ContentAssistProposals.cl
+ ass
+SHA1-Digest: CPXpFfnVtpz5Nqxv6gCAiK+Qy5k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SimpleHavingClauseStatementHelper.class
+SHA1-Digest: 5t0St0woaCbGaC52pzYLpkruEYc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TypeExpressionBNF.class
+SHA1-Digest: 07wvIOTQCpdnSlHbW0SihATBeCY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntityOrValueExpressionB
+ NF.class
+SHA1-Digest: zW344lcBXmN6mOD0HKPJ1d9aCoo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AsOfClause.class
+SHA1-Digest: mtQNzJek7VWPwQ4jl16LLoMGJkI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ResultVariable.class
+SHA1-Digest: iOUlxzw7w9nsdfMgCvxe96o2OEw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateItem.class
+SHA1-Digest: M11VR1AXmNCsbP1V6ktnSsKby4Y=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ResultVariableFactory.cl
+ ass
+SHA1-Digest: 3d4qg8uboOE3W13g4ebD1gwQd3g=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/QueryPosition.class
+SHA1-Digest: 8HmtpAjzEsG5CJdu3xC0UwggAIE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/RangeDeclaration
+ .class
+SHA1-Digest: NSf5VFb19RCOt6oflk093D+QjYs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/JPQLQueryContext$QueryExp
+ ressionVisitor.class
+SHA1-Digest: Yw9bwJiD5VNSdqeWyrNjeN0X2Cs=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$10.cla
+ ss
+SHA1-Digest: uxPiYaWj7101ONjSk4AY72H7qys=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SubstringExpr
+ essionStateObject.class
+SHA1-Digest: Gc/VHtPbMv+r1swHfj7KfIh+CTc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RegexpExpressionBNF.clas
+ s
+SHA1-Digest: yPOMBXThtjVKKZqmRw3TPOm/miU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/WhenClause.class
+SHA1-Digest: 6ah8Hn77u1wOiPn+RwR0XR+U6w8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringDelta.class
+SHA1-Digest: T+mBCeBDADhzwpQjzFHoBRjMiSQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RangeDeclarationBNF.clas
+ s
+SHA1-Digest: eX88hu1decaYGv3FQoYbEMnl7LA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractJPQLQueryBu
+ ilder.class
+SHA1-Digest: Ri3+Zr1ofN6+8180TI7fZQK4/QM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SelectClauseStatementHelper.class
+SHA1-Digest: 90VVVLQyMbibz8UqpMFAM68gg4o=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LocateExpressionFactory.
+ class
+SHA1-Digest: XK4lkzgpxkxBB7ue7Siy6Gh4YUs=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkVersion.class
+SHA1-Digest: AASSdmTcYRxHkuvvrB6y0sZurjM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/StateFieldPat
+ hExpressionStateObject.class
+SHA1-Digest: 4Df82W6MZS3fkRKOcT8mOG489is=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Java
+ Query.class
+SHA1-Digest: k0F00MNviP4qNTRu1ukBTJn8grY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/InputParamete
+ rStateObject.class
+SHA1-Digest: O053s7CVQmZuRzLylED1zY9yhz8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultStateObjectB
+ uilder.class
+SHA1-Digest: SX88MXDcoJ02Y5N/AJMJfkP0Jbc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/TrimExpressio
+ nStateObject.class
+SHA1-Digest: ljgS/AITy2eY2iHb6ncG703ZPRA=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$21.cla
+ ss
+SHA1-Digest: gUjcjabw001XWN14X5a6U4J8tEk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultJPQLQueryHelper.cl
+ ass
+SHA1-Digest: +pF5anDFKbHGtGWWob3EogH5Ay0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NullIfExpressionBNF.clas
+ s
+SHA1-Digest: YUjAJFye1o41WoxFnZ58HSEab9k=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/HierarchicalQueryClauseB
+ NF.class
+SHA1-Digest: sEsDPH9TsZU4pWeRS3KxFJD5YUE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IMappingBuilder.class
+SHA1-Digest: pB2yAo2A3O/bJAmlDqZTHTZxqC8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CaseExpressionFactory.cl
+ ass
+SHA1-Digest: W8UCvbXpY2BATBUJgdYRlh6ZnIs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AdditionExpression.class
+SHA1-Digest: 2scr2QufTRsrNU6PFT0m/vbuR/0=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$Colle
+ ctionValuedPathExpressionVisitor.class
+SHA1-Digest: qYNAtLDiuZ8t3LvzE547ecB1vNo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/SubqueryEntityRe
+ solver.class
+SHA1-Digest: P9Hw9KNdK0+rNdKPO3exjU7QuTo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticExpressionFact
+ ory.class
+SHA1-Digest: WMj9c1G3jVDNErMn5rXUfOSyUIw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IConditionalExpress
+ ionStateObjectBuilder.class
+SHA1-Digest: z/YjdmIDqCb+Fo9Pv7lA/edRuU4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntityTypeLiteralFactory
+ .class
+SHA1-Digest: owXR0A0h8AI/2kA8AZYi+sFD90I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AndExpressionFactory.cla
+ ss
+SHA1-Digest: zD2+274mxLw2u8Cgim3CHwkpPu8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SimpleSelectClauseCollectionHelper.class
+SHA1-Digest: YaUnvGO3Zf22N0j+AYJSoodf9H4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleResultVariableBNF.
+ class
+SHA1-Digest: oD7/B4dNw6MtBFGjlI3eUvVA9Ak=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionItemBNF.class
+SHA1-Digest: cPzygVT4n8UTSciI+VxzJPaQ5nc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractEclipseLinkTrave
+ rseChildrenVisitor.class
+SHA1-Digest: S1dhaaUKnSZWJ5fdquNDYUZJVUQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SizeExpressionFactory.cl
+ ass
+SHA1-Digest: Vbiq9khraRgTuWS428+Q2qwejyY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SqrtExpressionFactory.cl
+ ass
+SHA1-Digest: A/bZeL8gBgXWxMUWSVvDV6HbcrA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/Declaration.clas
+ s
+SHA1-Digest: XBuKCEiJZw1ua7gifF4C7YzxryU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ScalarExpressionBNF.clas
+ s
+SHA1-Digest: 2FbM+Sygtn1PDWzPCtB9Zi5/cZY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkConditio
+ nalStateObjectBuilder.class
+SHA1-Digest: JPvtOHrpgBWHcYlInyQtlhQuaZU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntityTypeLiteralBNF.cla
+ ss
+SHA1-Digest: aIzw8BX/bYGplLks1fwk61STQew=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$15.cla
+ ss
+SHA1-Digest: RgkRqCzo6uQUdM1NrX019JPihoQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$FieldName
+ Renamer.class
+SHA1-Digest: Pj5kV2JZI8/3AarrzrWp2VonmR4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterator/SingleEl
+ ementListIterator.class
+SHA1-Digest: 37PIeqqaqybqgaJXJ/TiXHkZ5rw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CaseExpressio
+ nStateObject.class
+SHA1-Digest: YMmaiQKwshudCob+8xbUYrJUF/I=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$SimpleFromClauseStatementHelper.class
+SHA1-Digest: l3TMtAk6dP9qf1Wcp6XTF8tktXg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InExpressionFactory.clas
+ s
+SHA1-Digest: Ov8lKOJOUAcM+KQvFKOtp0loAfI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$ClassName
+ Renamer$1.class
+SHA1-Digest: YLS+VOH64hszc3WbOAKWippOpUw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractEclip
+ seLinkTraverseChildrenVisitor.class
+SHA1-Digest: bjSYnjUHY3BAgbhT7rHauDz9a1A=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractFromClauseStatementHelper.class
+SHA1-Digest: 4SysM0tdMc7e8IrJrm1WfoByNLk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractIdent
+ ificationVariableDeclarationStateObject.class
+SHA1-Digest: WfuhsaOMGJsiY9hbmgcwXZDEQXw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NumericLiteral.class
+SHA1-Digest: snuOGxEmsjF2YGxWOv240lFa//0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConditionalFactorBNF.cla
+ ss
+SHA1-Digest: s0fkcfi+aZT3i1ypH72Js4AjIkM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubqueryFromClauseBNF.cl
+ ass
+SHA1-Digest: x/1RZ6K01QKzTMnV2Oz1GtKXMGs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SqrtExpressio
+ nStateObject.class
+SHA1-Digest: rW4pk94ydTiqUuYPCZF2qCyYlW0=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterator/CloneListItera
+ tor.class
+SHA1-Digest: hOZ+IUyDGnQlxg0U2mf8LpppWic=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractActualJPQLQ
+ ueryFormatter.class
+SHA1-Digest: fRNJ8ZdhDb4NuMfadbsOkMvE0Ps=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$26.cla
+ ss
+SHA1-Digest: U5qGjuLkI2SSkfTJ488N+3mJ6Ns=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$1.class
+SHA1-Digest: a3rlEnFuGyCxTTo2F1vPSjkgYeA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionMemberDeclarat
+ ion.class
+SHA1-Digest: dlX8Q2gR9S6FE3IUsqWPFw7mZ44=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TableVariableDeclaration
+ .class
+SHA1-Digest: 1EetcJd07bYKKJSA04rHXh61tqM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ TypeValidator.class
+SHA1-Digest: a3kJI9r7/BZDZbLjOhtpKW0Cut4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractEncap
+ sulatedExpressionStateObject.class
+SHA1-Digest: ZbKiVRxA/77dnnZimXjPyAwp1G4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DateTimePrimaryBNF.class
+SHA1-Digest: YIQH306NI1icfznKNCj9IE3v558=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/QualifiedIdentificationV
+ ariableBNF.class
+SHA1-Digest: GYzBLF0BZOPBLs+JsCD8mFyQ2K4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultRefactoringDelta.c
+ lass
+SHA1-Digest: t7b5W0jsS43RypUvP2x30Vd95aE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$AcceptableTypeVisitor.class
+SHA1-Digest: lkO28Ni0clBt8MaLgsI/BAFwHUI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IManagedTypeVisitor.c
+ lass
+SHA1-Digest: oL4nCVBz+S0cEQ1N2OKQjN8Zo5I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RegexpExpressionFactory.
+ class
+SHA1-Digest: 9YaS1ahdLlrTs9V3DCDT9BXKljg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/DefaultResolverB
+ uilder.class
+SHA1-Digest: QLW/B7RzeZ86/Q8ZAHIfx/2EpjQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LikeExpressionBNF.class
+SHA1-Digest: sCGyFpnDtAadbMbGNU6ib7zlubE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/HierarchicalQueryClause.
+ class
+SHA1-Digest: 2ko1b/GKaARfdKtO4Drd56CaXAo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NullIfExpression.class
+SHA1-Digest: 2tGx3TJ3eZ64/a9oAYWou/nN4Sk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractState
+ ObjectVisitor.class
+SHA1-Digest: G8OW08DmtLjKEhzl/Th/hpaCN5c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalWhenClauseBNF.cl
+ ass
+SHA1-Digest: R+pNE4hDEbxcq3rX8Ok1gp8vuYc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/JPQLQueryBuilder1_0
+ .class
+SHA1-Digest: p7BFxCiKt+n0G+fkVj6ldGyam1c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateStatementFactory.c
+ lass
+SHA1-Digest: NXXlv43MI8kqZfWx/zyNd1QNQuw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/ResultQuery.class
+SHA1-Digest: 1rfIjUjP8TFZPzBRacVcqyF+1EQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$JoinCollectionHelper.class
+SHA1-Digest: pQ2ch3nJWF2gaK4+g+3qI0Dwies=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator$InE
+ xpressionVisitor.class
+SHA1-Digest: kWkevsIWfoiwZmwK/kHuapKNdPo=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkSemanticValidatorExt
+ ension$1.class
+SHA1-Digest: zIldSlTJo8EkiYaGt9Tme7Zp3dY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$InvalidExpressionVisitor.class
+SHA1-Digest: DQ1mTT5JIY4XtX9CDtJCPj0gXBI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalUpdateClauseBNF.
+ class
+SHA1-Digest: 9bc9A3Pz3L6nEs00YwVyhAG2kmM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/NullCompariso
+ nExpressionStateObject.class
+SHA1-Digest: Ox+ym0QiOehuebWkjU0kkevtb4A=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$WhenClauseBuilder.class
+SHA1-Digest: CeHyLPxQBNEo1NKJYTmppk5uFfg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ArithmeticExp
+ ressionStateObject.class
+SHA1-Digest: 2GqYctAZchTFnznC3b4/nyh2Ke4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/Identificatio
+ nVariableDeclarationStateObject.class
+SHA1-Digest: E9aqXN8Ls8/9Ssk8B/QFvncYv3s=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultConditionalE
+ xpressionStateObjectBuilder.class
+SHA1-Digest: YhMATYU+OcVTcUTSKMJhKo5nwbE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AggregateFunction.class
+SHA1-Digest: 4gtBTFUq9tjWUgzKtoTBDQcnPEs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkResolverBuilde
+ r.class
+SHA1-Digest: dIUsQZqW8kZthtF4+v1zOz7FCLg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ResultVariabl
+ eStateObject.class
+SHA1-Digest: wRKLaotozgd9UPF7xIaRJbsnM9M=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterable/CloneIte
+ rable.class
+SHA1-Digest: wp07d8cos+m8CncBpGp+GJRXKvM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractState
+ Object$1.class
+SHA1-Digest: O69beKc/Kymwk3g3YsJqqzIqY1g=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateItemBNF.class
+SHA1-Digest: wR7pHWrCDYwNWGl0rwPy8naImEI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SingleValuedPathExpressi
+ onBNF.class
+SHA1-Digest: 0Ksbo54SWJCZ10KEdEaetarIkv4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DivisionExpre
+ ssionStateObject.class
+SHA1-Digest: diUmKzokiBdaEWU+RZtVIYA7Oa0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SimpleSelectClauseStatementHelper.class
+SHA1-Digest: uvf0EsUN8QhLGSk3xn0gryMqHe4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InputParameter.class
+SHA1-Digest: r6Lm/l5EI61+xC6Viiam6dZrhKI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/AbstractRangeDec
+ laration.class
+SHA1-Digest: 0HQ5jEkl2UcyUnvp40q2sk2kQs4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/EnumTypeState
+ Object.class
+SHA1-Digest: 4h+ggmDHI3vzYBrMe7ccykJPGvw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultSimpleSelect
+ ExpressionStateObjectBuilder.class
+SHA1-Digest: SSRlbusXph5qoL2G+uSyQtnyYRk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GeneralCaseExpressionBNF
+ .class
+SHA1-Digest: k8+t7zgcYOBKC7fMyrT5/LGsAcI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConnectByClauseBNF.class
+SHA1-Digest: Q0cE7EOjU9caB/Fx+5psgKXHBjQ=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$OwningStateme
+ ntVisitor.class
+SHA1-Digest: 3OiIdHbj+SLLB/mEraTx7hevq6k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$AbstractSelectStatementBuilder.class
+SHA1-Digest: 6z1PmmfVEmncqTmqbGfPGJSJ3d8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/FromSubqueryReso
+ lver$VirtualMappingBuilder.class
+SHA1-Digest: TQVw4Sr18DAC5wFn4EAQ4QNWfTA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IMappingType.class
+SHA1-Digest: NF4BV+3t+/uI+BxaYAcnRpy5l88=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalConcatExpression
+ BNF.class
+SHA1-Digest: XBQVGk2g4lOVSPAOpDAlI+MMGc4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CompoundExpression.class
+SHA1-Digest: QiY4vc08Y/Ob6zHQU/PniYsjGRo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/IndexExpressi
+ onStateObject.class
+SHA1-Digest: jt08L1NcojuWv8Dm1wMg/8+cm18=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SizeExpressio
+ nStateObject.class
+SHA1-Digest: KPzZbwl4GKhLvclWcQrx0L8YDP8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TypeExpressionFactory.cl
+ ass
+SHA1-Digest: 8l3O+kTZ+zkkqMxT9Qo5kM7W0eI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/ClassResolver.cl
+ ass
+SHA1-Digest: Xqc52sVjOXc+0zoR4DgIJLI8Avc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GeneralIdentificationVar
+ iableBNF.class
+SHA1-Digest: VQLklZMMs987izdXiG4YxZAzrAQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$GroupByClauseCollectionHelper.class
+SHA1-Digest: rAFb1iXhFC4GSCfyBHm3ANhE2oA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ChangeSupport
+ .class
+SHA1-Digest: TbT61wdule5Da0978m7/YZJ7lt0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleCaseExpressionBNF.
+ class
+SHA1-Digest: naReZUxxjIkDFEDNEfwCbiv9QIo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JoinFactory.class
+SHA1-Digest: Naqm/MgxuQ8N1D0pfO2vWLjiYcM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SimpleWhereClauseSelectStatementHelper.class
+SHA1-Digest: ygvrzkSxBMEGOyneyUiS2dcq05U=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultSelectExpres
+ sionStateObjectBuilder.class
+SHA1-Digest: ARMFR2x8gZkPnNLVW+/HQyj6fS0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AllOrAnyExpressionFactor
+ y.class
+SHA1-Digest: uDYZf64mfZjgONJo37Dj+8wgnVM=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator.class
+SHA1-Digest: x1hsIgaVTs+4T4LkoePtISRLvh4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CompoundExpre
+ ssionStateObject.class
+SHA1-Digest: TTkLgAPiL6sPYfuYUHcLY3cLhsU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntryExpressionFactory.c
+ lass
+SHA1-Digest: UoJW6HRCAQn6xpFEqKy/htSv4PE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByItemBNF.class
+SHA1-Digest: YgbeQeaERCWshU8+orPT7nbfYYA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/FromSubqueryReso
+ lver$VirtualManagedType.class
+SHA1-Digest: EuxpJtlCf5TGEy1tVh6k1NUpjqU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IdentificationVariableType$1.class
+SHA1-Digest: VANB6IGLPY5bNyjcwJnps1Emxco=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CountFunctionFactory.cla
+ ss
+SHA1-Digest: j82jxJhBP7H45mDH+PFJcaCtA5Q=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DateTimeState
+ Object.class
+SHA1-Digest: RBSmkvogZImbtqCRn9B7BgOKzRQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AllOrAnyExpressionBNF.cl
+ ass
+SHA1-Digest: 0T97Aeg9BoI8N1kghMN62qkIrEk=
+
+Name: org/eclipse/persistence/jpa/jpql/ParameterTypeVisitor.class
+SHA1-Digest: bkvio7E/d99nE6SndNo02tNlI6Y=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$EnumVisitor.class
+SHA1-Digest: EGmNW+ViWnt/GwXtyACLk8JeTqY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractCondi
+ tionalClauseStateObject$1.class
+SHA1-Digest: C+ozZUZB2G40KZEzrJ1qkf685R4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Abst
+ ractRenamer.class
+SHA1-Digest: G54kR4I+zKsAkL5v0spHGFVCZQU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/GroupByClause
+ StateObject.class
+SHA1-Digest: oVwEJRSuHExZn0FYpJpN3DHFBBk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/package-info.class
+SHA1-Digest: 8nte0SDCXGFOGNnjRro7MerW0jw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SimpleSelectS
+ tatementStateObject.class
+SHA1-Digest: 1aLhgCO9YVJVq5cZDP8QpbFCv8s=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionExpression.class
+SHA1-Digest: CHPPK1fdW60tSRdhHVAKxQmthXA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$ResultVariableVisitor.class
+SHA1-Digest: GvFFXiRAry7NMuFOXrsQsDY/pBo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderSiblingsByClause.cl
+ ass
+SHA1-Digest: LdDtYQDjNI9xQzils7QSdexllX0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SelectClauseS
+ tateObject.class
+SHA1-Digest: TgLXvY1nGm3PLVS8ZNvLCnrmCzA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/UnknownDeclarati
+ on.class
+SHA1-Digest: z65yyyTTM/9voTHZa27ux3Edq3Q=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ValueExpression.class
+SHA1-Digest: mKb6G0GMs+Xg5lj1/CuMN53GUps=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$1.clas
+ s
+SHA1-Digest: BGcpRxvI3IS7RDiIkDa1eJa6K8Q=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$UpdateItemCollectionHelper.class
+SHA1-Digest: TD8YYoOx8wD8br4ehJgFxSHQ2WA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalSubstringStringE
+ xpressionBNF.class
+SHA1-Digest: EW0vXtHAeAuaNixaGrYhfuK3PT8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/ValueResolver.cl
+ ass
+SHA1-Digest: ueuCEm+pFNlf7Pq1aoZgqJy8Bc0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ValueExpressionFactory.c
+ lass
+SHA1-Digest: BQ9BWrB6fVcPdJ63Kd0w86rw5t0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByClauseBNF.class
+SHA1-Digest: cSCJZo6VUStZPnyIW6xFAdQgdwE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$DeclarationVisitor.class
+SHA1-Digest: sgo1HdYkOcqH86ZelUP0nGYiuTg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultJPQLQueryBui
+ lder.class
+SHA1-Digest: fLD7FdWp4zcUb/sLHJ3EGHBYMqs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DeleteStateme
+ ntStateObject.class
+SHA1-Digest: LRjxlp4T2+lKJgBkqOTTHdyg47M=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BaseJPQLQueryFormat
+ ter.class
+SHA1-Digest: YMedL3aDEAzUhu3+kt1s6A0rjTo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar2_
+ 1.class
+SHA1-Digest: k8h6LPWTAAZGn7UWy0yahrZnD7s=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DeleteClauseBNF.class
+SHA1-Digest: TRR8yRP7rX2ryJm7mmeKCTUeUsA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IEclipseLinkSelectE
+ xpressionStateObjectBuilder.class
+SHA1-Digest: 7/3IdFiI6pY5uPWcIfzclaxK3wg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectExpressionBNF.clas
+ s
+SHA1-Digest: waefNewvksAC4t2bODf99RDT8Rs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/KeyExpression
+ StateObject.class
+SHA1-Digest: XNt25baWIihvx6ESSmFOdPwaA/4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultLiteralVisitor.cla
+ ss
+SHA1-Digest: PMC6tke0SiD+ffhZv7YRCdMCLTQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/NumericResolver.
+ class
+SHA1-Digest: AeWOLUwibHHm04sqXfIxpUo3oLM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NullExpression.class
+SHA1-Digest: kaDUJLth/dj1BUBDIgTECfXA3Z8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalJoinBNF.class
+SHA1-Digest: mfmLefLxowYcVBcn1euiLOdjRKQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkStateObj
+ ectBuilder.class
+SHA1-Digest: TaGvyLTkP1ifgY/ia30w238Fhmk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticPrimaryBNF.cla
+ ss
+SHA1-Digest: waSOdZdXIx7Gc4shyA1ybbHE7pw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/UpdateItemSta
+ teObject.class
+SHA1-Digest: /ojQosp1T6ZAbSG2Llsd+Vkw++Q=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByItem$NullOrdering
+ .class
+SHA1-Digest: 6IEd5AHi54+R7dET3gQ8hvPjjtA=
+
+Name: readme.html
+SHA1-Digest: ifG9pGf4w10GEIlh0BrWNn0Yr9o=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IScalarExpressionSt
+ ateObjectBuilder.class
+SHA1-Digest: ZmsmfkIcxCh6tENPZsC427SZgic=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractEclip
+ seLinkTraverseParentVisitor.class
+SHA1-Digest: fhVT62g7LubAziI9nJK7uC9l/ig=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/LowerExpressi
+ onStateObject.class
+SHA1-Digest: 8/L8BxDfb1wiElq+mSS0Agy71Jw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractExpression.class
+SHA1-Digest: tp4lIC9GNSE9kxnvxrFQCrzk7Oo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalColumnExpression
+ BNF.class
+SHA1-Digest: q8gCix2ByNQmoD7ap3pNYDOGdW4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$SimpleSelectStatementBuilder.class
+SHA1-Digest: 5csk+K/C9sILPpkJ/kIoZtGCT/M=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$6.clas
+ s
+SHA1-Digest: yVddmz5E3NFeSznKr14GOKXFHlw=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractEclipseLinkSemanticVali
+ dator$SubquerySelectItemCalculator.class
+SHA1-Digest: 2J3AX5TpOzwB8/1E9btIjUgjlg4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AvgFunctionFactory.class
+SHA1-Digest: V2U9AB89vZ5ZXDWMQu+dO+SnaLw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/HavingClauseFactory.clas
+ s
+SHA1-Digest: KC7o7a3XeoChMjXChCUzln3Pjgk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$UnionClauseStatementHelper.class
+SHA1-Digest: dIuXO5dQNIaFla+K4UcK+UTGHIo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultGrammarValidator.c
+ lass
+SHA1-Digest: 33JZM8md+7aN5XB3tpM3Jm3DAk4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BadExpression.class
+SHA1-Digest: dkB4XrgwjNAZ1SLT96EtNenflhI=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractEclipseLinkSemanticVali
+ dator$TableExpressionVisitor.class
+SHA1-Digest: 5pMLQeEpgnu3LnS1B2cpIJ6kQpM=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterable/CloneListItera
+ ble.class
+SHA1-Digest: 7r7p7G6+dG8hqs+mNbXUFvKIybs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TableExpression.class
+SHA1-Digest: BFggmovZ6x84dC1H72WWM/vwC/o=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Compar
+ isonExpressionVisitor.class
+SHA1-Digest: B0O1j8PVObbeXqRuP1XeqxS+T70=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleArithmeticExpressi
+ onBNF.class
+SHA1-Digest: wJee0xASvhkdqnvpttrK2wzsujM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/StateFieldPat
+ hExpressionStateObject$MapManagedType.class
+SHA1-Digest: CgymrscRYnOmfEp3lbXVODLCYa0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$SelectItemBuilder.class
+SHA1-Digest: J9FKJACkzBVUdgcVEddqSWoUK1s=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EmptyCollectionCompariso
+ nExpression$StateFieldPathToCollectionValuedPathConverter.class
+SHA1-Digest: Sh+f/WqKeoLzJAI814ZZtuvbT3w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GeneralIdentificationExp
+ ressionFactory.class
+SHA1-Digest: AkCMgedGRj2VtWBDeOJSJuLHC1A=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractSelec
+ tStatementStateObject.class
+SHA1-Digest: Pj6xqMhm/SztdQEwR6DZDZTWKV4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/WhenClauseBNF.class
+SHA1-Digest: GMiKgszM3dGl9zfSphMUbLHO/yY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ObjectExpressionFactory.
+ class
+SHA1-Digest: 15XTnqSZaNaXSODPhBlhZn2XB/Y=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractConditionalClaus
+ e.class
+SHA1-Digest: yCHUP0d2eClBAJoWPnKTrFms85A=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ComparisonExpressionBNF.
+ class
+SHA1-Digest: C4ElFFKvRLhwhgEmL+/iTU+g3ls=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionValuedPathExpr
+ essionFactory.class
+SHA1-Digest: +31uto6PW2ZooFumHf0AqmHOf3Y=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator$3.c
+ lass
+SHA1-Digest: 4a9j9WYCeQ/APhF024EFRjngaNU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UnionClauseFactory.class
+SHA1-Digest: XjpJy2GeEnh66cGN5mCmAOaCRno=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/DeclarationResol
+ ver$QualifyRangeDeclarationVisitor.class
+SHA1-Digest: 9bjoTF0p86h/+HAmRPcLrI8qWrA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EmptyCollectionCompariso
+ nExpressionBNF.class
+SHA1-Digest: UYM9L995vWe/NmzSS8pLtp8AI8Y=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterable/Snapshot
+ CloneIterable$LocalCloneIterator.class
+SHA1-Digest: 800z4XE2onKKCeNhITmrvBDBCDA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterator/EmptyIte
+ rator.class
+SHA1-Digest: 1keWaYpT5rjS5pe+ZMjegH0l8V8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/TableDeclaration
+ .class
+SHA1-Digest: IVFWP8l9xlvmTB8zZE5PRMvuylM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/AbstractPathReso
+ lver.class
+SHA1-Digest: VyjKyqunek7iLAUUE63Rlsk3kfY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/ICaseExpressionStat
+ eObjectBuilder.class
+SHA1-Digest: bnsmH3IbiCE0sAJaGEHBPHz4bNU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLQueryBNF.class
+SHA1-Digest: ou1zw0+GZOJ/XUwn9Cwg/i+9AAY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$DifferentComparisonFilter.class
+SHA1-Digest: uMiXerVpmKc1SNGx5aotwRqlw3U=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterable/CloneIte
+ rable$DefaultRemover.class
+SHA1-Digest: jFK4jD/Gw9K/DLWwRY5462Wmb9M=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BooleanLiteralBNF.class
+SHA1-Digest: oIbxffc8ldpMn63g7ODHgP7n5Go=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/FromSubqueryReso
+ lver$MappingType.class
+SHA1-Digest: wZbCqV99OXCZfdfbY0KSRQYYQms=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/MinFunctionSt
+ ateObject.class
+SHA1-Digest: TK69yPlpobpIj+HmZLRAn1SafZ8=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractEclipseLinkSemanticVali
+ dator.class
+SHA1-Digest: lYvf9zKrgCkAJjUQSWr31jBWqsY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ExistsExpress
+ ionStateObject.class
+SHA1-Digest: VzABlBukD1+7xtdp28QuGlbKgh0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/package-info.class
+SHA1-Digest: GVs/DLe0xQDl/+LyRYtY3cbQ75w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BooleanPrimaryBNF.class
+SHA1-Digest: s8sIxd7mhvTuSj3cOFnoP22PHDc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GroupByItemBNF.class
+SHA1-Digest: CJZHUBh+aH1DGe9UPtWq44ER8a4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$OrderByClauseStatementHelper.class
+SHA1-Digest: vopijxxo0i8snr9GTL7gmEOD+zc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IMappedSuperclass.cla
+ ss
+SHA1-Digest: i8oW0BTcOgLXWJTgPmOjnrfY1oY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Abstra
+ ctDoubleEncapsulatedExpressionHelper.class
+SHA1-Digest: T2OnUQznYR2TAkjrpkSq00+dTh8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultContentAssistPropo
+ sals$Result.class
+SHA1-Digest: p3S2D8MTzOlrJsiiplfc+n09tug=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractTripl
+ eEncapsulatedExpressionStateObject.class
+SHA1-Digest: RLqdGeK9DkYW5rZXXCvh+sNQJmA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IManagedTypeProvider.
+ class
+SHA1-Digest: pnDMLPL0nOYCq9oownYsg1GrQyQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConstructorExpressionFac
+ tory.class
+SHA1-Digest: feeL9P0nVoc4nc/WfrV8uB/4Nr0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AvgFunction.class
+SHA1-Digest: DkVAwV+Cs/sY7242iUKT1CMSjD8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$ConditionalClauseCollectionHelper.class
+SHA1-Digest: 2PXyKzzyRbWusBLsEevptWsWPDw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalUpperExpressionB
+ NF.class
+SHA1-Digest: 7DBqU4MDo99ElmVcLPYh3Owxct4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractPathE
+ xpressionStateObject.class
+SHA1-Digest: RnbeS5Bl3+L2KyqH3yxSjECWwwY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NullComparisonExpression
+ BNF.class
+SHA1-Digest: Vwrqfw25A+fJCe1KggNzUshSRmk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByClause.class
+SHA1-Digest: 81SS4fhlPIoL3gT0tK0eM+CJjIg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$DoubleEncapsulatedCollectionHelper.class
+SHA1-Digest: jSn3KooQCGYS6SsUyxqHmJHFGtU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/ListChangeEvent.cla
+ ss
+SHA1-Digest: oNsP+C+Ox3zt+zLX4vJ33KAVvR8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConstructorExpressionBNF
+ .class
+SHA1-Digest: lqAEQrC8gyzT/HKg3wXxs1teQM4=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$13.cla
+ ss
+SHA1-Digest: qyECVA8wMlaZg0dzKaSXfmqeSLU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractTraverseChildren
+ Visitor.class
+SHA1-Digest: raPbl5i9mZvCH88HKMLK/189cY0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalLocateThirdExpre
+ ssionBNF.class
+SHA1-Digest: eKcJMEfLbAeuo3fmaj3IEXs0g1g=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$GroupByClauseStatementHelper.class
+SHA1-Digest: Y10P6ZoZwmRPHA7uMUIo6MBC0G0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SimpleStateOb
+ ject.class
+SHA1-Digest: VfFu5Hors1JASzrcSkany71YGEQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExtractExpressionFactory
+ .class
+SHA1-Digest: I/pWOtSt+JA3qP349EPNHD6cX4c=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AnonynousEcli
+ pseLinkStateObjectVisitor.class
+SHA1-Digest: 1Vvoq15Qo/SKEjVA5UxTgLSuzZM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalSqrtExpressionBN
+ F.class
+SHA1-Digest: 0G+nJzVil6Xvmh0/NudSikdYXn0=
+
+Name: org/eclipse/persistence/jpa/jpql/package-info.class
+SHA1-Digest: XaBcWQr1fxbFsuQIZS6hrapNWv8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractSingleEncapsulat
+ edExpression.class
+SHA1-Digest: ciNCbob9SR6N+5ah9T5rhmts3jw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NewValueBNF.class
+SHA1-Digest: Y01xNdQxWLtwK+4UzoIDUEOmaX8=
+
+Name: org/eclipse/persistence/jpa/jpql/LiteralType.class
+SHA1-Digest: PnnBIGIMfOHsZtlQUdVv/1/SyW4=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterable/ListIterable.c
+ lass
+SHA1-Digest: vo4YjI8lKu60R89L8GBX/w22BBA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TrimExpression.class
+SHA1-Digest: nmZTurhV3/ddjsOq1i12YDe2B0c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrExpressionFactory.clas
+ s
+SHA1-Digest: 9acEOscAjvwM4+Y4849pFbcwtq8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ComparisonExp
+ ressionStateObject.class
+SHA1-Digest: iVFMmyCdFRqk9rmVADIVKr6BjbU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractDoubleEncapsulat
+ edExpression.class
+SHA1-Digest: 5qNbD2K7ZrfAsl1SJ+j/SpxBNdE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$IncompleteCollectionExpressionVisitor.class
+SHA1-Digest: rPAushxKLbIocyTjCu8AaveJ8hY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$FromClauseStatementHelper.class
+SHA1-Digest: j6qVD4W1/vXUd057AawQTbsUOs8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LiteralExpressionFactory
+ .class
+SHA1-Digest: h88XcqUve9FuVmb0kzi+Wek34IE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkSimpleSe
+ lectExpressionStateObjectBuilder.class
+SHA1-Digest: EeeiorNr/k6mdCuBAjaY0SrEbOY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$24.cla
+ ss
+SHA1-Digest: 2rl624N1wGZJz7Cv85yL+nhmLV4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/PropertyChangeEvent
+ .class
+SHA1-Digest: /0nzEIddT1UuPCF1w+FTMQ68xFI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InExpressionBNF.class
+SHA1-Digest: 7lB6w1PtR5C4OJLA1wLYe0A3/NM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/ContentAssistExtension.cl
+ ass
+SHA1-Digest: R9/s6dKODNq9u27RYQIcIdpWXGY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/SumFunctionResol
+ ver.class
+SHA1-Digest: mmqKWabbCWg4ZSIA6O+Z+HM9WSc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$WhenClauseConditionalClauseCollectionHelper.class
+SHA1-Digest: Wpiwi9/TIt5Sga8TNN93WR+EM1k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IdentificationVariableType.class
+SHA1-Digest: 6veb55/81O3HM7/9uP8O9TG4HVg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalSelectExpression
+ BNF.class
+SHA1-Digest: kO0cEYR0vL1HwZl+5GUgBs9/YU4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ComparisonExpressionFact
+ ory.class
+SHA1-Digest: 2QDMGBIQOuip69h92HB+95kagok=
+
+Name: org/eclipse/persistence/jpa/jpql/JPQLQueryDeclaration$Type.class
+SHA1-Digest: VOS+a/XV9gqmMbqCitY7DnjpBc0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/MultiplicationExpression
+ .class
+SHA1-Digest: AD79fuAL2DSg+dymbPCEWh0EJEI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$DeleteClauseStatementHelper.class
+SHA1-Digest: bm8ZxpANjp4a9tsA8aX3pi2fpFw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/ContentAssistProposals$Cl
+ assType.class
+SHA1-Digest: YlWhU0+Wnwsgw3H6gz2FeFGPQZQ=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator$InE
+ xpressionWithNestedArrayVisitor.class
+SHA1-Digest: SbRLSk3wpSN3B87a3XRE1Ht/oP8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/JPQLQueryStat
+ eObject.class
+SHA1-Digest: iFE3nE5oxnaN8Nzkx1ESefuUelE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultEclipseLinkJ
+ PQLQueryBuilder.class
+SHA1-Digest: TTbARr4Qd7z1Ucugzi/RQMgIJkY=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterable/SnapshotCloneL
+ istIterable.class
+SHA1-Digest: r7OSFhsBu8fQphyp+d1e7vlPIWc=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$18.cla
+ ss
+SHA1-Digest: DPV9gUjMSQSEiHy1Ve/fY6wmmHA=
+
+Name: org/eclipse/persistence/jpa/jpql/JPQLQueryDeclaration.class
+SHA1-Digest: 0NYD4t6KeoNfLe29J0kMVWegLLI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GroupByClauseBNF.class
+SHA1-Digest: IHqAH9MwQZrFD/4DHUgVxVtzI5I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByClauseFactory.cla
+ ss
+SHA1-Digest: XBe05fb9nIu4buirj57TMxGxdfY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkSelectEx
+ pressionStateObjectBuilder.class
+SHA1-Digest: Lr/ld9Ic2zRjYdnlDq6ALkVfVxM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractEclipseLinkExpre
+ ssionVisitor.class
+SHA1-Digest: WSzjwAeQgzd8Z2yZO0qPJVEu2T4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/Expression.class
+SHA1-Digest: ESEVWDS3LzPPS9P3aSSp0qOGjSU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractPathExpression.c
+ lass
+SHA1-Digest: obkv+hDYirvoKbkAQ2doX+SyMGw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor.class
+SHA1-Digest: 9kbhIFRMImytFNVhiAQfB8ju7aA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CollectionExp
+ ressionStateObject.class
+SHA1-Digest: jWuVooL3nH2CKy21lOYEF2Tleas=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$ConcatExpressionCollectionHelper.class
+SHA1-Digest: rPs2xIIyjyHhVR1W3mOYrXBlNdE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/VirtualJPQLQueryBNF.clas
+ s
+SHA1-Digest: dF5a02FzsbHeek469JTogPNir8c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CaseExpression$ParsingTy
+ pe.class
+SHA1-Digest: NHHMwDhSFe5UCp1KLPsRMVeOBpY=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterable/ArrayIterable.
+ class
+SHA1-Digest: 6byCQtPQOEAaL9AdfGgXopeznCM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$4.class
+SHA1-Digest: SpsSarUYBhp4tqg7K4HVux4m3W8=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$NullEx
+ pressionVisitor.class
+SHA1-Digest: Hg5iYThbnyPf9AcmCkqpiqcNSFA=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$PathT
+ ype.class
+SHA1-Digest: jib1wZ0B69o9NRf92fz9tjllrPs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractConditionalClauseCollectionHelper.class
+SHA1-Digest: NSDDBi6P7y+SJ+U13mpxeWvG/OM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$CollectionMemberDeclarationBuilder.class
+SHA1-Digest: S/JRS6A8hyO8jso5OIJIcrTfkXk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLGrammar2_0.class
+SHA1-Digest: kpwSkTE/ygO1Qeymgsegvi6ZyeE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/StateObjectVi
+ sitor.class
+SHA1-Digest: 14WaqPfjReR1FcIlqD0+zNtB2j0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/ResolverBuilder.
+ class
+SHA1-Digest: mycm3DoE0dkMplLHue1DwqUItQQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateClauseFactory.clas
+ s
+SHA1-Digest: K6l99L5ik5q3IS82WB1/+F4jEsA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IEclipseLinkSimpleS
+ electExpressionStateObjectBuilder.class
+SHA1-Digest: v7a1o04o9Cw7eW0KI5/66Lpo358=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractStateObject
+ Builder.class
+SHA1-Digest: hSD5E8wN4JwjAffsK39N8v/BJQQ=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterator/CloneListItera
+ tor$Mutator.class
+SHA1-Digest: 49Rh+dQLAfTDPGw7pO2RYciDWE0=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/CollectionTools.class
+SHA1-Digest: GHPw+/BGgeob/VgdUFweWkbzEzw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/EclipseLinkJPQLQuer
+ yBuilder.class
+SHA1-Digest: 9FZnDGjcKYLQBZG9n2kEz6c/+ro=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BadExpressionFactory.cla
+ ss
+SHA1-Digest: XGF9gEYxL9pNeXgQ1Db2DnyXEcQ=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkLiteralVisitor.class
+SHA1-Digest: Wq1wJO80+632vQ8I4mUhrRp9kNU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IncompleteCollectionExpressionVisitor.class
+SHA1-Digest: yYhJV0p9ynGlSd88+/UZcQKkhOQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultContentAssistVisit
+ or$AcceptableTypeVisitor.class
+SHA1-Digest: G9nuAA0gd0J0th06lZ2o/oCZyuQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CoalesceExpressionFactor
+ y.class
+SHA1-Digest: lw32f9ZDPmDjifId0giBcbINtQ8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EmptyCollectionCompariso
+ nExpression.class
+SHA1-Digest: tYxzlFFxsq3SQWMWnNPkZkFYSi0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractConditional
+ ExpressionStateObjectBuilder.class
+SHA1-Digest: uzD/au1KF8eAJy5YS2gFj79dVTY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/ISelectExpressionSt
+ ateObjectBuilder.class
+SHA1-Digest: qFbB/E0MFOpm4tobtFldCLy5tbQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalOrderByItemBNF.c
+ lass
+SHA1-Digest: j6EVSR0wrO7r1U8DtCjdjSyVtdU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AppendableType.class
+SHA1-Digest: dDWi3gaM6qsZlZVM6Lz0D/dkNbY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByItem$Ordering.cla
+ ss
+SHA1-Digest: LnW7gtzdrD7Rf+cPzEgz/jPeaBA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleSelectExpressionBN
+ F.class
+SHA1-Digest: soYGAU5YJ9wUz+b44h78TOKVTeM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateItemStateFieldPath
+ ExpressionBNF.class
+SHA1-Digest: 7hKMwPj+PB7IypAySRwSyJKMGuM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ModExpression.class
+SHA1-Digest: STHaDkLb3MtxNuaenPP4i5+aXGU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BetweenExpressionFactory
+ .class
+SHA1-Digest: 2298Q2MNVbkwBJXnASkCytgjVTU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DateTimeTimestampLiteral
+ BNF.class
+SHA1-Digest: tEWCWIKgFYrdBLMevv8JCyyoVBQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubstringExpression.clas
+ s
+SHA1-Digest: ZsmnGJzWwKah0wc/lYBcYKqSlEg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IPropertyChangeList
+ ener.class
+SHA1-Digest: H3PB3nZpNOKbmB7Yn3AexDrVXH0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IMapping.class
+SHA1-Digest: fdIlMD46Wen/UfcmfYUpMj617nE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractRange
+ VariableDeclarationStateObject.class
+SHA1-Digest: dryCXcTVsbp1SmMNyoz/QV5Yrtw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JoinCollectionValuedPath
+ ExpressionFactory.class
+SHA1-Digest: CfhELHcrT7Vnf/NlySNhKMUrWWI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectStatement.class
+SHA1-Digest: H/Hlsf9rEfzPvC6fjSsSjtCW9Gc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/WhereClauseBNF.class
+SHA1-Digest: RpOj4puFMS54EiXICpV3b9sWoPU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkJPQLQueryConte
+ xt.class
+SHA1-Digest: qxkyiBVphNBb85KGRhPnwKh7SCg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractGroupByClauseStatementHelper.class
+SHA1-Digest: xC/5tzgrYMNR0NDYdaNDVFQLMk4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractModif
+ yClauseStateObject.class
+SHA1-Digest: nwaBvBmo6qvShRAX+hwsEiGBGYM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLGrammar.class
+SHA1-Digest: +/CW/N/FznKUbAte28ej+wkOf1Q=
+
+Name: license.html
+SHA1-Digest: EQYcC4FF34XyzwwZy/Zdhq9gb/0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ListHolderSta
+ teObject.class
+SHA1-Digest: jWH6SBuMkKYDY8+DSCUE3tiTWys=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalEntityTypeExpres
+ sionBNF.class
+SHA1-Digest: nckGSok4aE9p+cLGUP6d3gKhNt8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticFactor.class
+SHA1-Digest: SAWhsjVtqbnVqm6wxGPwgetxeTM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionValuedPathExpr
+ essionBNF.class
+SHA1-Digest: PJt+/Z42WF6ZrDaUE3X8KemqoGg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IListChangeEvent.cl
+ ass
+SHA1-Digest: WUKJArWro6m31QmvxBjD97Jtufk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DateTimeFactory.class
+SHA1-Digest: LPkHJN1W3dly3L7/qF0R68saKKk=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator.class
+SHA1-Digest: /+IjS3mlJ1486CGPyL4sypoWMEs=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$Compa
+ risonExpressionVisitor.class
+SHA1-Digest: wfgABRS0sw79tqkHdoJTBpSjdEE=
+
+Name: org/eclipse/persistence/jpa/jpql/WordParser.class
+SHA1-Digest: 8pGbNi8tvilLHweGAJssojJ6tLI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LowerExpression.class
+SHA1-Digest: P8IAYp/8bAG6ya+akIsuSWwHTpc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleSelectStatement.cl
+ ass
+SHA1-Digest: r0frXoAiCbnCvL6jyxl+OsgCdes=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/FunctionExpre
+ ssionStateObject.class
+SHA1-Digest: Gl/LhlExCrSh349zhMNWUQAh4DM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ModExpressionFactory.cla
+ ss
+SHA1-Digest: J9upxtMHWjAUzwreaVsFjPwFSAU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/CollectionVal
+ uedPathExpressionStateObject.class
+SHA1-Digest: oqNG/J5fmQYRRoVbQBF/r8CVYl0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractRefactoringTool.c
+ lass
+SHA1-Digest: oGENkO8BQCVROTN2wX6AEb7thPY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/KeyExpressionFactory.cla
+ ss
+SHA1-Digest: 0GE4OhZkTw2caYQDy8rRmr10Y5k=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ModExpression
+ StateObject.class
+SHA1-Digest: DBJ3ozMQa8MRV6+OX5tKR4VjcLw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IsExpressionFactory.clas
+ s
+SHA1-Digest: I3D2gugfI4cQYbdVcRzlAteJsU8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$FollowingClausesVisitor.class
+SHA1-Digest: pPoD3taUuEgFCYboqZCfxWNXAn0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AndExpression
+ StateObject.class
+SHA1-Digest: KpGj3ALZ1waiVpEl9IxlsVhDpno=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IListChangeListener
+ .class
+SHA1-Digest: nUFc9oCaz/Ujs4VwLpHDIEkg0mY=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterable/SnapshotCloneL
+ istIterable$LocalCloneListIterator.class
+SHA1-Digest: LYUYkX+bvH9mlH1uqvCAqSjTRqw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IdentificationVariableType$4.class
+SHA1-Digest: MAzXHGWvPrT2sPtYboSxF1MV85Y=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/JPQLQueryBuilder2_1
+ .class
+SHA1-Digest: NgOHZAGMM73Szmmh7d5zWxnPMxI=
+
+Name: about.html
+SHA1-Digest: y0AWkpkTVCs6mi3n4RsOvP01qZ8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkRefactoringToo
+ l.class
+SHA1-Digest: LW6UoCYbhKzTrUWHU6FxdL4vufE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/UpdateStateme
+ ntStateObject.class
+SHA1-Digest: lBmWFJxRk+j2yrwnec9P5XMxBkc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractSchemaNameFactor
+ y.class
+SHA1-Digest: QZlNlJ8L1ztO/NwNmmXR4dB/nl4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LocateExpression.class
+SHA1-Digest: YMj+d1qzFHTlncArPY9Ta0prmJw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/EclipseLinkSt
+ ateObjectVisitor.class
+SHA1-Digest: SS8rV1UQ4CncyceNhlRVblbfjJc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpperExpressionFactory.c
+ lass
+SHA1-Digest: Ypev6twgDVfVkC2+MjVdM/xpxLk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/MaxFunctionSt
+ ateObject.class
+SHA1-Digest: 9FisdejPRC6F0zA16NfIcCtnd0g=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DatabaseType.class
+SHA1-Digest: y6x59r+G4lcNvuyVBjXbG4A/Oko=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Abstra
+ ctCollectionValidator.class
+SHA1-Digest: 07KHT+JwGNQsuJUpTf90bJvKXyU=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$4.clas
+ s
+SHA1-Digest: B2WsL1ozlaCb+u19IbslfSOa5O8=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$State
+ FieldPathExpressionVisitor.class
+SHA1-Digest: Rp+zfJRGL6DSlgiuZeP1KQJXwYA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CoalesceExpressionBNF.cl
+ ass
+SHA1-Digest: lKajyLSXN+7nAp1mpFG5vslreGY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntityExpressionBNF.clas
+ s
+SHA1-Digest: rcvH3WaPyEtoNScUhqRt0xNPkRM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/filter/AndFilter.
+ class
+SHA1-Digest: MIxM9aUUL6JoHsnVvilnXD5X/3c=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar2_
+ 4.class
+SHA1-Digest: BAJwGdb434Db4fTJDJmSw2U9PKM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$EndingQueryPositionBuilder.class
+SHA1-Digest: V7CnUHqChmHKqAgc2/wPZDQieho=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$DeleteStatementBuilder.class
+SHA1-Digest: aRQ5+2Az7CX1lvUK0FOwaEpujuU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalAggregateFunctio
+ nBNF.class
+SHA1-Digest: fHKvEX5KjkIcRHruBq/9rOMKhrA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IJPQLQueryFormatter
+ $IdentifierStyle.class
+SHA1-Digest: 9dut/Tzv7ZOHO5o7w3JauoBIYqE=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator$1.c
+ lass
+SHA1-Digest: fZfSe919Oi5IQR1axI+PXfZfA4I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UnionClause.class
+SHA1-Digest: s/pPQz6tEvhbF9uWwWfQ+indfBA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionMemberExpressi
+ on.class
+SHA1-Digest: H2ly99zfmaubCI+FRX1savag83g=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/VariableDecla
+ rationStateObject.class
+SHA1-Digest: PPAxwKsPFz9qUUhBk9piIYjpj1M=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateStatement.class
+SHA1-Digest: uL9gsirnBrtX/CB27QUhHqWsPrM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/JPQLQueryBuilderWra
+ pper.class
+SHA1-Digest: qeLfdB4PIOrSCgoz5uIJRe1p2HM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalBetweenExpressio
+ nBNF.class
+SHA1-Digest: JgHZAGVqP3IF0RtohhBoVYu/3d8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentificationVariableDe
+ clarationFactory.class
+SHA1-Digest: OdCjYagcznuj8CaeShXY/x6xsZs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DateTime.class
+SHA1-Digest: ovDBSvktv7gL/2+xBMYJWKzhA9k=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleSelectClause.class
+SHA1-Digest: TC92F7NXWEJXedChNbbfq55l4RY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$9.clas
+ s
+SHA1-Digest: 65bE3hHcSsxIeKAc4u/0UNiajA4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AsOfClauseFactory.class
+SHA1-Digest: KZKO/vixJcf/rFoIfuPNwcvQXMo=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$SubqueryVisit
+ or.class
+SHA1-Digest: 6+TSCvT3zVoxsugsspG7ka3iRzY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SelectClauseCollectionHelper.class
+SHA1-Digest: l7noFmwgoHgDQ+AyEqytVYBpUaA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectClauseFactory.clas
+ s
+SHA1-Digest: AaIcINJ+KwLFPm3RX+Q00ceEpBQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$WhereClauseUpdateStatementHelper.class
+SHA1-Digest: gXB715rqYUsiHyshTAAzK/tFADo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$TableExpressionVisitor.class
+SHA1-Digest: g/mEYpnnRI2bm4XtU2bYMez6tws=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/GenericSemanticValidatorH
+ elper$IdentificationVariableVisitor.class
+SHA1-Digest: qmWqWiKIcNmhudAyeYDgngYodSc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JPQLGrammar1_0.class
+SHA1-Digest: yLYFrSA2UY6ivioEXvNn+fHphrY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AndExpression.class
+SHA1-Digest: 1awRMG9c+vLdrP1qiIpGxSGdOtY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Collec
+ tionSeparatedByCommaValidator.class
+SHA1-Digest: LWYwDEOlTzX5EzjYUv8nZfdZ2yI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbsExpressionFactory.cla
+ ss
+SHA1-Digest: TyK+UyUkXNZQI54CisNVwn6Fx4M=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractOrderByClause.cl
+ ass
+SHA1-Digest: dvjG9vupStFuC3D8scfzjL1lmvk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StateFieldPathExpression
+ BNF.class
+SHA1-Digest: bMkNT/31+/xGMcoMyfeF1LtZzRA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterable/Snapshot
+ CloneIterable.class
+SHA1-Digest: P1iJDUO1NC5bjy8gBULgfzB2buU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbsExpression
+ StateObject.class
+SHA1-Digest: Igp1X4FzhRgtNzUfu66wWQ78UAk=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$11.cla
+ ss
+SHA1-Digest: 94M21MuSjyuGAv4PWz/bnwpGaMA=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator.class
+SHA1-Digest: 4mo6acehC7d/7ybFJa65ETv4tPw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/Resolver.class
+SHA1-Digest: DiaTkE99bTIJDbp9LG/BSRFWx3s=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractSelectClause.cla
+ ss
+SHA1-Digest: TXrHMkI0rWfX2tnn0Wr8XbE6oPA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentificationVariableFa
+ ctory.class
+SHA1-Digest: 8h/9lxjy6MOlQuE9knaVBqd77Xw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleConditionalExpress
+ ionBNF.class
+SHA1-Digest: 26sy2WTU9ny/r7TsrfULCoV2JXo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LikeExpression.class
+SHA1-Digest: qgq5rv9CPfbSthV3vE6Bij15uR4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$FilteringMappingCollector$1.class
+SHA1-Digest: l2CN1xrDKI9/k7w7WJH3dvfVs44=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/ClassNameResolve
+ r.class
+SHA1-Digest: A/iMaa6TQVWH4PK0dOkJKYH5j0Q=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EntityTypeExpressionBNF.
+ class
+SHA1-Digest: Bs2VrneqJU2uDlWrA/CPskGMHKM=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$Compa
+ ringEntityTypeLiteralVisitor.class
+SHA1-Digest: RgNCO6k8a1GZdQ5BJetJEVbyde8=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$BypassChildCo
+ llectionExpressionVisitor.class
+SHA1-Digest: 4ByWuxAy7WcJnGtqZTuqw3liI8w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateItemStateFieldPath
+ ExpressionFactory.class
+SHA1-Digest: 5C5Z7v5Vhc9mk2okznfdvQu95XE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/DeclarationResol
+ ver$RootObjectExpressionVisitor.class
+SHA1-Digest: Vz9cJmcF44Eqy2OM99+ECnLVWKo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FullyQualifyPathExpressi
+ onVisitor.class
+SHA1-Digest: C5fDA0n4nSt3+btZtw0OgdFtv5Y=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$22.cla
+ ss
+SHA1-Digest: RYa2tu3YK6Ck5tpVSxmyVw7KPJc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool$Clas
+ sNameRenamer.class
+SHA1-Digest: zcna9wOdhVxzEKu/9xJQSy5tjgQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/KeywordExpressionFactory
+ .class
+SHA1-Digest: tXFl+KzvSVeHhAMREwVBsUVDh2o=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/ContentAssistProposals$En
+ umProposals.class
+SHA1-Digest: yoqkhmmjpIZIt+82LrgWQG+3r8M=
+
+Name: org/eclipse/persistence/jpa/jpql/ExpressionTools.class
+SHA1-Digest: BDhZDeDUnDSM0bk+eLwTL6xF9I4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/Identificatio
+ nVariableStateObject.class
+SHA1-Digest: u76dg/z0OULccADHu3yCV3cB0II=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/GenericSemanticValidatorH
+ elper.class
+SHA1-Digest: ta/9ncPGpD2rLnCGuexlNSDttkQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CountFunction.class
+SHA1-Digest: ARUheKiH8UEaRqzDEOmqV+u9k7s=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BetweenExpressionBNF.cla
+ ss
+SHA1-Digest: CmYYoIve945V3+ztEEvfRCBKJ7c=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractCondi
+ tionalClauseStateObject.class
+SHA1-Digest: F4UR6/1Y1SVWAfZNfGqQ259ztpA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FromClauseFactory.class
+SHA1-Digest: i1FRMOJ9XLoFp5A4VIdeAvA7DbE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalSimpleFromClause
+ BNF.class
+SHA1-Digest: 2flRPIgh3f+Mc8Ff3KcPYAj5m8I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StartWithClause.class
+SHA1-Digest: ONSqUIGVPuIGx2wwm3btTwF/xk8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DeleteClauseS
+ tateObject.class
+SHA1-Digest: /lojuyrX0A6a1BlCjPDzYeeRfwY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GroupByClauseFactory.cla
+ ss
+SHA1-Digest: INVnJHQ3WGc1ZWlyHH9dvozUhEA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SumFunctionFactory.class
+SHA1-Digest: ArCSAXpW4uzTPYVFwouvwuTWk3M=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkContentAssistV
+ isitor$AppendableExpressionVisitor.class
+SHA1-Digest: Cs+uE+VNO5xI8oH7Vj8/YGPfZUk=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$16.cla
+ ss
+SHA1-Digest: T/frFKI5XS4YGbijnZcA5gECTVg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/EntityResolver.c
+ lass
+SHA1-Digest: oc5wQlMXtXpUm69U18LclIFg4IA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractSchemaName.class
+SHA1-Digest: 3mWBZvS4dcTodL3+sxWwB6q/rMU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$ClassName
+ Renamer.class
+SHA1-Digest: aEqSeVDq13TtuSuh+g2empWGapY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ResultVariableBNF.class
+SHA1-Digest: a5PoCONerDPIyaAvULn2W3ujXsk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/LikeExpressio
+ nStateObject.class
+SHA1-Digest: RJyH4T9uA8S3EyLtZIvv6gBdpXg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractJPQLGrammar.clas
+ s
+SHA1-Digest: 1DPeTQfepK1p+zvHqfZKTx6Dt4s=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractEclipseLink
+ SelectExpressionStateObjectBuilder.class
+SHA1-Digest: Q4xjGg9Sw1P7dbdNIUnh35Sy4Zk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EncapsulatedIdentificati
+ onVariableExpression.class
+SHA1-Digest: OIQezHBjbTtoemLb2QJckQ7L5NQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$FromClauseCollectionHelper.class
+SHA1-Digest: wEbEXtHDTSOjXWGtgkZT/gJJN00=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ElseExpressionBNF.class
+SHA1-Digest: NwsJyMATGwarBqOEVwU/INs/UeQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$UpdateStatementBuilder.class
+SHA1-Digest: FeNdZFnLg+7MZt0PwjNesPD4WE4=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$First
+ DeclarationVisitor.class
+SHA1-Digest: D7ZicgxPg01RkbTurcZj+d1TAKo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/TypeHelper.class
+SHA1-Digest: 4wrwjVNASlGP0fC9XXpfYeoTGkU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$1.class
+SHA1-Digest: hYhfLx+RhpAoPsnFfIt1Rxtiyqw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UnionClauseBNF.class
+SHA1-Digest: otf02kTRUM6PetIJkSPIhUhBKAU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$ClassName
+ Renamer$2.class
+SHA1-Digest: P2iu26fAwXpYYLkNFcb3T6aEF+M=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CaseOperandBNF.class
+SHA1-Digest: Zxhu1Bg9wWgGmVpp/dn4ipMp5U8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IEntity.class
+SHA1-Digest: IlaqShxBLXkX3vRHU/dj9dwggSI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalConnectByClauseB
+ NF.class
+SHA1-Digest: Dp08l4mlEgYtKoOhGAW6w89T7Fw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TableVariableDeclaration
+ Factory.class
+SHA1-Digest: px/axi8UaIOuL4xEeBRmS8HrYik=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionMemberDeclarat
+ ionFactory.class
+SHA1-Digest: K71HnK2Ig+JOGa1Sr03vFxs+eS4=
+
+Name: org/eclipse/persistence/jpa/jpql/BaseDeclarationIdentificationVa
+ riableFinder.class
+SHA1-Digest: 2ILk3t8ntwbkxL1qqoiWj431+VQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LiteralBNF.class
+SHA1-Digest: wKT392iip2FfCJPEG4+ezPrSzdo=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$27.cla
+ ss
+SHA1-Digest: dJ6uaznl4AUtXZ8ms4pGhVBmXWo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$2.class
+SHA1-Digest: koKHVA9ji7G2iIyy9yhiIbpmkpw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/ResolverBuilder$
+ CollectionExpressionVisitor.class
+SHA1-Digest: a+gwSJaaas8j3nKsPqWGZm7P0EQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExpressionRegistry.class
+SHA1-Digest: tZ700MSPV6ZKXCEtAWtMoGVnV00=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$CollectionExpressionHelper.class
+SHA1-Digest: lHilgPfmd5e7jmELFAjg1w45J/0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkAnonymousExpr
+ essionVisitor.class
+SHA1-Digest: KDPWhFikl0OlSMJqia8+tH8hvII=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionMemberDeclarat
+ ionBNF.class
+SHA1-Digest: anHRv0vfLgq3HA86YDtLPnUNlHQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TableVariableDeclaration
+ BNF.class
+SHA1-Digest: CskarDd3I++C1+uQVFrUXtD0bKM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractFromClause.class
+SHA1-Digest: +qWJflgRuLMjcUngv6DrX3SkZtE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractAppendableExpressionVisitor.class
+SHA1-Digest: bRNwbi5X2PGSZykf1hwWrmrGeEE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractModif
+ yStatementStateObject.class
+SHA1-Digest: 6+EKXpInv5z6OQ3b6UYQ9TUWO04=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NotExpressionFactory.cla
+ ss
+SHA1-Digest: Q1fMxPI/5BcVE4f8OvzeNe5p3V4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubstringExpressionFacto
+ ry.class
+SHA1-Digest: ZaaXqtdi+O3HkJwCpQ2xjV+97Rg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalSubstringPositio
+ nExpressionBNF.class
+SHA1-Digest: eROON9KNdadaJ4/zG3cIMZ2o4/E=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/EncapsulatedI
+ dentificationVariableExpressionStateObject.class
+SHA1-Digest: Gq/FJ2E5Va6dXHexV5xAMcCO5WA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/HavingClauseS
+ tateObject.class
+SHA1-Digest: 3SPk2Ra83hU6LlG0QVVT1dNBSNk=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractSemanticValidator$InIte
+ msVisitor.class
+SHA1-Digest: 9Y9u8JtJGP1TWJc0x820zKmyqGQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SumFunctionSt
+ ateObject.class
+SHA1-Digest: mgdhPgZ437l9DvVv+Q1SodIYeFs=
+
+Name: org/eclipse/persistence/jpa/jpql/WordParser$WordType.class
+SHA1-Digest: 3OfLi5RZ4YcchjTOKJmcEr4WutI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CastExpressionBNF.class
+SHA1-Digest: y0Plo8OejjqXrg3MdLI6uAc8JUE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/BadExpression
+ StateObject.class
+SHA1-Digest: y+Y63X2lxne+ammd3sKH2f/haOA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExistsExpression.class
+SHA1-Digest: vQeaiAw0oEq6gFDE9KuiebxNJqI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/Problem.class
+SHA1-Digest: 9I8VMLLzWocldF5YdlFrOPuHPZI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/CollectionValued
+ FieldResolver.class
+SHA1-Digest: DcLuflo/Q6Fd2lpUN344CtTPmQk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbsExpression.class
+SHA1-Digest: fHExlNJY/J4EyQyKz8bK/YB85nk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractSchemaNameBNF.cl
+ ass
+SHA1-Digest: V/q/4OtjcRQ8paphGK7CWxYT2MQ=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$JPQLQueryBNFV
+ alidator.class
+SHA1-Digest: ifmwspb27CvnfDQ59yCaDowQ5pc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrExpression.class
+SHA1-Digest: eq7z5AHN5Ge8LzJjgFLDYo74iow=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/BasicRefactoringTool.clas
+ s
+SHA1-Digest: tVbcKGnoL7yY7zw6Of/AQww5RdE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor.class
+SHA1-Digest: rQwiTYL8i5Lq/csiNxCJ2ZaUcBs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DivisionExpression.class
+SHA1-Digest: hlOT002YTadomazMLeOdurFYQo4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractSelectClauseCollectionHelper.class
+SHA1-Digest: HKU7MtTiOLEFqP/17wf7Vl7EMLY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderByItemFactory.class
+SHA1-Digest: zO7MeZ+0s+aeELc+SWG1qt5RZ6M=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ConcatExpress
+ ionStateObject.class
+SHA1-Digest: hwDaxqB1g4qEhWnCc8UXGwkmbW4=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/iterator/CloneListItera
+ tor$State.class
+SHA1-Digest: cJAs76Z/Cfh+tPoBp+AFiLpN5PY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$StateObje
+ ctUpdater.class
+SHA1-Digest: WcCSuOcuDfwy1iO5I1hBiOt9CeE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/JPQLQueryContext.class
+SHA1-Digest: W5ME8rx7dtJMYEh2tnBzCKyions=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/JoinBNF.class
+SHA1-Digest: SOUqhDHrUldrDHXJ8CwGiQgaD4w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StringExpressionBNF.clas
+ s
+SHA1-Digest: 93xlKkkdG98p+57cNledYoO5sws=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/persistence/jpa/jpql/jpa_jpql_validation.properties
+SHA1-Digest: w1lN9tGCaMwSqcZlBU9YxI+ysHs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/NullIfExpress
+ ionStateObject.class
+SHA1-Digest: NFjado69CLpkRZ7/lx0oIsq4Gs8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$FilteringMappingCollector.class
+SHA1-Digest: PRGM1zQl033sd5xGvM0LP0ZO3fc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectStatementBNF.class
+SHA1-Digest: 1zGgeFX0/9ffY9wSzZGbO8KD+64=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultContentAssistVisit
+ or.class
+SHA1-Digest: a9UcQfFwEecFiOGECRZdYc/9dIU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/TreatResolver.cl
+ ass
+SHA1-Digest: qw6WX7SMnC59XZamPcH/17WMMeA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractScalarExpre
+ ssionStateObjectBuilder.class
+SHA1-Digest: EK27qx4VcZT9HvQesvBkH8B2Hg0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractSelec
+ tClauseStateObject.class
+SHA1-Digest: T42WKvlbl0rQrNfJtWFgrsq48hI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractNewValueSta
+ teObjectBuilder.class
+SHA1-Digest: X3UwYNj9eBSZW56INN4aelstnKI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/FromSubqueryReso
+ lver$VirtualMapping.class
+SHA1-Digest: i070yEFUGeS3Gvbhnzt25WF37Pk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleEntityExpressionBN
+ F.class
+SHA1-Digest: d18lAaimmGt48L/o7Scagtg4DEw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultContentAssistPropo
+ sals.class
+SHA1-Digest: dKf3nQraM98AiUYYAVDv+XNhKI4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$ResultVar
+ iableNameRenamer.class
+SHA1-Digest: jZft3Ao8KJGSLmq2IFBzGlBKxWk=
+
+Name: org/eclipse/persistence/jpa/jpql/ITypeHelper.class
+SHA1-Digest: xjbVKu/Yh8yzB4OHEKWDUYMInHc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$UpdateClauseStatementHelper.class
+SHA1-Digest: JxggO3WjBXs4RYIVyR/zNkO37h4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentificationVariableDe
+ clarationBNF.class
+SHA1-Digest: reLkOYri2sj+XiKsosdt1tL5r8Q=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/ISimpleSelectExpres
+ sionStateObjectBuilder.class
+SHA1-Digest: kfnWDeqlzFdpIycTZesrfrpJE/8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UnknownExpression.class
+SHA1-Digest: zvBdVCD9zxUVj4+ThSCzndNyMwY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IQuery.class
+SHA1-Digest: HDnAYwi9Hw0kDI83+20eVzIvdGs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TableExpressionBNF.class
+SHA1-Digest: U1TLDYLOTL2mkAiXGruXqMzWxac=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OrderSiblingsByClauseBNF
+ .class
+SHA1-Digest: 6uKswKfrb1JiEFWFGHRqoPn/uO4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$EntityNam
+ eRenamer.class
+SHA1-Digest: JhCvZ1WQrLpxWQpTm2pFDhTYrjQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/NotExpression.class
+SHA1-Digest: olWY/pX+nMJP0ZSTWfOz/pRgSvk=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CaseExpressionBNF.class
+SHA1-Digest: C8Hx2poh7DQeLs5argUitrr2Zac=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultSemanticValidator$
+ NumericTypeValidator.class
+SHA1-Digest: f5pfa6tI259Z6cfqUawhexslIog=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/Multiplicatio
+ nExpressionStateObject.class
+SHA1-Digest: ZDi72yewi5wRpLFx0BSP7LTqiCY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$IdentificationVariableType$2.class
+SHA1-Digest: x9W1YejOMjiFQpjGIspLmvlrYgM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/NotExpression
+ StateObject.class
+SHA1-Digest: Xo5z+z/46uist9EIg/9SntGsqKI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/PatternValueBNF.class
+SHA1-Digest: 9R92glSZr6/2qB++gNEvR7WgJ7E=
+
+Name: org/eclipse/persistence/jpa/jpql/utility/package-info.class
+SHA1-Digest: uSPE2w8EdUCoNpRNhlKgwWfzVmw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TreatExpressionFactory.c
+ lass
+SHA1-Digest: LiBHOWnH25/TDHPpigwcUr4vcyw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DefaultStringExpression.
+ class
+SHA1-Digest: 36H/jRlDa3cR+p2DIQ1y/pQoWZg=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$2.clas
+ s
+SHA1-Digest: VkBdBYuSZ4HS+2So2Tj1H+jAnn8=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$StatementHelper.class
+SHA1-Digest: M2RN8GIi1Z4oQrWAXNNi/fT42B0=
+
+Name: org/eclipse/persistence/jpa/jpql/JPAVersion.class
+SHA1-Digest: IfN/FebVcBXicDCX4PqdEjXftts=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractEclipseLinkSemanticVali
+ dator$TopLevelFirstDeclarationVisitor.class
+SHA1-Digest: 0gAqxRGQ/Vc7L4ya0gAYp5RWSpU=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkSemanticValida
+ tor.class
+SHA1-Digest: mpDuY8RLWBt+flf/i5Nm2u9gOBA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConstructorExpression.cl
+ ass
+SHA1-Digest: +HgEkJxW4iBUSv+r/OMUq25FMEg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$SubqueryVisitor.class
+SHA1-Digest: Lv04uGFrwd76mMRvE7ICE3Mk0WY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultJPQLQueryContext.c
+ lass
+SHA1-Digest: CSWb4QY4iLmJgQySLyKNBYH6jJw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TreatExpressionBNF.class
+SHA1-Digest: Sd7ElBlj5T6fCHew3mgeKpPJ54c=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/TextEdit.class
+SHA1-Digest: 2J3xnIbId5vR8DJ6/ia3YWhHVEo=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Abstra
+ ctSingleEncapsulatedExpressionHelper.class
+SHA1-Digest: QCMfJeyhq7MWsdxZmEdbfBv4CFo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/UnknownExpres
+ sionStateObject.class
+SHA1-Digest: YzJStFjjg7i8DAj1kgT/58uZ11A=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar2_
+ 2.class
+SHA1-Digest: DoQtm5AoGPNXSXzVJiHrD5Xydho=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FunctionsReturningString
+ sBNF.class
+SHA1-Digest: HcWAHrm1d2fv5pGbeXesRWlZR90=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/WhereClauseFactory.class
+SHA1-Digest: mtyro9FDeOGRk0Jv+ChIE+oVEZs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectStatementFactory.c
+ lass
+SHA1-Digest: 3eLc/P4S2d+8p9GQxPAt7WufiSQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FromClause.class
+SHA1-Digest: 4Na/P9uDU+8NDqT77AI0L4fsQjI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IType.class
+SHA1-Digest: B/HecoaVcNZFO2zTF37BTYSt6oQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$VariableN
+ ameRenamer.class
+SHA1-Digest: PKZxmjKHxlT4vz8EZL7+2cNkZnE=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/RangeVariable
+ DeclarationStateObject.class
+SHA1-Digest: Peq8xz/sUMXHcFtRZz4nplBro9o=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractSelectStatement.
+ class
+SHA1-Digest: r6kPna0ztaoUNU8N23DoR4OQu9A=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StartWithClauseBNF.class
+SHA1-Digest: qDknD6pmYGsi9nbltiIg/MXOLhM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultActualJPQLQu
+ eryFormatter.class
+SHA1-Digest: VHEJ0sGnX7O0SaEeKmQFeYNTPfo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SimpleSelectStatementFac
+ tory.class
+SHA1-Digest: Y4WZh2DlKUGJrK6WdgbKhJ6ILWY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SelectClause.class
+SHA1-Digest: vNh7oGWHe9wihEhaGlXOPOgZMAc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConditionalPrimaryBNF.cl
+ ass
+SHA1-Digest: rhrosJZzmr5fq9G36DO3Il6nMqY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/IJPQLQueryBuilder.c
+ lass
+SHA1-Digest: OKDdJ5Y1RZa+5YtP1WM6+g//5sI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterable/EmptyIte
+ rable.class
+SHA1-Digest: gAdEjOXjAc8EYgnpb5RFGHTzZNA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TrimExpression$Specifica
+ tion.class
+SHA1-Digest: HKmViz95CYTKR0MG+OtMQ6KSqtc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/SubqueryDeclarat
+ ion.class
+SHA1-Digest: VzhI0ElLoznWlR1yKBhZnDEmxTw=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/NumericLitera
+ lStateObject.class
+SHA1-Digest: PXTe8fLVImuKNnELoj7QKrldqwA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/TreatExpressi
+ onStateObject.class
+SHA1-Digest: ck3aCHTfrv4TyDwR92H4GlwXfKk=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$7.clas
+ s
+SHA1-Digest: OeFjU5YbBWtKcZimr5pLVwuemjI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ConnectByClause.class
+SHA1-Digest: 0HhGbouHOwdOucaw3WijnIxhV8g=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AbstractWhereClauseSelectStatementHelper.class
+SHA1-Digest: pktmsNUc5dJggHeIpXcI1uCA7BM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AllOrAnyExpre
+ ssionStateObject.class
+SHA1-Digest: aPLvDk+aGhown5d7WmBhsQVKI8M=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/RefactoringTool$EnumConst
+ antRenamer.class
+SHA1-Digest: 3+XpSGL3rkpTgdYY7egTOfBnPeo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IndexExpressionFactory.c
+ lass
+SHA1-Digest: pD38pIMI6zKLjm+LS2kEkhq1zeg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/FromClauseSta
+ teObject.class
+SHA1-Digest: TSLpKIddhCSMpclQZ3t4duwRUyg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RangeVariableDeclaration
+ BNF.class
+SHA1-Digest: /TY2K1H2KO0AmI3l1ZllCWmM8lY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalCountBNF.class
+SHA1-Digest: WPx0wngU5/eGSVbrmLyzTM4WzUY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$RangeVariableDeclarationVisitor.class
+SHA1-Digest: QrXs55LnZzVhp27x/P7Nx3oq8vY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$VisitParentVisitor.class
+SHA1-Digest: snfBAwjyRfmKwwyY6BGFdeygu6s=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/DerivedPathId
+ entificationVariableDeclarationStateObject.class
+SHA1-Digest: onDqadzr5NeQh2sltcGP8xlwVu0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SubExpression
+ StateObject.class
+SHA1-Digest: yY+C9AF40Tc3gkILjDsjYZGryIs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ObjectExpression.class
+SHA1-Digest: s2WStDTMQ5/0BNz8kVNNXGVxu2w=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/EclipseLinkJPQLGrammar1.
+ class
+SHA1-Digest: m7kNm368pPKL7bEMvKavb7b3Xgk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/EntityTypeLit
+ eralStateObject.class
+SHA1-Digest: OxbfakLTh6j+YMMn/WMRv8GKbcA=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$AppendableExpressionVisitor.class
+SHA1-Digest: ZVWO85ZLBdLatH33GaKDPVLacls=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/LikeExpressionEscapeChar
+ acterBNF.class
+SHA1-Digest: ai9XH3soZB5Rr5+slghLuJDKmzc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$CollectionExpressionVisitor.class
+SHA1-Digest: hEJFhxwDgyqDgQ1zaVIIFnkFRi8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/MaxFunction.class
+SHA1-Digest: Qs3kYhfBSedg+CObJG1lbH7FS7o=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkGrammarValidator$4.c
+ lass
+SHA1-Digest: KcsoIv+v1wKRbskV8dAFc2uuRoc=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionValuedPathExpr
+ ession.class
+SHA1-Digest: BQ7U5r4vfttKXTU5ZMturVq+B0A=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/FullyQualifyPathExpressi
+ onVisitor$GeneralIdentificationVariableVisitor.class
+SHA1-Digest: FQ+oHcGaGO4zptiJT/s7thAQ0qs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/DefaultEclipseLinkJPQLGr
+ ammar.class
+SHA1-Digest: uS4h9jyMRjCUa4J0cRF4PPVu2Sc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultContentAssistPropo
+ sals$DefaultEnumProposals.class
+SHA1-Digest: s2wF/SL6F37OGPjpeD5ZfofDXOg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GenericQueryBNF.class
+SHA1-Digest: CmfQprgzH8ce1dh8ttZKhGlN8k0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AggregateFunc
+ tionStateObject.class
+SHA1-Digest: 6l11mMGqfNEkaMiXPHULcuS5aXQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/UpdateClause.class
+SHA1-Digest: UDfCNQAT+ra2HGB8m434p64MDtQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/AbsFunctionResol
+ ver.class
+SHA1-Digest: U+cuJUtpo6udZe0TcRa5kNlBydI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultJPQLQueryFor
+ matter.class
+SHA1-Digest: 8I+JOeZoTe06RWBluBHEtn0kZhw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubtractionExpression.cl
+ ass
+SHA1-Digest: N6DoVvtgHR4hqhrSv+6wDYVSXdQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$WhereClauseSelectStatementHelper.class
+SHA1-Digest: pTlrT0TlgKgOPA0mrzJPepZZky8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalModExpressionBNF
+ .class
+SHA1-Digest: VSY8AA1D4CgaHodo2+U1vM3HgVY=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/BadExpressionBNF.class
+SHA1-Digest: 3KLjiUP/Av7hlQuzjzuEr4IoB+Q=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$OwningClauseV
+ isitor.class
+SHA1-Digest: CXQ+t0rQHjwAOdvsXxVBmG/d52I=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/SubqueryBNF.class
+SHA1-Digest: BlIjgCnZlBoqEKlpsM88IndKJFg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/LengthExpress
+ ionStateObject.class
+SHA1-Digest: iaVgOT39TOWDtP2xlxQQfJ0QbGc=
+
+Name: org/eclipse/persistence/jpa/jpql/JPQLQueryProblemMessages.class
+SHA1-Digest: SGllEYndpv9NaER9SXEm8YalkEM=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$20.cla
+ ss
+SHA1-Digest: JRQT07jixUxtcSBhjtLRupw4+Xg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalSimpleSelectExpr
+ essionBNF.class
+SHA1-Digest: TyDyzJkFqHRC9d0/NZKolA57gHk=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractEclipseLink
+ SimpleSelectExpressionStateObjectBuilder.class
+SHA1-Digest: 2jAudueqJtQwjE7HMiiib7iPygc=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ValueExpressi
+ onStateObject.class
+SHA1-Digest: /y3rDtsboAZikpjgb6Z2bIpQlco=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/EclipseLinkBasicRefactori
+ ngTool.class
+SHA1-Digest: MlNSjbd5w9o8o9qEkSfFGN8M6bI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CaseExpression.class
+SHA1-Digest: V08nwWjyzG6pCIudJ8eXqplzDHo=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/ObjectExpress
+ ionStateObject.class
+SHA1-Digest: yf6PxxMtKy0p2yt2dZGaL8h79to=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/DefaultRefactoringTool.cl
+ ass
+SHA1-Digest: oB7sNCO0a4i7UTKbSommt2m2vvM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/OnClauseFactory.class
+SHA1-Digest: hCjlxv9F7Muk6EWAbk4CSkNlJXg=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AbstractTripleEncapsulat
+ edExpression.class
+SHA1-Digest: kMaaIcWCTzv0pBIkK68nIZuecMo=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$Collec
+ tionSeparatedBySpaceValidator.class
+SHA1-Digest: rUvBwMkSKJxErX/E5ShrA8rYrxU=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ArithmeticFactorBNF.clas
+ s
+SHA1-Digest: lYjdNrzbb/vmVcM34EpYAt54xTI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/TypeExpression.class
+SHA1-Digest: lg1iGE5d//876jIiTthB5qZPH24=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/DefaultNewValueStat
+ eObjectBuilder.class
+SHA1-Digest: Lw1gy7EGZtdO/HdTav2c94Ev/gI=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/LocateExpress
+ ionStateObject.class
+SHA1-Digest: +scXEgp9m0Ndg1at1jYJ3RmssjM=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExpressionVisitorWrapper
+ .class
+SHA1-Digest: IVG29/ckdQGzdzmd5MZ4bxplSS8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InternalLowerExpressionB
+ NF.class
+SHA1-Digest: ZvqV0fAmXph7l+sadwmEmzJTPps=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ExpressionFactory.class
+SHA1-Digest: CfvlskE9UuKp3XdcoUodYsTRpm0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/ComparisonExpression.cla
+ ss
+SHA1-Digest: v8/H8w5kkbGC8MgTXVsxToh8AuI=
+
+Name: org/eclipse/persistence/jpa/jpql/EclipseLinkSemanticValidatorExt
+ ension.class
+SHA1-Digest: n/lfmTGPi1zXpQ4/8joDGU508II=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/AbstractContentAssistVisi
+ tor$CollectionMappingFilter.class
+SHA1-Digest: 2lorBpSq49YO2/XRBgN0kg5rYYg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/EclipseLinkDecla
+ rationResolver.class
+SHA1-Digest: tLEn3gGG3UvCdWVkjCyykft8tOA=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionMemberExpressi
+ onFactory.class
+SHA1-Digest: Sg3lgvf5G4T2eXYBf/pyXQ7pBWk=
+
+Name: org/eclipse/persistence/jpa/jpql/Assert$AssertException.class
+SHA1-Digest: UO+CH1o8494C9lwpBfFVnSC+T8A=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/InputParameterBNF.class
+SHA1-Digest: OtsYih0p1/YT0E1BpK0SUZ5gcyE=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$14.cla
+ ss
+SHA1-Digest: LAwUXjTxzBQ9ubiX4HoM3UZOFLQ=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AdditionExpre
+ ssionStateObject.class
+SHA1-Digest: 93JxbHvITKO0oCb2BvFUb24BQ/o=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/ITypeDeclaration.clas
+ s
+SHA1-Digest: rOY4H1WUJQslJP4K0wnuczvSnYE=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StringLiteralFactory.cla
+ ss
+SHA1-Digest: IZuVQYFQs2cSjAaxtyAsEMJuQJY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AbstractListH
+ olderStateObject.class
+SHA1-Digest: mIi6cbiSAk1dfsHWMeW2FBFEOvM=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/resolver/StateFieldResolv
+ er.class
+SHA1-Digest: yLfaaqTZef+gL1CmLvE8KugyxtQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/RangeVariableDeclaration
+ Factory.class
+SHA1-Digest: nFn2BkBseb1JsfNipoXxILezzDw=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/CollectionMemberExpressi
+ onBNF.class
+SHA1-Digest: OBR/OPi1ot+T9w/awFbi4H4FCHs=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/AbstractSelectExpre
+ ssionStateObjectBuilder.class
+SHA1-Digest: KJqhq78a+ufjegjgoL4slLaWCk4=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/AllOrAnyExpression.class
+SHA1-Digest: y291SdSC8ph7wvy1/7ZMZ9ASYB8=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/GroupByItemFactory.class
+SHA1-Digest: /M2/GBGl1kEx2XzXoV9dVmbl1M0=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/WhereClause.class
+SHA1-Digest: PVmt5AcZDCXODSyRT0ib82h2C18=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/AvgFunctionSt
+ ateObject.class
+SHA1-Digest: /ok01XzN3qxLwzpYYMn7y94vfrs=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/StateFieldPathExpression
+ .class
+SHA1-Digest: mIs2iw9jaqAkAmCp7SzjzcjioaY=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$25.cla
+ ss
+SHA1-Digest: WN5CMCBxZLpFm/bAPM7RVrjtLFo=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/package-info.class
+SHA1-Digest: BPJ+oczH+6UyBzFCGSspjcQkaIQ=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/MinFunction.class
+SHA1-Digest: TuIBFCJ8Orlj/XSLtpHowUwWcu4=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/SelectStateme
+ ntStateObject.class
+SHA1-Digest: Fue0k+t35Q5+8OozGj6TOwzNJRs=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractValidator$NestedArrayVi
+ sitor.class
+SHA1-Digest: bNfKq60P8q9MZsfaoJD7cUpxTWI=
+
+Name: org/eclipse/persistence/jpa/jpql/parser/IdentificationVariableDe
+ claration.class
+SHA1-Digest: bb2JsR0N1PsyJ7V8BBJ9wlL5uSY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/EntryExpressi
+ onStateObject.class
+SHA1-Digest: pIvIJIZtaz2xr6dnjSC5lQ8f/Lg=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/spi/IEmbeddable.class
+SHA1-Digest: BdKME+CgYm0KWfZVVIBRxLPbBqU=
+
+Name: org/eclipse/persistence/jpa/jpql/DefaultJPQLQueryProblem.class
+SHA1-Digest: EXPzFk19qYa4K4IqHZB1XYKXBV0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/query/LogicalExpres
+ sionStateObject.class
+SHA1-Digest: PK8iwARQ9MGNM5cP6cgPeuvqT1g=
+
+Name: org/eclipse/persistence/jpa/jpql/AbstractGrammarValidator$19.cla
+ ss
+SHA1-Digest: ZOENjJF7vTU4xitmFqARw8PyvYY=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/model/BasicStateObjectBui
+ lder$JoinBuilder.class
+SHA1-Digest: KpnxfuYoBelcR9MGZtL4J9V97i0=
+
+Name: org/eclipse/persistence/jpa/jpql/tools/utility/iterable/SingleEl
+ ementListIterable.class
+SHA1-Digest: dGCQvHT5RWnveyL6iQ0VaNwmN0M=
+

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.pool2;version="2.2",org.apache.comm
+ ons.pool2.impl;version="2.2",org.apache.commons.pool2.proxy;version="
+ 2.2"
+Implementation-Title: Apache Commons Pool
+Built-By: Administrator
+Tool: Bnd-2.1.0.20130426-122213
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Commons Pool
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.pool2
+X-Compile-Target-JDK: 1.6
+Implementation-Version: 2.2
+Specification-Vendor: The Apache Software Foundation
+Bundle-Name: Apache Commons Pool
+Created-By: Apache Maven Bundle Plugin
+X-Compile-Source-JDK: 1.6
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_45
+Bundle-Version: 2.2.0
+Bnd-LastModified: 1392993618049
+Bundle-ManifestVersion: 2
+Bundle-Description: Apache Commons Object Pooling Library
+Bundle-DocURL: http://commons.apache.org/proper/commons-pool/
+Import-Package: javax.management,net.sf.cglib.proxy
+Implementation-Build: UNKNOWN_BRANCH@r??????; 2014-02-21 14:40:13+0000
+Specification-Version: 2.2
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+ =NOTICE.txt
+Archiver-Version: Plexus Archiver
+

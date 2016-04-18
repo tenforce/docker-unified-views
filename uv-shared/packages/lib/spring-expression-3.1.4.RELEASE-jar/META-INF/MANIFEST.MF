@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_29-b11-402-11M3909 (Apple Inc.)
+Export-Package: org.springframework.expression;version="3.1.4.RELEASE"
+ ;uses:="org.springframework.core.convert",org.springframework.express
+ ion.common;version="3.1.4.RELEASE";uses:="org.springframework.core.co
+ nvert,org.springframework.expression",org.springframework.expression.
+ spel;version="3.1.4.RELEASE";uses:="org.springframework.core.convert,
+ org.springframework.expression",org.springframework.expression.spel.a
+ st;version="3.1.4.RELEASE";uses:="org.springframework.expression,org.
+ springframework.expression.spel,org.springframework.expression.spel.s
+ upport",org.springframework.expression.spel.generated;version="3.1.4.
+ RELEASE",org.springframework.expression.spel.standard;version="3.1.4.
+ RELEASE";uses:="org.springframework.core.convert,org.springframework.
+ expression,org.springframework.expression.common,org.springframework.
+ expression.spel,org.springframework.expression.spel.ast",org.springfr
+ amework.expression.spel.support;version="3.1.4.RELEASE";uses:="org.sp
+ ringframework.core.convert,org.springframework.expression,org.springf
+ ramework.expression.spel"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.1.4.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Expression Language
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.expression
+Import-Package: org.springframework.core;version="[3.1.4,3.1.5)",org.s
+ pringframework.core.convert;version="[3.1.4,3.1.5)",org.springframewo
+ rk.core.convert.support;version="[3.1.4,3.1.5)",org.springframework.u
+ til;version="[3.1.4,3.1.5)"
+Bundle-Creator: cbeams
+Implementation-Title: org.springframework.expression
+Implementation-Version: 3.1.4.RELEASE
+

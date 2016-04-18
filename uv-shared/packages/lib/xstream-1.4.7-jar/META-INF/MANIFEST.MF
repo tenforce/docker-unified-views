@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: joehni
+Build-Jdk: 1.7.0_51
+Specification-Title: XStream Core
+Specification-Vendor: XStream
+Implementation-Title: XStream Core
+Implementation-Version: 1.4.7
+Implementation-Vendor-Id: com.thoughtworks.xstream
+Implementation-Vendor: XStream
+Specification-Version: 1.4
+X-Build-Os: Linux
+X-Build-Time: 20140208-1150
+X-Builder: Maven 3.0.5
+X-Compile-Source: 1.5
+X-Compile-Target: 1.5
+Bnd-LastModified: 1391856630902
+Bundle-Description: XStream is a serialization library from Java objec
+ ts to XML and back.
+Bundle-DocURL: http://xstream.codehaus.org
+Bundle-License: http://xstream.codehaus.org/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: XStream Core
+Bundle-SymbolicName: xstream
+Bundle-Vendor: XStream
+Bundle-Version: 1.4.7
+Export-Package: com.thoughtworks.xstream.io.copy;version="1.4.7",com.t
+ houghtworks.xstream.io.path;version="1.4.7",com.thoughtworks.xstream.
+ converters.basic;version="1.4.7",com.thoughtworks.xstream.io.xml.xppd
+ om;version="1.4.7",com.thoughtworks.xstream;version="1.4.7",com.thoug
+ htworks.xstream.io.json;version="1.4.7",com.thoughtworks.xstream.conv
+ erters.javabean;version="1.4.7",com.thoughtworks.xstream.io;version="
+ 1.4.7",com.thoughtworks.xstream.converters.extended;version="1.4.7",c
+ om.thoughtworks.xstream.converters;version="1.4.7",com.thoughtworks.x
+ stream.converters.reflection;version="1.4.7",com.thoughtworks.xstream
+ .annotations;version="1.4.7",com.thoughtworks.xstream.io.binary;versi
+ on="1.4.7",com.thoughtworks.xstream.io.xml;version="1.4.7",com.though
+ tworks.xstream.mapper;version="1.4.7",com.thoughtworks.xstream.persis
+ tence;version="1.4.7",com.thoughtworks.xstream.security;version="1.4.
+ 7",com.thoughtworks.xstream.converters.collections;version="1.4.7",co
+ m.thoughtworks.xstream.core;version="1.4.7",com.thoughtworks.xstream.
+ io.naming;version="1.4.7",com.thoughtworks.xstream.converters.enums;v
+ ersion="1.4.7"
+Import-Package: com.bea.xml.stream;resolution:=optional,com.ctc.wstx.s
+ tax;resolution:=optional,javax.security.auth,javax.swing,javax.swing.
+ plaf,javax.xml.datatype,javax.xml.namespace;resolution:=optional,java
+ x.xml.parsers,javax.xml.stream;resolution:=optional,javax.xml.transfo
+ rm,javax.xml.transform.sax,javax.xml.transform.stream,net.sf.cglib.pr
+ oxy;resolution:=optional,nu.xom;resolution:=optional,org.codehaus.jet
+ tison;version="[1.2,2)";resolution:=optional,org.codehaus.jettison.ma
+ pped;version="[1.2,2)";resolution:=optional,org.dom4j;resolution:=opt
+ ional,org.dom4j.io;resolution:=optional,org.dom4j.tree;resolution:=op
+ tional,org.jdom;resolution:=optional,org.jdom.input;resolution:=optio
+ nal,org.jdom2;resolution:=optional,org.jdom2.input;resolution:=option
+ al,org.joda.time;version="[1.6,2)";resolution:=optional,org.joda.time
+ .format;version="[1.6,2)";resolution:=optional,org.kxml2.io;resolutio
+ n:=optional,org.w3c.dom;resolution:=optional,org.xml.sax,org.xml.sax.
+ helpers,org.xmlpull.mxp1,org.xmlpull.v1,sun.misc
+Tool: Bnd-1.50.0
+

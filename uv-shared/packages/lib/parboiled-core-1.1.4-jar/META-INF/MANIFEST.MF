@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: org.parboiled
+Implementation-Title: parboiled-core
+Implementation-Version: 1.1.4
+Implementation-Vendor-Id: org.parboiled
+Specification-Vendor: org.parboiled
+Specification-Title: parboiled-core
+Implementation-URL: http://parboiled.org
+Specification-Version: 1.1.4
+

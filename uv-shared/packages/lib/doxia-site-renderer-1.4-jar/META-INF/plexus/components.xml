@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+    <component>
+      <role>org.codehaus.plexus.velocity.VelocityComponent</role>
+      <role-hint>doxia-default</role-hint>
+      <implementation>org.codehaus.plexus.velocity.DefaultVelocityComponent</implementation>
+      <configuration>
+        <properties>
+          <property>
+            <name>resource.loader</name>
+            <value>classpath,site</value>
+          </property>
+          <property>
+            <name>classpath.resource.loader.class</name>
+            <value>org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader</value>
+          </property>
+          <property>
+            <name>site.resource.loader.class</name>
+            <value>org.codehaus.plexus.velocity.SiteResourceLoader</value>
+          </property>
+          <property>
+            <name>runtime.log.invalid.references</name>
+            <value>false</value>
+          </property>
+          <property>
+            <name>velocimacro.messages.on</name>
+            <value>false</value>
+          </property>
+          <property>
+            <name>resource.manager.logwhenfound</name>
+            <value>false</value>
+          </property>
+
+          <property>
+            <name>velocimacro.permissions.allow.inline.to.replace.global</name>
+            <value>true</value>
+          </property>
+        </properties>
+      </configuration>
+    </component>
+
+    
+    <component>
+      <role>org.apache.maven.doxia.siterenderer.Renderer</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.doxia.siterenderer.DefaultSiteRenderer</implementation>
+      <requirements>
+        <requirement>
+          <role>org.codehaus.plexus.velocity.VelocityComponent</role>
+          <field-name>velocity</field-name>
+          <role-hint>doxia-default</role-hint>
+        </requirement>
+        <requirement>
+          <role>org.apache.maven.doxia.module.site.manager.SiteModuleManager</role>
+          <field-name>siteModuleManager</field-name>
+        <role-hint /></requirement>
+        <requirement>
+          <role>org.apache.maven.doxia.Doxia</role>
+          <field-name>doxia</field-name>
+        <role-hint /></requirement>
+        <requirement>
+          <role>org.codehaus.plexus.i18n.I18N</role>
+          <field-name>i18n</field-name>
+        <role-hint /></requirement>
+      </requirements>
+    <description /><isolated-realm>false</isolated-realm></component>
+  </components>
+</component-set>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: com.google.gwt.thirdparty.streamhtmlparser;version="0.
+ 0.10.vaadin1",com.google.gwt.thirdparty.streamhtmlparser.impl;version
+ ="0.0.10.vaadin1",com.google.gwt.thirdparty.streamhtmlparser.util;ver
+ sion="0.0.10.vaadin1"
+Implementation-Version: 0.0.10.vaadin1
+Bundle-Name: streamhtmlparser-jsilver
+Created-By: 1.6.0_32-b05 (Sun Microsystems Inc.)
+Implementation-URL: https://code.google.com/p/jsilver
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Ant-Version: Apache Ant 1.8.4
+Implementation-Vendor: Google
+Bundle-Vendor: Google
+Bundle-Version: 0.0.10.vaadin1
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.google.gwt.thirdparty.streamhtmlparser
+

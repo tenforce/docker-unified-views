@@ -1,0 +1,96 @@
+Manifest-Version: 1.0
+Export-Package: com.google;version="7.3.7",com.google.gwt;version="7.3
+ .7",com.google.gwt.activity;version="7.3.7",com.google.gwt.activity.s
+ hared;version="7.3.7",com.google.gwt.core;version="7.3.7",com.google.
+ gwt.core.shared;version="7.3.7",com.google.gwt.core.shared.impl;versi
+ on="7.3.7",com.google.gwt.dom;version="7.3.7",com.google.gwt.dom.buil
+ der;version="7.3.7",com.google.gwt.dom.builder.shared;version="7.3.7"
+ ,com.google.gwt.event;version="7.3.7",com.google.gwt.event.logical;ve
+ rsion="7.3.7",com.google.gwt.event.logical.shared;version="7.3.7",com
+ .google.gwt.event.shared;version="7.3.7",com.google.gwt.event.shared.
+ testing;version="7.3.7",com.google.gwt.i18n;version="7.3.7",com.googl
+ e.gwt.i18n.shared;version="7.3.7",com.google.gwt.i18n.shared.impl;ver
+ sion="7.3.7",com.google.gwt.i18n.shared.impl.cldr;version="7.3.7",com
+ .google.gwt.logging;version="7.3.7",com.google.gwt.logging.shared;ver
+ sion="7.3.7",com.google.gwt.place;version="7.3.7",com.google.gwt.plac
+ e.shared;version="7.3.7",com.google.gwt.regexp;version="7.3.7",com.go
+ ogle.gwt.regexp.shared;version="7.3.7",com.google.gwt.safecss;version
+ ="7.3.7",com.google.gwt.safecss.shared;version="7.3.7",com.google.gwt
+ .safehtml;version="7.3.7",com.google.gwt.safehtml.shared;version="7.3
+ .7",com.google.gwt.text;version="7.3.7",com.google.gwt.text.shared;ve
+ rsion="7.3.7",com.google.gwt.text.shared.testing;version="7.3.7",com.
+ google.gwt.typedarrays;version="7.3.7",com.google.gwt.typedarrays.sha
+ red;version="7.3.7",com.google.gwt.user;version="7.3.7",com.google.gw
+ t.user.client;version="7.3.7",com.google.gwt.user.client.rpc;version=
+ "7.3.7",com.google.web;version="7.3.7",com.google.web.bindery;version
+ ="7.3.7",com.google.web.bindery.autobean;version="7.3.7",com.google.w
+ eb.bindery.autobean.shared;version="7.3.7",com.google.web.bindery.aut
+ obean.shared.impl;version="7.3.7",com.google.web.bindery.event;versio
+ n="7.3.7",com.google.web.bindery.event.shared;version="7.3.7",com.goo
+ gle.web.bindery.event.shared.testing;version="7.3.7",com.google.web.b
+ indery.requestfactory;version="7.3.7",com.google.web.bindery.requestf
+ actory.shared;version="7.3.7",com.google.web.bindery.requestfactory.s
+ hared.impl;version="7.3.7",com.google.web.bindery.requestfactory.shar
+ ed.impl.posers;version="7.3.7",com.google.web.bindery.requestfactory.
+ shared.messages;version="7.3.7",com.google.web.bindery.requestfactory
+ .shared.testing;version="7.3.7",com.vaadin;version="7.3.7",com.vaadin
+ .shared;version="7.3.7",com.vaadin.shared.annotations;version="7.3.7"
+ ,com.vaadin.shared.communication;version="7.3.7",com.vaadin.shared.ex
+ tension;version="7.3.7",com.vaadin.shared.extension.javascriptmanager
+ ;version="7.3.7",com.vaadin.shared.ui;version="7.3.7",com.vaadin.shar
+ ed.ui.absolutelayout;version="7.3.7",com.vaadin.shared.ui.accordion;v
+ ersion="7.3.7",com.vaadin.shared.ui.browserframe;version="7.3.7",com.
+ vaadin.shared.ui.button;version="7.3.7",com.vaadin.shared.ui.calendar
+ ;version="7.3.7",com.vaadin.shared.ui.checkbox;version="7.3.7",com.va
+ adin.shared.ui.colorpicker;version="7.3.7",com.vaadin.shared.ui.combo
+ box;version="7.3.7",com.vaadin.shared.ui.csslayout;version="7.3.7",co
+ m.vaadin.shared.ui.customlayout;version="7.3.7",com.vaadin.shared.ui.
+ datefield;version="7.3.7",com.vaadin.shared.ui.dd;version="7.3.7",com
+ .vaadin.shared.ui.draganddropwrapper;version="7.3.7",com.vaadin.share
+ d.ui.embedded;version="7.3.7",com.vaadin.shared.ui.flash;version="7.3
+ .7",com.vaadin.shared.ui.form;version="7.3.7",com.vaadin.shared.ui.gr
+ idlayout;version="7.3.7",com.vaadin.shared.ui.image;version="7.3.7",c
+ om.vaadin.shared.ui.label;version="7.3.7",com.vaadin.shared.ui.link;v
+ ersion="7.3.7",com.vaadin.shared.ui.menubar;version="7.3.7",com.vaadi
+ n.shared.ui.optiongroup;version="7.3.7",com.vaadin.shared.ui.orderedl
+ ayout;version="7.3.7",com.vaadin.shared.ui.panel;version="7.3.7",com.
+ vaadin.shared.ui.popupview;version="7.3.7",com.vaadin.shared.ui.progr
+ essindicator;version="7.3.7",com.vaadin.shared.ui.slider;version="7.3
+ .7",com.vaadin.shared.ui.splitpanel;version="7.3.7",com.vaadin.shared
+ .ui.table;version="7.3.7",com.vaadin.shared.ui.tabsheet;version="7.3.
+ 7",com.vaadin.shared.ui.textarea;version="7.3.7",com.vaadin.shared.ui
+ .textfield;version="7.3.7",com.vaadin.shared.ui.tree;version="7.3.7",
+ com.vaadin.shared.ui.treetable;version="7.3.7",com.vaadin.shared.ui.t
+ wincolselect;version="7.3.7",com.vaadin.shared.ui.ui;version="7.3.7",
+ com.vaadin.shared.ui.upload;version="7.3.7",com.vaadin.shared.ui.vide
+ o;version="7.3.7",com.vaadin.shared.ui.window;version="7.3.7",com.vaa
+ din.shared.util;version="7.3.7"
+Implementation-Version: 7.3.7
+Bundle-Name: vaadin-shared
+Created-By: 1.6.0_45-b06 (Sun Microsystems Inc.)
+Implementation-URL: http://vaadin.com
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Ant-Version: Apache Ant 1.8.4
+Implementation-Vendor: Vaadin Ltd
+Bundle-Vendor: Vaadin Ltd
+Bundle-Version: 7.3.7
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.vaadin.shared
+Import-Package: org.json;version="0.0.20080701", com.google.gwt.thirdp
+ arty.guava.common.annotations;version="16.0.1.vaadin1", com.google.gw
+ t.thirdparty.guava.common.base;version="16.0.1.vaadin1", com.google.g
+ wt.thirdparty.guava.common.base.internal;version="16.0.1.vaadin1", co
+ m.google.gwt.thirdparty.guava.common.cache;version="16.0.1.vaadin1", 
+ com.google.gwt.thirdparty.guava.common.collect;version="16.0.1.vaadin
+ 1", com.google.gwt.thirdparty.guava.common.eventbus;version="16.0.1.v
+ aadin1", com.google.gwt.thirdparty.guava.common.io;version="16.0.1.va
+ adin1", com.google.gwt.thirdparty.guava.common.net;version="16.0.1.va
+ adin1", com.google.gwt.thirdparty.guava.common.primitives;version="16
+ .0.1.vaadin1", com.google.gwt.thirdparty.guava.common.util.concurrent
+ ;version="16.0.1.vaadin1", com.google.gwt.thirdparty.streamhtmlparser
+ ;version="0.0.10.vaadin1", com.google.gwt.thirdparty.streamhtmlparser
+ .impl;version="0.0.10.vaadin1", com.google.gwt.thirdparty.streamhtmlp
+ arser.util;version="0.0.10.vaadin1", org.w3c.flute.parser;version="1.
+ 3.0.gg2", org.w3c.flute.parser.selectors;version="1.3.0.gg2", org.w3c
+ .flute.util;version="1.3.0.gg2"
+

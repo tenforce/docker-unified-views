@@ -1,0 +1,104 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_29-b11-402-11M3909 (Apple Inc.)
+Export-Package: org.springframework.aop;version="3.1.4.RELEASE";uses:=
+ "org.aopalliance.aop,org.aopalliance.intercept,org.springframework.co
+ re",org.springframework.aop.aspectj;version="3.1.4.RELEASE";uses:="or
+ g.aopalliance.aop,org.aopalliance.intercept,org.aspectj.bridge,org.as
+ pectj.lang,org.aspectj.lang.reflect,org.aspectj.runtime.internal,org.
+ aspectj.weaver.ast,org.aspectj.weaver.internal.tools,org.aspectj.weav
+ er.reflect,org.aspectj.weaver.tools,org.springframework.aop,org.sprin
+ gframework.aop.support,org.springframework.beans.factory,org.springfr
+ amework.core",org.springframework.aop.aspectj.annotation;version="3.1
+ .4.RELEASE";uses:="org.aopalliance.aop,org.aspectj.lang.reflect,org.s
+ pringframework.aop,org.springframework.aop.aspectj,org.springframewor
+ k.aop.aspectj.autoproxy,org.springframework.aop.framework,org.springf
+ ramework.aop.support,org.springframework.beans.factory,org.springfram
+ ework.beans.factory.config,org.springframework.core,org.springframewo
+ rk.util",org.springframework.aop.aspectj.autoproxy;version="3.1.4.REL
+ EASE";uses:="org.aspectj.util,org.springframework.aop,org.springframe
+ work.aop.framework.autoproxy",org.springframework.aop.config;version=
+ "3.1.4.RELEASE";uses:="org.springframework.aop.aspectj,org.springfram
+ ework.beans.factory,org.springframework.beans.factory.config,org.spri
+ ngframework.beans.factory.parsing,org.springframework.beans.factory.s
+ upport,org.springframework.beans.factory.xml,org.w3c.dom",org.springf
+ ramework.aop.framework;version="3.1.4.RELEASE";uses:="net.sf.cglib.pr
+ oxy,org.aopalliance.aop,org.aopalliance.intercept,org.springframework
+ .aop,org.springframework.aop.framework.adapter,org.springframework.be
+ ans,org.springframework.beans.factory,org.springframework.core",org.s
+ pringframework.aop.framework.adapter;version="3.1.4.RELEASE";uses:="o
+ rg.aopalliance.aop,org.aopalliance.intercept,org.springframework.aop,
+ org.springframework.beans,org.springframework.beans.factory.config",o
+ rg.springframework.aop.framework.autoproxy;version="3.1.4.RELEASE";us
+ es:="org.springframework.aop,org.springframework.aop.framework,org.sp
+ ringframework.aop.framework.adapter,org.springframework.beans,org.spr
+ ingframework.beans.factory,org.springframework.beans.factory.config,o
+ rg.springframework.core",org.springframework.aop.framework.autoproxy.
+ target;version="3.1.4.RELEASE";uses:="org.springframework.aop,org.spr
+ ingframework.aop.framework.autoproxy,org.springframework.aop.target,o
+ rg.springframework.beans.factory,org.springframework.beans.factory.co
+ nfig,org.springframework.beans.factory.support",org.springframework.a
+ op.interceptor;version="3.1.4.RELEASE";uses:="org.aopalliance.aop,org
+ .aopalliance.intercept,org.apache.commons.logging,org.springframework
+ .aop,org.springframework.aop.support,org.springframework.beans,org.sp
+ ringframework.beans.factory,org.springframework.core,org.springframew
+ ork.core.task,org.springframework.util",org.springframework.aop.scope
+ ;version="3.1.4.RELEASE";uses:="org.springframework.aop,org.springfra
+ mework.aop.framework,org.springframework.beans.factory,org.springfram
+ ework.beans.factory.config,org.springframework.beans.factory.support"
+ ,org.springframework.aop.support;version="3.1.4.RELEASE";uses:="org.a
+ opalliance.aop,org.aopalliance.intercept,org.springframework.aop,org.
+ springframework.beans.factory,org.springframework.core",org.springfra
+ mework.aop.support.annotation;version="3.1.4.RELEASE";uses:="org.spri
+ ngframework.aop,org.springframework.aop.support",org.springframework.
+ aop.target;version="3.1.4.RELEASE";uses:="org.apache.commons.pool,org
+ .springframework.aop,org.springframework.aop.support,org.springframew
+ ork.beans,org.springframework.beans.factory",org.springframework.aop.
+ target.dynamic;version="3.1.4.RELEASE";uses:="org.springframework.aop
+ ,org.springframework.beans.factory"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.1.4.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring AOP
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.aop
+Import-Package: com.jamonapi;version="[2.4.0, 3.0.0)";resolution:="opt
+ ional",net.sf.cglib.core;version="[2.1.3, 3.0.0)";resolution:="option
+ al",net.sf.cglib.proxy;version="[2.1.3, 3.0.0)";resolution:="optional
+ ",net.sf.cglib.transform.impl;version="[2.1.3, 3.0.0)";resolution:="o
+ ptional",org.aopalliance.aop;version="[1.0.0, 2.0.0)",org.aopalliance
+ .intercept;version="[1.0.0, 2.0.0)",org.apache.commons.logging;versio
+ n="[1.1.1, 2.0.0)",org.apache.commons.pool;version="[1.3.0, 2.0.0)";r
+ esolution:="optional",org.apache.commons.pool.impl;version="[1.3.0, 2
+ .0.0)";resolution:="optional",org.aspectj.bridge;version="[1.6.8, 2.0
+ .0)";resolution:="optional",org.aspectj.lang;version="[1.6.8, 2.0.0)"
+ ;resolution:="optional",org.aspectj.lang.annotation;version="[1.6.8, 
+ 2.0.0)";resolution:="optional",org.aspectj.lang.reflect;version="[1.6
+ .8, 2.0.0)";resolution:="optional",org.aspectj.runtime.internal;versi
+ on="[1.6.8, 2.0.0)";resolution:="optional",org.aspectj.util;version="
+ [1.6.8, 2.0.0)";resolution:="optional",org.aspectj.weaver;version="[1
+ .6.8, 2.0.0)";resolution:="optional",org.aspectj.weaver.ast;version="
+ [1.6.8, 2.0.0)";resolution:="optional",org.aspectj.weaver.internal.to
+ ols;version="[1.6.8, 2.0.0)";resolution:="optional",org.aspectj.weave
+ r.patterns;version="[1.6.8, 2.0.0)";resolution:="optional",org.aspect
+ j.weaver.reflect;version="[1.6.8, 2.0.0)";resolution:="optional",org.
+ aspectj.weaver.tools;version="[1.6.8, 2.0.0)";resolution:="optional",
+ org.springframework.beans;version="[3.1.4,3.1.5)";resolution:="option
+ al",org.springframework.beans.factory;version="[3.1.4,3.1.5)";resolut
+ ion:="optional",org.springframework.beans.factory.annotation;version=
+ "[3.1.4,3.1.5)";resolution:="optional",org.springframework.beans.fact
+ ory.config;version="[3.1.4,3.1.5)";resolution:="optional",org.springf
+ ramework.beans.factory.parsing;version="[3.1.4,3.1.5)";resolution:="o
+ ptional",org.springframework.beans.factory.support;version="[3.1.4,3.
+ 1.5)";resolution:="optional",org.springframework.beans.factory.xml;ve
+ rsion="[3.1.4,3.1.5)";resolution:="optional",org.springframework.core
+ ;version="[3.1.4,3.1.5)",org.springframework.core.annotation;version=
+ "[3.1.4,3.1.5)",org.springframework.core.task;version="[3.1.4,3.1.5)"
+ ,org.springframework.core.task.support;version="[3.1.4,3.1.5)",org.sp
+ ringframework.util;version="[3.1.4,3.1.5)",org.springframework.util.x
+ ml;version="[3.1.4,3.1.5)",org.w3c.dom;version="0";resolution:="optio
+ nal"
+Bundle-Creator: cbeams
+Implementation-Title: org.springframework.aop
+Implementation-Version: 3.1.4.RELEASE
+

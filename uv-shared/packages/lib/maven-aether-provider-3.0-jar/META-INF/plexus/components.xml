@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+    <component>
+      <role>org.sonatype.aether.impl.ArtifactDescriptorReader</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.repository.internal.DefaultArtifactDescriptorReader</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.RemoteRepositoryManager</role>
+          <role-hint />
+          <field-name>remoteRepositoryManager</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.VersionResolver</role>
+          <role-hint />
+          <field-name>versionResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.ArtifactResolver</role>
+          <role-hint />
+          <field-name>artifactResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.apache.maven.model.building.ModelBuilder</role>
+          <role-hint />
+          <field-name>modelBuilder</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.VersionRangeResolver</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.repository.internal.DefaultVersionRangeResolver</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.MetadataResolver</role>
+          <role-hint />
+          <field-name>metadataResolver</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.VersionResolver</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.maven.repository.internal.DefaultVersionResolver</implementation>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.sonatype.aether.spi.log.Logger</role>
+          <role-hint />
+          <field-name>logger</field-name>
+        </requirement>
+        <requirement>
+          <role>org.sonatype.aether.impl.MetadataResolver</role>
+          <role-hint />
+          <field-name>metadataResolver</field-name>
+        </requirement>
+      </requirements>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.MetadataGeneratorFactory</role>
+      <role-hint>snapshot</role-hint>
+      <implementation>org.apache.maven.repository.internal.SnapshotMetadataGeneratorFactory</implementation>
+      <isolated-realm>false</isolated-realm>
+    </component>
+    <component>
+      <role>org.sonatype.aether.impl.MetadataGeneratorFactory</role>
+      <role-hint>versions</role-hint>
+      <implementation>org.apache.maven.repository.internal.VersionsMetadataGeneratorFactory</implementation>
+      <isolated-realm>false</isolated-realm>
+    </component>
+  </components>
+</component-set>

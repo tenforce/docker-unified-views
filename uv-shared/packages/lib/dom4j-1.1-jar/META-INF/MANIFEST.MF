@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Extension-Name: org.dom4j
+Specification-Title: dom4j 
+Specification-Vendor: MetaStuff Ltd.
+Created-By: Ant 1.4.1
+Implementation-Vendor:  MetaStuff Ltd.
+Specification-Version: 1.2
+Implementation-Version: 1.2
+Implementation-Title: dom4j
+

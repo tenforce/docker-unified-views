@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_29-b11-402-11M3909 (Apple Inc.)
+Export-Package: org.springframework.beans.factory.aspectj;version="3.1
+ .4.RELEASE";uses:="org.aspectj.internal.lang.annotation,org.aspectj.l
+ ang,org.aspectj.lang.annotation,org.springframework.beans,org.springf
+ ramework.beans.factory,org.springframework.beans.factory.annotation,o
+ rg.springframework.beans.factory.wiring",org.springframework.cache.as
+ pectj;version="3.1.4.RELEASE";uses:="org.aspectj.lang,org.aspectj.lan
+ g.annotation,org.aspectj.runtime.internal,org.springframework.cache.a
+ nnotation,org.springframework.cache.interceptor,org.springframework.c
+ ontext.annotation",org.springframework.context.annotation.aspectj;ver
+ sion="3.1.4.RELEASE";uses:="org.springframework.beans.factory.aspectj
+ ,org.springframework.context.annotation",org.springframework.mock.sta
+ ticmock;version="3.1.4.RELEASE";uses:="org.aspectj.lang,org.aspectj.l
+ ang.annotation,org.aspectj.runtime.internal",org.springframework.orm.
+ jpa.aspectj;version="3.1.4.RELEASE";uses:="org.aspectj.lang.annotatio
+ n",org.springframework.scheduling.aspectj;version="3.1.4.RELEASE";use
+ s:="org.aspectj.internal.lang.annotation,org.aspectj.lang,org.aspectj
+ .lang.annotation,org.aspectj.runtime.internal,org.springframework.aop
+ .interceptor,org.springframework.context.annotation,org.springframewo
+ rk.scheduling.annotation",org.springframework.transaction.aspectj;ver
+ sion="3.1.4.RELEASE";uses:="org.aspectj.lang,org.aspectj.lang.annotat
+ ion,org.springframework.context.annotation,org.springframework.transa
+ ction.annotation,org.springframework.transaction.interceptor"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.1.4.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Aspects
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.aspects
+Import-Package: org.apache.commons.logging;version="[1.1.1, 2.0.0)",or
+ g.aspectj.internal.lang.annotation;version="[1.6.8, 2.0.0)";resolutio
+ n:="optional",org.aspectj.lang;version="[1.6.8, 2.0.0)";resolution:="
+ optional",org.aspectj.lang.annotation;version="[1.6.8, 2.0.0)";resolu
+ tion:="optional",org.aspectj.lang.reflect;version="[1.6.8, 2.0.0)";re
+ solution:="optional",org.aspectj.runtime.internal;version="[1.6.8, 2.
+ 0.0)";resolution:="optional",org.springframework.aop.interceptor,org.
+ springframework.beans;version="[3.1.4,3.1.5)",org.springframework.bea
+ ns.factory;version="[3.1.4,3.1.5)",org.springframework.beans.factory.
+ annotation;version="[3.1.4,3.1.5)",org.springframework.beans.factory.
+ wiring;version="[3.1.4,3.1.5)",org.springframework.cache;version="[3.
+ 1.4,3.1.5)";resolution:="optional",org.springframework.cache.annotati
+ on;version="[3.1.4,3.1.5)";resolution:="optional",org.springframework
+ .cache.interceptor;version="[3.1.4,3.1.5)";resolution:="optional",org
+ .springframework.context.annotation;version="[3.1.4,3.1.5)",org.sprin
+ gframework.core.annotation;version="[3.1.4,3.1.5)",org.springframewor
+ k.core.task;version="[3.1.4,3.1.5)",org.springframework.dao;version="
+ [3.1.4,3.1.5)";resolution:="optional",org.springframework.orm.jpa;ver
+ sion="[3.1.4,3.1.5)";resolution:="optional",org.springframework.sched
+ uling.annotation;version="[3.1.4,3.1.5)";resolution:="optional",org.s
+ pringframework.transaction;version="[3.1.4,3.1.5)";resolution:="optio
+ nal",org.springframework.transaction.annotation;version="[3.1.4,3.1.5
+ )";resolution:="optional",org.springframework.transaction.interceptor
+ ;version="[3.1.4,3.1.5)";resolution:="optional"
+Bundle-Creator: cbeams
+Implementation-Title: org.springframework.aspects
+Implementation-Version: 3.1.4.RELEASE
+
