@@ -1,4 +1,4 @@
-FROM java:8
+FROM delitescere/java:1.8.0_72
 
 MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
 
