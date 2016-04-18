@@ -1,5 +1,7 @@
 FROM mariadb
 ENV MYSQL_DATABASE=unified_views
+ENV MYSQL_USER=unified_views
+ENV MYSQL_PASSWORD=s00pers3cur3
 ADD https://raw.githubusercontent.com/UnifiedViews/Core/UV_Core_v2.3.0/debian/unifiedviews-backend-mysql/src/deb/usr/share/unifiedviews/mysql/schema.sql /docker-entrypoint-initdb.d/00-schema.sql
 ADD https://raw.githubusercontent.com/UnifiedViews/Core/UV_Core_v2.3.0/debian/unifiedviews-backend-mysql/src/deb/usr/share/unifiedviews/mysql/data-core.sql /docker-entrypoint-initdb.d/01-data-core.sql
 ADD https://raw.githubusercontent.com/UnifiedViews/Core/UV_Core_v2.3.0/debian/unifiedviews-backend-mysql/src/deb/usr/share/unifiedviews/mysql/data-permissions.sql /docker-entrypoint-initdb.d/02-data-permissions.sql
