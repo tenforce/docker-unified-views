@@ -8,4 +8,5 @@ ADD packages/lib /unified-views/lib
 ADD env-to-java-properties-file.sh /usr/local/bin
 VOLUME /config
 VOLUME /unified-views/lib
+VOLUME /unified-views/dpu
 CMD ["/bin/bash","/usr/local/bin/env-to-java-properties-file.sh"]
