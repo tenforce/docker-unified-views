@@ -1,4 +1,3 @@
-#!/bin/bash
 
 URL="http://127.0.0.1:8080/master/api/1/import/dpu/jar"
 #MASTER_USER=master
