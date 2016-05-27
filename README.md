@@ -8,18 +8,30 @@ The following unified views dockers are provided:
  * [uv-mariadb](uv-mariadb): a docker image for mariadb that has the unified-views schema and required data preloaded
  * [uv-add-dpus](uv-add-dpus): a docker image that can be used to add dpus to unified-views via the master api
 
+
 ## Usage with uv-shared
 The backend and frontend share a config file (`/config/config.properties`), libraries (`/unified-views/lib`) and a folder to store dpu's (`/unified-views/dpu`). We've provided a docker image that provides these volumes for you, so you can just run it and use [docker's volumes-from directive](https://docs.docker.com/engine/userguide/containers/dockervolumes/#creating-and-mounting-a-data-volume-container).
 
 The unified-views-shared docker image runs a script on start that allows you to change the config file via the environment variables. The environment variable should be prefixed with UV_, in uppercase and all dots (.) in the property name should be converted to underscores (_). E.g. property foo.bar=baz should be configured as UV_FOO_BAR=BAZ. See [the config file](uv-shared/config/config.properties) for a complete list of properties.
 
+Public images usage:
 
 ```
 docker run --name uv-shared tenforce/unified-views-shared
-docker run --name uv-sql tenforce/unified-views-mariadb
-docker run --name uv-backend --volumes-from uv-shared --link mysql:mysql tenforce/unified-views-backend
-docker run --name uv-frontend --volumes-from uv-shared --link uv-backend:backend --link mysql:mysql tenforce/unified-views-frontend
+docker run --name uv-mysql tenforce/unified-views-mariadb
+docker run --name uv-backend --volumes-from uv-shared --link uv-mysql:mysql tenforce/unified-views-backend
+docker run --name uv-frontend --volumes-from uv-shared --link uv-backend:backend --link uv-mysql:mysql tenforce/unified-views-frontend
 ```
+
+
+Local images usage, assuming the docker images are created using as tag the directory name:
+```
+docker run --name uv-shared uv-shared
+docker run --name uv-mariadb -e MYSQL_ROOT_PASSWORD=iamroot!  uv-mariadb
+docker run --name uv-backend --volumes-from shared --link=uv-mariadb:mysql uv-backend 
+docker run --name uv-frontend --port 8080:8080 --volumes-from shared --link uv-backend:backend --link uv-mariadb:mysql uv-frontend 
+```
+
 
 ## Usage with host directories as a data volume
 You can also choose to have the config, libraries and dpus available on your host system and mount them as data volumes. This may be more convenient if you often need access to the configuration file.
