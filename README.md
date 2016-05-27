@@ -48,6 +48,7 @@ docker run --name uv-frontend -v /your/config/dir:/config -v /your/library/dir:/
 By default the unified-views installation is provided without DPU's, DPU's can be added through the GUI or the master API. To quickly add a set of dpu's a convience docker image is provided. The following command will add all official DPU's to your unified-views installation.
 
 `docker run --rm --link uv-frontend:frontend tenforce/unified-views-add-dpus` 
+`docker run --rm --link uv-frontend:frontend uv-add-dpus` 
 
 To add your own dpu's use the following command with your dpu directory.
 `docker run --rm -v /your/dpu/directory:/dpus --link uv-frontend:frontend tenforce/unified-views-add-dpus` 
