@@ -27,10 +27,12 @@ docker run --name uv-frontend --volumes-from uv-shared --link uv-backend:backend
 Local images usage, assuming the docker images are created using as tag the directory name:
 ```
 docker run --name uv-shared uv-shared
-docker run --name uv-mariadb -e MYSQL_ROOT_PASSWORD=iamroot!  uv-mariadb
-docker run --name uv-backend --volumes-from shared --link=uv-mariadb:mysql uv-backend 
-docker run --name uv-frontend --port 8080:8080 --volumes-from shared --link uv-backend:backend --link uv-mariadb:mysql uv-frontend 
+docker run -d --name uv-mariadb -e MYSQL_ROOT_PASSWORD=iamroot!  uv-mariadb
+docker run -d --name uv-backend --volumes-from uv-shared --link=uv-mariadb:mysql uv-backend 
+docker run -i --name uv-frontend --port 8080:8080 --volumes-from uv-shared --link uv-backend:backend --link uv-mariadb:mysql uv-frontend 
 ```
+
+Problem: at this moment the tomcat is not running is a detached mode.
 
 
 ## Usage with host directories as a data volume
