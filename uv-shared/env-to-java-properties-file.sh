@@ -3,8 +3,12 @@
 echo "Converting environment variables to Java properties"
 IFS=$'\\n'
 
-echo "" >> /config/frontend-config.properties
-echo "" >> /config/backend-config.properties
+#echo "" >> /config/frontend-config.properties
+#echo "" >> /config/backend-config.properties
+cp /config/config.properties /config/frontend-config.properties
+cp /config/config.properties /config/backend-config.properties
+
+
 if [ ! -f "/.settings_set" ];
 then
     printenv | grep -P "^UV_" | while read setting
