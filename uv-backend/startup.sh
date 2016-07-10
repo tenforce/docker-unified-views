@@ -1,2 +1,2 @@
-java -DconfigFileLocation=/config/config.properties -jar /unified-views/backend.jar 
+java -DconfigFileLocation=/config/backend-config.properties -jar /unified-views/backend.jar 
 
