@@ -16,7 +16,7 @@ VOLUME /unified-views/logs
 RUN chmod 777 /unified-views/logs
 RUN chmod 777 /unified-views/dpu
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/local/bin/env-to-java-properties-file.sh"]
 RUN chmod +x /usr/local/bin/env-to-java-properties-file.sh 
 RUN /usr/local/bin/env-to-java-properties-file.sh
 VOLUME /config
