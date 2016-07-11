@@ -13,8 +13,11 @@ ADD env-to-java-properties-file.sh /usr/local/bin/
 VOLUME /unified-views/lib
 VOLUME /unified-views/dpu
 VOLUME /unified-views/logs
+VOLUME /unified-views/backend
 RUN chmod 777 /unified-views/logs
 RUN chmod 777 /unified-views/dpu
+RUN mkdir -p /unified-views/backend/working/temp/export/
+RUN chmod 777 /unified-views/backend/working/temp/export/
 
 ENTRYPOINT ["/usr/local/bin/env-to-java-properties-file.sh"]
 RUN chmod +x /usr/local/bin/env-to-java-properties-file.sh 
