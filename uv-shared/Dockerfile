@@ -18,5 +18,5 @@ RUN chmod 777 /unified-views/dpu
 
 ENTRYPOINT ["/usr/local/bin/env-to-java-properties-file.sh"]
 RUN chmod +x /usr/local/bin/env-to-java-properties-file.sh 
-RUN /usr/local/bin/env-to-java-properties-file.sh
+# RUN /usr/local/bin/env-to-java-properties-file.sh
 VOLUME /config
