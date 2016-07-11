@@ -31,7 +31,7 @@ INSTALLDIR=`pwd`
 ########################################################################
 # Environment variables which have basic defaults.
 
-: ${DOWNLOAD_ALLOWED:="yes"}
+: ${DOWNLOAD_ALLOWED:="no"}
 : ${DB_CONNECTION:="mysql"}
 : ${MAVEN_OPTS:="-Xms256m -Xmx2048m "}
 #: ${MAVEN_OPTS:="-Xms256m -Xmx2048m -XX:PermSize=256m"}
@@ -179,7 +179,7 @@ install_webbrowser() {
 install_java() {
     test_installed java 
     INSTALLED=$?
-    if [ ! ${INSTALLED} ] 
+    if [ ${INSTALLED} -gt 0 ] ;
     then
 	case "${JAVA_VERSION}" in
         "1.7.0")
@@ -245,7 +245,7 @@ download_maven3() {
 install_maven3() {
     test_installed mvn
     INSTALLED=$?
-    if [ ! ${INSTALLED} ] 
+    if [ ${INSTALLED} -gt 0 ] ;
     then
       apt-get install -y  maven
     fi
@@ -265,7 +265,7 @@ download_tomcat7() {
 install_tomcat7() {
     test_service_installed tomcat7
     INSTALLED=$?
-    if [ ! ${INSTALLED} ] 
+    if [ ! ${INSTALLED} ] ;
     then
       apt-get install -y tomcat7 
     fi
@@ -328,6 +328,19 @@ install_oracle_jar() {
       mvn -Dmaven.repo.local=${MAVEN_REPO_LOCAL} ${MAVEN_OFFLINE} \
           install:install-file -Dfile=${INSTALLDIR}/downloads/ojdbc7.jar \
 	  -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2.0 \
+	  -Dpackaging=jar
+    popd
+}
+
+install_local_virtuoso_jars() {
+    pushd ${INSTALLDIR}/downloads
+      mvn -Dmaven.repo.local=${MAVEN_REPO_LOCAL} ${MAVEN_OFFLINE} \
+          install:install-file -Dfile=${INSTALLDIR}/downloads/virt_sesame2.jar \
+	  -DgroupId=virtuoso.sesame2 -DartifactId=driver -Dversion=2.7 \
+	  -Dpackaging=jar
+      mvn -Dmaven.repo.local=${MAVEN_REPO_LOCAL} ${MAVEN_OFFLINE} \
+          install:install-file -Dfile=${INSTALLDIR}/downloads/virtjdbc4.jar \
+	  -DgroupId=virtuoso -DartifactId=jdbc-driver -Dversion=4.0 \
 	  -Dpackaging=jar
     popd
 }
@@ -681,9 +694,10 @@ fi
 
 
 
-install_java;
+install_java
 install_maven3
-install_tomcat7
+#install_tomcat7
+install_local_virtuoso_jars
 
 if [ "${DB_CONNECTION}" = "mysql" ] ; then
     install_mysql
