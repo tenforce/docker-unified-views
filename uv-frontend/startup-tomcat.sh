@@ -35,4 +35,5 @@ service tomcat7 restart
 echo 'alias exit="echo Are you sure? this will kill the container. use Ctrl + p, Ctrl + q to detach or ctrl + d to exit"' > ~/.bashrc
 
 #Run bash to keep container running and pr
-bin/bash
+# bin/bash
+tail -f /var/log/tomcat7/catalina.out
