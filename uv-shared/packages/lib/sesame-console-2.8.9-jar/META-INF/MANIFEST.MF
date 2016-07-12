@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jeen
+Build-Jdk: 1.8.0_40
+Package: org.openrdf.console
+Main-Class: org.openrdf.console.Console
+Class-Path: sesame-runtime-2.8.9.jar sesame-model-2.8.9.jar sesame-rep
+ ository-api-2.8.9.jar sesame-repository-manager-2.8.9.jar sesame-repo
+ sitory-event-2.8.9.jar sesame-repository-http-2.8.9.jar sesame-reposi
+ tory-sparql-2.8.9.jar sesame-repository-contextaware-2.8.9.jar sesame
+ -repository-sail-2.8.9.jar sesame-http-client-2.8.9.jar httpclient-4.
+ 4.jar httpcore-4.4.jar commons-codec-1.10.jar sesame-sail-api-2.8.9.j
+ ar sesame-sail-federation-2.8.9.jar sesame-queryalgebra-evaluation-2.
+ 8.9.jar mapdb-1.0.7.jar slf4j-api-1.7.10.jar sesame-queryparser-api-2
+ .8.9.jar sesame-queryresultio-api-2.8.9.jar sesame-queryresultio-bina
+ ry-2.8.9.jar sesame-queryresultio-sparqljson-2.8.9.jar jackson-core-2
+ .4.4.jar sesame-queryresultio-sparqlxml-2.8.9.jar sesame-queryresulti
+ o-text-2.8.9.jar opencsv-3.2.jar commons-lang3-3.3.2.jar sesame-repos
+ itory-dataset-2.8.9.jar sesame-http-protocol-2.8.9.jar sesame-rio-api
+ -2.8.9.jar sesame-rio-datatypes-2.8.9.jar sesame-rio-languages-2.8.9.
+ jar sesame-rio-binary-2.8.9.jar sesame-rio-jsonld-2.8.9.jar jsonld-ja
+ va-0.5.1.jar jackson-databind-2.4.4.jar jackson-annotations-2.4.4.jar
+  httpclient-cache-4.4.jar sesame-rio-nquads-2.8.9.jar sesame-rio-n3-2
+ .8.9.jar sesame-rio-rdfjson-2.8.9.jar sesame-rio-rdfxml-2.8.9.jar ses
+ ame-rio-trix-2.8.9.jar sesame-rio-turtle-2.8.9.jar sesame-rio-trig-2.
+ 8.9.jar sesame-sail-inferencer-2.8.9.jar sesame-sail-model-2.8.9.jar 
+ sesame-sail-lucene4-2.8.9.jar sesame-sail-lucene-api-2.8.9.jar spatia
+ l4j-0.4.1.jar lucene-core-4.10.4.jar lucene-queries-4.10.4.jar lucene
+ -highlighter-4.10.4.jar lucene-memory-4.10.4.jar lucene-analyzers-com
+ mon-4.10.4.jar lucene-queryparser-4.10.4.jar lucene-sandbox-4.10.4.ja
+ r lucene-spatial-4.10.4.jar sesame-sail-memory-2.8.9.jar sesame-sail-
+ base-2.8.9.jar sesame-sail-nativerdf-2.8.9.jar sesame-sail-rdbms-2.8.
+ 9.jar commons-dbcp-1.4.jar commons-pool-1.5.4.jar sesame-query-2.8.9.
+ jar sesame-queryparser-serql-2.8.9.jar sesame-queryalgebra-model-2.8.
+ 9.jar sesame-queryparser-sparql-2.8.9.jar sesame-rio-ntriples-2.8.9.j
+ ar commons-io-2.4.jar sesame-config-2.8.9.jar sesame-util-2.8.9.jar g
+ uava-18.0.jar logback-classic-1.1.2.jar logback-core-1.1.2.jar common
+ s-cli-1.2.jar jcl-over-slf4j-1.7.10.jar
+

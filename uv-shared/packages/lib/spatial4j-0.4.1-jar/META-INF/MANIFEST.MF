@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1392790269879
+Build-Jdk: 1.7.0_51
+Built-By: dsmiley
+Bundle-Description: Spatial4j is a general purpose spatial / geospatial 
+ ASL licensed open-source Java library. It's    core capabilities are 3-
+ fold: to provide common geospatially-aware shapes, to provide distance 
+    calculations and other math, and to read shapes in WKT format.
+Bundle-DocURL: http://locationtech.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Spatial4J
+Bundle-SymbolicName: com.spatial4j
+Bundle-Vendor: LocationTech
+Bundle-Version: 0.4.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.spatial4j.core.context;version="0.4.1";uses:="com.sp
+ atial4j.core.distance,com.spatial4j.core.exception,com.spatial4j.core.i
+ o,com.spatial4j.core.shape",com.spatial4j.core.context.jts;version="0.4
+ .1";uses:="com.spatial4j.core.context,com.spatial4j.core.io.jts,com.spa
+ tial4j.core.shape,com.spatial4j.core.shape.jts,com.vividsolutions.jts.g
+ eom",com.spatial4j.core.distance;version="0.4.1";uses:="com.spatial4j.c
+ ore.context,com.spatial4j.core.shape",com.spatial4j.core.exception;vers
+ ion="0.4.1",com.spatial4j.core.io;version="0.4.1";uses:="com.spatial4j.
+ core.context,com.spatial4j.core.exception,com.spatial4j.core.shape",com
+ .spatial4j.core.io.jts;version="0.4.1";uses:="com.spatial4j.core.contex
+ t.jts,com.spatial4j.core.io,com.spatial4j.core.shape,com.spatial4j.core
+ .shape.jts,com.vividsolutions.jts.geom,com.vividsolutions.jts.io",com.s
+ patial4j.core.shape;version="0.4.1";uses:="com.spatial4j.core.context",
+ com.spatial4j.core.shape.impl;version="0.4.1";uses:="com.spatial4j.core
+ .context,com.spatial4j.core.shape",com.spatial4j.core.shape.jts;version
+ ="0.4.1";uses:="com.spatial4j.core.context,com.spatial4j.core.context.j
+ ts,com.spatial4j.core.exception,com.spatial4j.core.shape,com.vividsolut
+ ions.jts.geom,com.vividsolutions.jts.geom.prep"
+Import-Package: com.vividsolutions.jts.algorithm;resolution:=optional,co
+ m.vividsolutions.jts.geom;resolution:=optional,com.vividsolutions.jts.g
+ eom.impl;resolution:=optional,com.vividsolutions.jts.geom.prep;resoluti
+ on:=optional,com.vividsolutions.jts.io;resolution:=optional,com.vividso
+ lutions.jts.operation.union;resolution:=optional,com.vividsolutions.jts
+ .operation.valid;resolution:=optional,com.vividsolutions.jts.util;resol
+ ution:=optional
+Tool: Bnd-2.1.0.20130426-122213

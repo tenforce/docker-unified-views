@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1424352386165
+Build-Jdk: 1.6.0_45
+Built-By: jan
+Bundle-Description: MapDB provides concurrent Maps, Sets and Queues back
+ ed by disk storage or off-heap memory. It is a fast, scalable and easy 
+ to use embedded Java database.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: mapdb
+Bundle-SymbolicName: org.mapdb.mapdb
+Bundle-Version: 1.0.7
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.mapdb;version="1.0.7"
+Tool: Bnd-1.50.0
