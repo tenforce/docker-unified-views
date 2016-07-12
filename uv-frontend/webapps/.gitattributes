@@ -1,2 +1,0 @@
-master-2.3.1.war filter=lfs diff=lfs merge=lfs -text
-*.war filter=lfs diff=lfs merge=lfs -text
