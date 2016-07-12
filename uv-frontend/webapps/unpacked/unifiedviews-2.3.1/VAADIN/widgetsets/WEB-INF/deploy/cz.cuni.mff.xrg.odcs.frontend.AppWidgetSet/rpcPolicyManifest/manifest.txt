@@ -1,0 +1,2 @@
+# Module cz.cuni.mff.xrg.odcs.frontend.AppWidgetSet
+# RPC service class, partial path of RPC policy file
