@@ -27,6 +27,9 @@ then
 	echo "JAVA_HOME=\"${JAVA_HOME}\"" >> /etc/default/tomcat7
 fi
 
+
+cp /contexts/* /etc/tomcat7/Catalina/localhost/
+
 echo "Start the tomcat7 service" 
 chown tomcat7:tomcat7 /deployment
 service tomcat7 restart

@@ -8,10 +8,9 @@ EXPOSE 8080
 
 # Required for apt-add-repository
 RUN apt-get update
-RUN apt-get install -y tomcat7
-RUN apt-get install -y tomcat7-admin
-RUN apt-get install -y bash
-RUN apt-get install -y logrotate
+RUN apt-get install -y tomcat7 tomcat7-admin bash logrotate 
+RUN apt-get install -y fastjar
+
 
 ADD startup-tomcat.sh /opt/startup-tomcat.sh
 RUN chmod +x /opt/startup-tomcat.sh
@@ -31,7 +30,6 @@ RUN chown root:tomcat7 /var/lib/tomcat7/conf/tomcat-users.xml
 # 2. the webapps directory contains the war one likes to deploy
 #ADD unifiedviews.xml /etc/tomcat7/Catalina/localhost/unifiedviews.xml
 ADD contexts /contexts
-RUN cp /contexts/* /etc/tomcat7/Catalina/localhost/
 ADD webapps /webapps
 
 ADD deployment /deployment
