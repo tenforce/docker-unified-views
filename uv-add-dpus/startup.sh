@@ -1,6 +1,6 @@
 #!/bin/bash
 # Wait till Tomcat startup has finished and webapps are started (max 3 minutes)
-if [ "$UV_PORT" != ""] ; then
+if [ "$UV_PORT" != "" ] ; then
    FRONTENDPORT=$UV_PORT
 else 
    FRONTENDPORT=8080
