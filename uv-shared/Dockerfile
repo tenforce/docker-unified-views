@@ -6,7 +6,7 @@ MAINTAINER Bert Van Nuffelen <bert.van.nuffelen@tenforce.com>
 RUN apk add --no-cache bash gawk sed grep bc coreutils
 
 ENV UNIFIED_VIEWS_VERSION 2.3.0
-ADD config /config
+ADD config /etc/unifiedviews/config
 ADD packages/lib /unified-views/lib
 ADD env-to-java-properties-file.sh /usr/local/bin/
 
@@ -18,8 +18,7 @@ RUN chmod 777 /unified-views/logs
 RUN chmod 777 /unified-views/dpu
 #RUN mkdir -p /unified-views/backend/working/temp/export/
 #RUN chmod 777 /unified-views/backend/working/temp/export/
-
-ENTRYPOINT ["/usr/local/bin/env-to-java-properties-file.sh"]
 RUN chmod +x /usr/local/bin/env-to-java-properties-file.sh 
+ENTRYPOINT ["/usr/local/bin/env-to-java-properties-file.sh"]
 # RUN /usr/local/bin/env-to-java-properties-file.sh
 VOLUME /config
