@@ -5,7 +5,9 @@ IFS=$'\\n'
 
 if [ ! -f "/.settings_set" ];
 then
-    ls /etc/unifiedviews
+    mkdir -p /unified-views/backend/working/temp/export /unified-views/backend/working/temp/import
+    chmod 777 /unified-views/backend/working/temp/export
+    chmod 777 /unified-views/backend/working/temp/import
     cp /etc/unifiedviews/config/config.properties /config/frontend-config.properties
     cp /etc/unifiedviews/config/config.properties /config/backend-config.properties
     printenv | grep -P "^UV_" | while read setting
