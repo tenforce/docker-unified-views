@@ -44,8 +44,7 @@ services:
 #    - /etc/localtime:/etc/localtime:ro
 
  uvshared:
-#  image: tenforce/unified-views-shared:feat-compact-modular
-  image: uv-shared
+  image: tenforce/unified-views-shared:feat-compact-modular
   environment:
     UV_DATABASE_SQL_PASSWORD: "UV"
   volumes:
