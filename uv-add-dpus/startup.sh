@@ -7,7 +7,7 @@ else
 fi
 
 i=0
-until $(curl --output /dev/null --silent --head --fail --user $MASTER_USER:$MASTER_PASSWORD http://frontend:$FRONTENDPORT/master/api/1/pipelines) || [ "$i" -gt 36 ]; do
+until $(curl --output /dev/null --silent --head --fail --user $MASTER_USER:$MASTER_PASSWORD http://$FRONTEND:$FRONTENDPORT/master/api/1/pipelines) || [ "$i" -gt 36 ]; do
     i=$((i+1))
     printf '.'
     sleep 5
