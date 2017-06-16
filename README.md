@@ -9,6 +9,27 @@ The following unified views dockers are provided:
  * [uv-add-dpus](uv-add-dpus): a docker image that can be used to add dpus to unified-views via the master api
 
 
+## deploy & build using docker-compose
+
+### building
+Select in correct sequence the docker-compose files and trigger then the build
+
+```
+	docker-compose -f cm-docker-compose.yml -f cm-docker-compose-dev.yml build 
+```
+
+
+### deployment
+
+```
+	docker-compose -f cm-docker-compose.yml up -d
+```
+    
+
+## Next documentation items are outdated and should be reviewed
+
+    
+
 ## Usage with uv-shared
 The backend and frontend share a config file (`/config/config.properties`), libraries (`/unified-views/lib`) and a folder to store dpu's (`/unified-views/dpu`). We've provided a docker image that provides these volumes for you, so you can just run it and use [docker's volumes-from directive](https://docs.docker.com/engine/userguide/containers/dockervolumes/#creating-and-mounting-a-data-volume-container).
 
