@@ -1,0 +1,56 @@
+version: '2'
+services:
+ uvadddpus: 
+  image: tenforce/unified-views-add-dpus:feat-compact-modular
+  volumes_from:
+    - uvshared
+  links:
+    - uvfrontend:frontend
+ uvfrontend:
+  image: tenforce/unified-views-frontend:feat-compact-modular
+  restart: always
+  ports:
+    - "8080:8080"
+#  volumes:
+##    - /etc/timezone:/etc/timezone:ro
+##    - /etc/localtime:/etc/localtime:ro
+  volumes_from:
+    - uvshared
+  links:
+    - uvdb:mysql
+    - uvbackend:uvbackend
+ uvbackend:
+  image: tenforce/unified-views-backend:feat-compact-modular
+  restart: always
+  ports:
+    - "8066:8066"
+  volumes:
+    - ./data/unified-views/tmp:/tmp
+#    - /etc/timezone:/etc/timezone:ro    
+#    - /etc/localtime:/etc/localtime:ro
+  volumes_from:
+    - uvshared
+  links:
+    - uvdb:mysql
+ uvdb:
+  image: tenforce/unified-views-mariadb:feat-compact-modular
+  restart: always
+  environment:
+    MYSQL_ROOT_PASSWORD: "UV"
+    MYSQL_PASSWORD: "UV"
+  volumes:
+    - ./data/mysql:/var/lib/mysql
+#    - /etc/timezone:/etc/timezone:ro
+#    - /etc/localtime:/etc/localtime:ro
+
+ uvshared:
+#  image: tenforce/unified-views-shared:feat-compact-modular
+  image: uv-shared
+  environment:
+    UV_DATABASE_SQL_PASSWORD: "UV"
+  volumes:
+    - ./data/unified-views/logs:/unified-views/logs
+    - ./data/unified-views/config:/unified-views/config
+    - ./data/unified-views/backend:/unified-views/backend
+
+

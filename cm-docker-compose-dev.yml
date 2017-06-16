@@ -1,0 +1,26 @@
+version: '2'
+services:
+ uvshared:
+    build: 
+      context: ./uv-shared
+    container_name: uv-shared 
+    labels:
+      uvshared: "shared"
+ uvbackend:
+    build: 
+      context: ./uv-backend
+    container_name: uv-backend
+    labels:
+      uvbackend: "backend"
+ uvfrontend:
+    build: 
+      context: ./uv-frontend
+    container_name: uv-frontend
+    labels:
+      uvfrontend: "frontend"
+ uvadddpus:
+    build: 
+      context: ./uv-add-dpus
+    container_name: uv-add-dpus
+    labels:
+      uvadddpus: "adddpus"
