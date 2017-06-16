@@ -33,7 +33,6 @@ ADD contexts /contexts
 ADD webapps /webapps
 
 ADD deployment /deployment
-VOLUME deployment
 
 ENTRYPOINT ["/opt/startup-tomcat.sh"]
 
