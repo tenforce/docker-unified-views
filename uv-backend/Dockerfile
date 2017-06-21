@@ -5,7 +5,7 @@ MAINTAINER Bert Van Nuffelen <bert.van.nuffelen@tenforce.com>
 
 RUN apk add --no-cache bash 
 
-ENV UNIFIED_VIEWS_VERSION 2.3.1
+ENV UNIFIED_VIEWS_VERSION 3.0.0
 ADD backend-$UNIFIED_VIEWS_VERSION.jar /backend.jar
 
 ADD startup.sh /bin
