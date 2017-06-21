@@ -1,9 +1,0 @@
-<component-set>
-  <components>
-    <component>
-      <role>org.codehaus.plexus.i18n.I18N</role>
-      <implementation>org.codehaus.plexus.i18n.DefaultI18N</implementation>
-      <description></description>
-    </component>
-  </components>
-</component-set>
