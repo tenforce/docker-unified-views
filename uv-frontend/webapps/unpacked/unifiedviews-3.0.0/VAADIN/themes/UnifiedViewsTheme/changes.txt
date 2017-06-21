@@ -1,0 +1,106 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fnil\fcharset0 LucidaGrande;
+\f3\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}}
+\margl1134\margr1134\margb1134\margt1134\vieww10800\viewh8400\viewkind0
+\deftab709
+\pard\pardeftab709
+
+\f0\b\fs28 \cf0 List of changes
+\f1\b0\fs24 \
+\pard\pardeftab709
+
+\f0\b \cf0 header
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls1\ilvl0
+\f2 \cf0 	
+\f0 remove the menu item \'93unified views\'94 and place it as a logo with link to home on top of the menu instead
+\f1 \
+\ls1\ilvl0
+\f2 	
+\f0 place username and login/logout on top of menu in the html structure
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 tree
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls2\ilvl0
+\f2 \cf0 	
+\f0 use different css classes so I can distinguish First level items, Second level items and Third level items via icons
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 buttons
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls3\ilvl0
+\f2 \cf0 	
+\f0 use css class \'93primary\'94 if the button should be blue, otherwise it's silver
+\f1 \
+\ls3\ilvl0
+\f2 	
+\f0 use unique classes for buttons that should have an icon like \'93copy\'94,\'94delete\'94,\'94add\'94, etc
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 action buttons
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls4\ilvl0
+\f2 \cf0 	
+\f0 is it possible to work with css background images instead of having the image In the code itself? So I could implement hover effects. For that every button should have a unique class with it's function like \'93run\'94, \'93debug\'94 etc
+\f1 \
+\ls4\ilvl0
+\f2 	
+\f0 remove the class \'93v-button\'94 from the action buttons, so only the icon without background is visible
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 pager
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls5\ilvl0
+\f2 \cf0 	
+\f0 change the html structure of the pager so I can implement the css like in the design
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 tabs
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls6\ilvl0
+\f2 \cf0 	
+\f0 when there are subtabs like in \'93DPU templates\'94 > \'93Template Configuration\'94 I need another html structure or at least a unique class to implement the subtabs (2. level tabs) like in the design
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 login
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls7\ilvl0
+\f2 \cf0 	
+\f0 I need a unique class for the login container to implement the design
+\f1 \
+\pard\pardeftab709
+
+\f0\b \cf0 settings
+\f1\b0 \
+\pard\pardeftab709\li720\fi-360\ri0
+\ls8\ilvl0
+\f2 \cf0 	
+\f0 I need a unique class in \uc0\u8232 
+\f3 <div\'a0 class="v-gridlayout v-layout v-widget v-has-width v-gridlayout-margin-top v-gridlayout-margin-right v-gridlayout-margin-bottom v-gridlayout-margin-left"\'a0 style="width: 100%; height: 566px;">\uc0\u8232 
+\f0 to give the container a border
+\f1 \
+}

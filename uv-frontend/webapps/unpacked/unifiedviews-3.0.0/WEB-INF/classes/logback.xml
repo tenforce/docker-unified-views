@@ -1,0 +1,59 @@
+<configuration>
+
+    <!-- contains configuration for FILE appender -->
+    <property resource="../config.properties"/>
+    <property file="${configFileLocation}"/>
+
+    <!--
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{26} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    -->
+
+    <appender name="FILE_ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${frontend.log.directory}/frontend.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${frontend.log.directory}/frontend.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- how long should we keep the history -->
+            <maxHistory>${frontend.log.keepDays}</maxHistory>
+            <!-- restrict each file with size 10MB  -->
+            <maxFileSize>10MB</maxFileSize>
+            <totalSizeCap>${frontend.log.maxSize}</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${frontend.log.directory}/frontend_err.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${frontend.log.directory}/frontend_err.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- how long should we keep the history -->
+            <maxHistory>${frontend.log.keepDays}</maxHistory>
+            <!-- restrict each file with size 10MB  -->
+            <maxFileSize>10MB</maxFileSize>
+            <totalSizeCap>${frontend.log.maxSize}</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.eclipse.persistence" level="WARN"/>
+    <logger name="org.eclipse.persistence.logging.metadata" level="WARN"/>
+
+    <root level="INFO">
+        <appender-ref ref="FILE_ALL"/>
+        <appender-ref ref="FILE_ERROR"/>
+    </root>
+
+</configuration>

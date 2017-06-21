@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>UnifiedViews Web Application</display-name>
+	<context-param>
+		<description>Vaadin production mode</description>
+		<param-name>productionMode</param-name>
+		<param-value>true</param-value>
+	</context-param>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+            /WEB-INF/classes/frontend-context.xml
+            /WEB-INF/classes/frontend-context-security.xml
+        </param-value>
+	</context-param>
+	<context-param>
+		<param-name>heartbeatInterval</param-name>
+		<param-value>300</param-value>
+	</context-param>
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<listener>
+		<!-- To allow session-scoped beans -->
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+    
+    <servlet>
+        <servlet-name>probe</servlet-name>
+        <servlet-class>cz.cuni.mff.xrg.odcs.frontend.monitor.ProbeServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>probe</servlet-name>
+        <url-pattern>/probe</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+		<servlet-name>Vaadin Application Servlet</servlet-name>
+		<servlet-class>cz.cuni.mff.xrg.odcs.frontend.ODCSApplicationServlet</servlet-class>
+		<init-param>
+			<description>Vaadin UI to display</description>
+			<param-name>UI</param-name>
+			<param-value>cz.cuni.mff.xrg.odcs.frontend.AppEntry</param-value>
+		</init-param>
+		<init-param>
+			<description>Vaadin UI Provider</description>
+			<param-name>UIProvider</param-name>
+			<param-value>cz.cuni.mff.xrg.odcs.frontend.UnifiedViewsUIProvider</param-value>
+		</init-param>
+		<init-param>
+			<param-name>widgetset</param-name>
+			<param-value>cz.cuni.mff.xrg.odcs.frontend.AppWidgetSet</param-value>
+		</init-param>
+		<init-param>
+			<param-name>closeIdleSessions</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<async-supported>false</async-supported>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Vaadin Application Servlet</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+</web-app>

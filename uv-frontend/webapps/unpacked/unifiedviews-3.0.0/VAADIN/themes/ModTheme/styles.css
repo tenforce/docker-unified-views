@@ -1,0 +1,1150 @@
+/*
+    Document   :styles
+    Author     :Bogo
+    Description:Purpose of the stylesheet follows.
+*/
+
+@import "../reindeer/legacy-styles.css";
+
+.v-generated-body{
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+}
+
+.v-tabsheet-content, .white .v-tabsheet-content{
+    color:#3e3e3e;
+}
+
+.v-slot-loginPanel{
+    padding:2px 2px 0 2px;
+}
+
+.v-orderedlayout-margin-left,
+.v-horizontallayout-margin-left,
+.v-verticallayout-margin-left,
+.v-layout.v-margin-left,
+.v-gridlayout-margin-left {
+    padding-left:10px;
+}
+
+.v-tabsheet-content .v-orderedlayout-margin-left,
+.v-tabsheet-content .v-horizontallayout-margin-left,
+.v-tabsheet-content .v-verticallayout-margin-left,
+.v-tabsheet-content .v-layout.v-margin-left,
+.v-tabsheet-content .v-gridlayout-margin-left {
+    padding-left:15px;
+}
+
+.v-orderedlayout-margin-bottom,
+.v-horizontallayout-margin-bottom,
+.v-verticallayout-margin-bottom,
+.v-layout.v-margin-bottom,
+.v-gridlayout-margin-bottom {
+    padding-bottom:10px;
+}
+
+.v-tabsheet-content .v-orderedlayout-margin-bottom,
+.v-tabsheet-content .v-horizontallayout-margin-bottom,
+.v-tabsheet-content .v-verticallayout-margin-bottom,
+.v-tabsheet-content .v-layout.v-margin-bottom,
+.v-tabsheet-content .v-gridlayout-margin-bottom {
+    padding-bottom:15px;
+}
+
+.v-orderedlayout-margin-right,
+.v-horizontallayout-margin-right,
+.v-verticallayout-margin-right,
+.v-layout.v-margin-right,
+.v-gridlayout-margin-right {
+    padding-right:15px;
+}
+
+.v-tabsheet-content .v-orderedlayout-margin-right,
+.v-tabsheet-content .v-horizontallayout-margin-right,
+.v-tabsheet-content .v-verticallayout-margin-right,
+.v-tabsheet-content .v-layout.v-margin-right,
+.v-tabsheet-content .v-gridlayout-margin-right {
+    padding-right:15px;
+}
+.v-orderedlayout-margin-top,
+.v-horizontallayout-margin-top,
+.v-verticallayout-margin-top,
+.v-layout.v-margin-top,
+.v-gridlayout-margin-top {
+    padding-top:10px;
+}
+
+.v-tabsheet-content .v-orderedlayout-margin-top,
+.v-tabsheet-content .v-horizontallayout-margin-top,
+.v-tabsheet-content .v-verticallayout-margin-top,
+.v-tabsheet-content .v-layout.v-margin-top,
+.v-tabsheet-content .v-gridlayout-margin-top {
+    padding-top:15px;
+}
+
+.v-verticallayout-settings,.v-panel-content, .white .v-panel-content, .viewLayout, .v-app{
+    background:transparent;
+}
+
+.v-webkit .v-panel-caption,
+.v-webkit .v-panel-nocaption,
+.v-gecko .v-panel-caption,
+.v-gecko .v-panel-nocaption,
+.v-ie9 .v-panel-caption,
+.v-ie9 .v-panel-nocaption,
+.v-ie10 .v-panel-caption,
+.v-ie10 .v-panel-nocaption{
+    border-color:transparent;
+}
+
+.v-panel-content, .white .v-panel-content{
+    border:none;
+}
+
+.v-Notification-error {
+	background: #bd0a26 url(icons/error.png) no-repeat right top;
+	border: 3px solid #bd0a26;
+}
+
+.v-table .v-selected .v-table-cell-content {
+	border-right-color: #d4d4d4;
+}
+
+/*
+Open Sans font downloaded from
+http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600&subset=latin,latin-ext
+*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTRUOjZSKWg4xBWp_C_qQx0o.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNShUOjZSKWg4xBWp_C_qQx0o.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBqg5eI2G47JWe0-AuFtD150.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBtIh4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+/* End of Open Sans font. */
+
+.v-app, .v-window, .v-popupview-popup, .v-tooltip, .v-app input, .v-app select, .v-app button, .v-app textarea, .v-window input, .v-window select, .v-window button, .v-window textarea, .v-popupview-popup input, .v-popupview-popup select, .v-popupview-popup button, .v-popupview-popup textarea, .v-filterselect-suggestpopup, .v-datefield-popup, .v-contextmenu, .v-menubar-submenu, .v-drag-element, .v-table-header-drag {
+    color:#3e3e3e;
+    font-family:'Open Sans',sans-serif;
+}
+
+a,a:link, a:visited{
+    color:#bd0a26
+}
+
+a:hover{
+    color:#bd0a26}
+
+.v-caption{
+    font-weight:bold;
+    padding-bottom:3px;
+}
+
+.v-spacing{
+    height:20px;
+}
+
+.dpuTreeLayout {
+    background-color:transparent;
+}
+
+.v-tree-node-public {
+    color:#5f5247;
+}
+
+.v-tree-node-private {
+    color:#5f5247
+}
+
+.v-tree-node-expanded {
+    background-position:-7px 5px;
+}
+
+.v-tree-node > .v-tree-node-caption{
+    background:url("img/tree_item.svg") no-repeat scroll 0 0 transparent;
+    padding-left:16px;
+}
+
+.v-tree-node > .v-tree-node-caption.v-tree-node-selected{
+    background:url("img/tree_item_selected.svg") no-repeat scroll 0 0 transparent;
+    padding-left:16px;
+}
+
+.v-tree-node-root > .v-tree-node-caption{
+    background:url("img/tree_collapsed.svg") no-repeat scroll 0 0 transparent;
+    padding-left:16px;
+}
+
+.v-tree-node-root.v-tree-node-expanded > .v-tree-node-caption{
+    background:url("img/tree_expanded.svg") no-repeat scroll 0 0 transparent;
+    padding-left:16px;
+}
+
+.v-tree-node {
+    background:url("img/tree_arrow.svg") no-repeat scroll 7px 4px transparent;
+}
+
+.v-tree-node-expanded {
+    background:url("img/tree_arrow_expanded.svg") no-repeat scroll 7px 5px transparent;
+}
+
+.v-tree-node-selected span{
+    background:none;
+    color:#3e3e3e;
+    text-shadow:0 0 0;
+}
+
+.v-checkbox-private {
+    color:#3e3e3e;
+}
+
+.dpuTreeLayout .v-verticallayout{
+    padding:0;
+}
+
+.v-textfield, .v-textarea, .white .v-textfield, .white .v-textarea{
+    border-color:#d4d4d4;
+    background:#ffffff;
+    box-shadow:  0 1px 2px 0 #d4d4d4 inset;
+}
+
+.dpuTreeLayout input.v-textfield, .dpuTreeLayout input.v-textfield-focus{
+    border-radius:12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    padding:4px 10px;
+    margin:10px 0 3px;
+}
+
+input.v-textfield-prompt, textarea.v-textarea-prompt{
+    color:#d4d4d4;
+}
+
+.v-tabsheet-spacertd,
+.v-tabsheet-spacertd div,
+.v-tabsheet-tabitemcell-selected,
+.v-tabsheet-tabitemcell,
+.v-tabsheet-tabitem-selected .v-caption,
+.v-tabsheet-tabitem .v-caption,
+.v-tabsheet-tabitemcell-selected-first{
+    background:none;
+}
+
+.v-tabsheet-tabitem{
+    border:1px solid #d4d4d4;
+    background:#c79769;
+    border-radius:3px 3px 0 0;
+    -webkit-border-radius:3px 3px 0 0;
+    -moz-border-radius:3px 3px 0 0;
+    color:#ffffff;
+    height:22px;
+}
+
+.v-tabsheet-tabitem-selected{
+    background:#ffffff;
+    position:relative;
+    bottom:-1px;
+    color:#3e3e3e;
+    height:25px;
+}
+
+.v-tabsheet-tabitemcell-first{
+    padding-left:0;
+}
+
+.v-tabsheet-content, .white .v-tabsheet-content{
+    border:1px solid #d4d4d4;
+}
+
+.v-tabsheet-tabitem .v-caption{
+    height:19px;
+    padding:4px 10px 0;
+}
+
+.v-tabsheet-tabcontainer{
+    position:relative;
+    z-index:10;
+    bottom:-1px;
+}
+
+.v-app .v-textfield-focus,
+.v-window .v-textfield-focus,
+.v-popupview-popup .v-textfield-focus,
+.v-app .v-textarea-focus,
+.v-window .v-textarea-focus,
+.v-popupview-popup .v-textarea-focus{
+    border-color:#5f5247;
+    background:#ffffff;
+    box-shadow:  0px 1px 2px 0px #5f5247 inset;
+}
+
+.v-slot-username {
+    margin-left:-70px;
+}
+
+.v-slot-logout,.v-slot-backendStatus{
+    margin-left:10px;
+}
+
+/* Menubar */
+
+.v-menubar {
+    background:transparent;
+    padding:0;
+    font-size:14px;
+    line-height:38px;
+    height:40px !important;
+    font-weight:bold;
+    color:#ffffff;
+    text-align:left;
+    /*border:1px solid #004B5C;*/
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+}
+
+.v-menubar .v-menubar-menuitem {
+    cursor:pointer;
+    height:42px !important;
+    line-height:38px !important;
+    -moz-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    -webkit-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    /*border-right:1px solid #004B5C;*/
+    padding:0 20px;
+}
+
+.v-menubar > .v-menubar-menuitem:first-child {
+
+}
+
+.v-menubar > .v-menubar-menuitem:first-child .v-icon {
+    padding-bottom:4px;
+}
+
+.v-menubar .v-menubar-menuitem.v-menubar-menuitem-checked {
+    background:transparent;
+    -moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.5) inset;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.v-window-outerheader{
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 30%, #5f5247 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(30%,#5f5247), color-stop(100%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 30%,#5f5247 100%);
+    background:-o-linear-gradient(top, #5f5247 30%,#5f5247 100%);
+    background:-ms-linear-gradient(top, #5f5247 30%,#5f5247 100%);
+    background:linear-gradient(to bottom, #5f5247 30%,#5f5247 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+    -moz-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    -webkit-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    border-radius:3px 3px 0 0;
+    -webkit-border-radius:3px 3px 0 0;
+    -moz-border-radius:3px 3px 0 0;
+    border:1px solid #5f5247;}
+
+.v-window-wrap {
+    border:none;
+}
+
+.v-window-contents{
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+.v-window-closebox, .v-window-closebox:hover{
+    background:url("img/window_close.svg") no-repeat scroll 0 0 transparent;
+    width:16px;
+}
+
+.v-button, .v-disabled.v-button, .v-button.v-button-pagedtable-button, .v-button.v-disabled.v-button-pagedtable-button{
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 70%, #5f5247 93%);
+    background:-moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:-webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:-o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:-ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    -moz-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    -webkit-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid #d4d4d4;
+}
+
+.v-button:hover,.v-button.v-button-pagedtable-button:hover{
+    cursor:pointer;
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 70%, #5f5247 93%);
+    background:-moz-linear-gradient(top, #d4d4d4 25%, #ffffff 75%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(25%,#d4d4d4), color-stop(75%,#ffffff));
+    background:-webkit-linear-gradient(top, #d4d4d4 25%,#ffffff 75%);
+    background:-o-linear-gradient(top, #d4d4d4 25%,#ffffff 75%);
+    background:-ms-linear-gradient(top, #d4d4d4 25%,#ffffff 75%);
+    background:linear-gradient(to bottom, #d4d4d4 25%,#ffffff 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#ffffff',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-button:focus, .v-button.v-button-pagedtable-button:focus{
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 70%, #5f5247 93%);
+    background:-moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:-webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:-o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:-ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    border:1px solid #5f5247;
+}
+
+.v-button-primary{
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 30%, #5f5247 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(30%,#5f5247), color-stop(100%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 30%,#5f5247 100%);
+    background:-o-linear-gradient(top, #5f5247 30%,#5f5247 100%);
+    background:-ms-linear-gradient(top, #5f5247 30%,#5f5247 100%);
+    background:linear-gradient(to bottom, #5f5247 30%,#5f5247 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+    -moz-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    -webkit-box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    box-shadow:0px 0px 1px rgba(255, 255, 255, 0.8) inset;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid #5f5247;
+}
+
+.v-button-primary:hover{
+    cursor:pointer;
+    background:transparent;
+    background:-moz-linear-gradient(top, #5f5247 70%, #5f5247 93%);
+    background:-moz-linear-gradient(top, #5f5247 0%, #5f5247 60%, #5f5247 80%, #5f5247 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#5f5247), color-stop(60%,#5f5247), color-stop(80%,#5f5247), color-stop(100%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 0%,#5f5247 60%,#5f5247 80%,#5f5247 100%);
+    background:-o-linear-gradient(top, #5f5247 0%,#5f5247 60%,#5f5247 80%,#5f5247 100%);
+    background:-ms-linear-gradient(top, #5f5247 0%,#5f5247 60%,#5f5247 80%,#5f5247 100%);
+    background:linear-gradient(to bottom, #5f5247 0%,#5f5247 60%,#5f5247 80%,#5f5247 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+    border:1px solid #5f5247;
+}
+
+.v-button-primary:focus{
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 70%, #5f5247 93%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(70%,#5f5247), color-stop(93%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 70%,#5f5247 93%);
+    background:-o-linear-gradient(top, #5f5247 70%,#5f5247 93%);
+    background:-ms-linear-gradient(top, #5f5247 70%,#5f5247 93%);
+    background:linear-gradient(to bottom, #5f5247 70%,#5f5247 93%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+    border:1px solid #5f5247;
+}
+
+.v-button-wrap, .v-disabled.v-button .v-button-wrap, .v-button:focus .v-button-wrap,
+.v-button-primary .v-button-wrap, .v-disabled.v-button-primary .v-button-wrap {
+    background-color:rgba(0, 0, 0, 0);
+    background-image:none;
+}
+
+.small_button .v-button-wrap{
+    padding:4px 3px 0 0;
+}
+
+.v-button-caption {
+    color:#3e3e3e;
+    font-size:12px;
+    text-shadow:0 1px 0 rgba(255, 255, 255, 0.9)
+}
+
+.v-button-primary .v-button-caption {
+    color:#ffffff;
+    text-shadow:0 1px 0 rgba(0, 0, 0, 0.9)
+}
+
+.v-button-link{
+    border:none;
+}
+
+.v-button-link .v-button-caption {
+    color:#3e3e3e;
+}
+
+.v-button-link:hover{
+    cursor:pointer;
+    border:none;
+    background:transparent none;
+}
+
+.v-button-pagedtable-button{
+
+}
+
+.pipelineSettingsLayout {
+    background-color:#ffffff;
+    border:1px solid #d4d4d4;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    padding-left:30px;
+}
+
+.changingposition{
+    margin:2px 2px;
+}
+
+.dpuDetailMainLayout {
+}
+
+.dpuDetailButtonBar {
+    padding-top:15px;
+}
+
+.v-select-optiongroup-horizontalgroup .v-select-option {
+    display:inline-block;
+}
+
+.v-select-optiongroup-horizontalgroup {
+    white-space:nowrap;
+}
+
+.v-select-optiongroup-horizontalgroup
+.v-select-option.v-radiobutton {
+    padding-right:10px;
+}
+
+.v-label-warning {
+    color:#bd0a26;
+}
+
+.v-link a:visited {
+    color:#bd0a26;
+}
+
+.v-nativebutton-selectedtab {
+    border:none;
+    font-weight:bold;
+    text-align:left !important;
+    color:#ffffff !important;
+    background:#5f5247;
+}
+
+.v-nativebutton .v-nativebutton-left-text .v-nativebutton-caption {
+    white-space:pre;
+    text-side:left;
+}
+
+.v-nativebutton-multiline{
+    border:none;
+    border-right:1px solid #d4d4d4;
+    border-bottom:1px solid #d4d4d4;
+    background:#ffffff;
+    text-align:left !important;
+    font-weight:bold;
+}
+
+.v-filterselect{
+    background:none;
+}
+
+.v-app .v-filterselect-input, .v-window .v-filterselect-input, .v-popupview-popup .v-filterselect-input{
+    background:none repeat scroll 0 0 #ffffff;
+    border:1px solid #d4d4d4;
+    border-right:none;
+    box-shadow:0 1px 2px 0 #d4d4d4 inset;
+    border-radius:5px 0 0 5px;
+    height:22px;
+}
+
+body .datefilterpopup .v-popupbutton .v-button-caption,
+body .numberfilterpopup .v-popupbutton .v-button-caption{
+    color:#3e3e3e;
+    text-shadow:0 0 0;
+    padding:0;
+}
+
+.v-filterselect-button,
+.v-filterselect-focus .v-filterselect-button,
+.v-filterselect-focus .v-filterselect-button:hover,
+.v-filterselect-button:hover,
+body .datefilterpopup .v-popupbutton .v-popup-indicator,
+body .numberfilterpopup .v-popupbutton .v-popup-indicator{
+    height:20px;
+    width:18px;
+    border:1px solid #d4d4d4;
+    border-radius:0 5px 5px 0;
+    box-shadow:  0px 0px 1px 1px #ffffff inset;
+    background:#ffffff;
+    background:url("img/select-arrow.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 50%, #ffffff 75%);
+    background:url("img/select-arrow.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(50%,#d4d4d4), color-stop(75%,#ffffff));
+    background:url("img/select-arrow.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 50%,#ffffff 75%);
+    background:url("img/select-arrow.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 50%,#ffffff 75%);
+    background:url("img/select-arrow.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 50%,#ffffff 75%);
+    background:url("img/select-arrow.svg") no-repeat center center, inear-gradient(to bottom, #ffffff 25%,#d4d4d4 50%,#ffffff 75%);
+}
+
+body .v-app .v-table .filters-panel input.v-textfield.v-widget,
+body .v-window .v-table .filters-panel input.v-textfield.v-widget {
+    border-radius:5px;
+    height:22px;
+}
+
+.v-filterselect-suggestpopup{
+    border:1px solid #d4d4d4;
+    border-radius:5px;
+    background:#ffffff;
+}
+
+.v-filterselect-suggestmenu{
+    margin:0;
+}
+
+.v-filterselect-suggestmenu .gwt-MenuItem {
+    padding:2px 8px;
+}
+
+.v-filterselect-suggestmenu .gwt-MenuItem-selected{
+    background:#5f5247
+}
+
+.v-filterselect .v-icon {
+    width:13px;
+}
+.numberfilterpopup .v-popupbutton, .numberfilterpopup .v-popupbutton:focus, .numberfilterpopup .v-popupbutton:active, .numberfilterpopup .v-popupbutton.v-pressed,
+.datefilterpopup .v-popupbutton, .datefilterpopup .v-popupbutton:focus, .datefilterpopup .v-popupbutton:active, .datefilterpopup .v-popupbutton.v-pressed{
+    background:none !important;
+    padding:0;
+    height:23px !important;
+    border:none !important;
+
+}
+
+body .numberfilterpopup .v-popupbutton .v-button-wrap,
+body .numberfilterpopup .v-popupbutton:focus .v-button-wrap,
+body .numberfilterpopup .v-popupbutton:active .v-button-wrap,
+body .numberfilterpopup .v-popupbutton.v-pressed .v-button-wrap,
+body .datefilterpopup .v-popupbutton .v-button-wrap,
+body .datefilterpopup .v-popupbutton:focus .v-button-wrap,
+body .datefilterpopup .v-popupbutton:active .v-button-wrap,
+body .datefilterpopup .v-popupbutton.v-pressed .v-button-wrap {
+    background:none repeat scroll 0 0 #ffffff;
+    border:1px solid #d4d4d4;
+    border-radius:5px;
+    height:12px;
+    padding:4px 0 4px 2px;
+    box-shadow:0 1px 2px 0 #d4d4d4 inset;
+}
+
+.v-verticallayout-settings{
+    padding-left:15px;
+    padding-right:25px;
+    padding-top:15px;
+}
+
+.scheduling{
+    padding-left:15px;
+    padding-right:25px;
+    padding-top:15px;
+    background-color:#d4d4d4;
+}
+
+.graypanel {
+    background-color:#d4d4d4;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.select-hide-tb {
+    overflow:auto !important;
+
+}
+
+.v-select-select {
+    overflow:auto !important;
+}
+
+.v-panel-deco {
+    height:0px;
+    border:none;
+    visibility:hidden;
+}
+
+.v-panel-deco-viewLayout {
+    visibility:hidden;
+}
+
+.v-table-empty .v-table-body {
+    background-image:url('img/no_data.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.v-table-cell-content-link {
+    color:#bd0a26;
+    cursor:pointer;
+}
+
+.loginError {
+    background-color:#bd0a26;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+    padding:8px;
+}
+
+.editConflicts {
+    padding:4px;
+    margin-top:10px;
+    margin-left:100px;
+    background-color:#bd0a26;
+    font-weight:bold;
+}
+
+.readOnlyLabel {
+    color:#bd0a26;
+    padding-left:4px;
+    font-weight:bold;
+}
+
+.clickable-table-cell {
+    cursor:pointer;
+}
+
+/* Calendar */
+
+.v-inline-datefield{
+    border:1px solid #d4d4d4;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    background:#ffffff;
+
+}
+
+.v-inline-datefield-calendarpanel-header{
+    border-bottom:1px solid #d4d4d4;
+    background:#d4d4d4;
+    line-height:30px;
+    background:-moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:-webkit-linear-gradient(top, #ffffff 25%,#e6e6e6 75%);
+    background:-o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:-ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+}
+
+td.v-inline-datefield-calendarpanel-month{
+    background:none;
+}
+
+span.v-inline-datefield-calendarpanel-month{
+    font-weight:bold;
+    color:#3e3e3e;
+    padding:0 10px;
+    border:0;
+    margin:0;
+    height:30px;
+}
+
+.v-inline-datefield-calendarpanel-prevmonth, .v-inline-datefield-calendarpanel-nextmonth{
+    background:none;
+}
+
+.v-inline-datefield-calendarpanel-prevmonth button,
+.v-inline-datefield-calendarpanel-nextmonth button,
+.v-inline-datefield-calendarpanel-prevyear button,
+.v-inline-datefield-calendarpanel-nextyear button,
+.v-inline-datefield-calendarpanel-prevmonth button:hover,
+.v-inline-datefield-calendarpanel-nextmonth button:hover,
+.v-inline-datefield-calendarpanel-prevyear button:hover,
+.v-inline-datefield-calendarpanel-nextyear button:hover,
+.v-inline-datefield-calendarpanel-prevmonth button:active,
+.v-inline-datefield-calendarpanel-nextmonth button:active,
+.v-inline-datefield-calendarpanel-prevyear button:active,
+.v-inline-datefield-calendarpanel-nextyear button:active{
+    border:1px solid #d4d4d4;
+    box-shadow:0 0 0 1px #ffffff inset;
+    border-radius:9px;
+    height:18px;
+    min-width:18px;
+    width:18px;
+    background:#ffffff;
+    background:url("img/prevmonth.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(70%,#d4d4d4));
+    background:url("img/prevmonth.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, inear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+}
+
+.v-inline-datefield-calendarpanel-nextmonth button{
+    background:#ffffff;
+    background:url("img/nextmonth.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(70%,#d4d4d4));
+    background:url("img/nextmonth.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, inear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+}
+
+.v-inline-datefield-calendarpanel-nextyear button{
+    background:#ffffff;
+    background:url("img/nextyear.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(70%,#d4d4d4));
+    background:url("img/nextyear.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, inear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    margin-right:10px;
+}
+
+.v-inline-datefield-calendarpanel-prevyear button{
+    background:#ffffff;
+    background:url("img/prevyear.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(70%,#d4d4d4));
+    background:url("img/prevyear.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, inear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    margin-left:10px;
+}
+
+.v-inline-datefield-calendarpanel-prevmonth button:hover{
+    cursor:pointer;
+    background:#d4d4d4;
+    background:url("img/prevmonth.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:url("img/prevmonth.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevmonth.svg") no-repeat center center, linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-nextmonth button:hover{
+    cursor:pointer;
+    background:#d4d4d4;
+    background:url("img/nextmonth.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:url("img/nextmonth.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextmonth.svg") no-repeat center center, linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-prevyear button:hover{
+    cursor:pointer;
+    background:#d4d4d4;
+    background:url("img/prevyear.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:url("img/prevyear.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/prevyear.svg") no-repeat center center, linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-nextyear button:hover{
+    cursor:pointer;
+    background:#d4d4d4;
+    background:url("img/nextyear.svg") no-repeat center center, -moz-linear-gradient(top, #ffffff 25%, #d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:url("img/nextyear.svg") no-repeat center center, -webkit-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, -o-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, -ms-linear-gradient(top, #ffffff 25%,#d4d4d4 75%);
+    background:url("img/nextyear.svg") no-repeat center center, linear-gradient(to bottom, #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-prevmonth button:active{
+    background:#d4d4d4;
+    background:url("img/prevmonth.svg") no-repeat center center, -moz-linear-gradient(top, #d4d4d4 70%, #ffffff 92%);
+    background:url("img/prevmonth.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(70%,#d4d4d4), color-stop(92%,#ffffff));
+    background:url("img/prevmonth.svg") no-repeat center center, -webkit-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/prevmonth.svg") no-repeat center center, -o-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/prevmonth.svg") no-repeat center center, -ms-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/prevmonth.svg") no-repeat center center, linear-gradient(to bottom, #d4d4d4 70%,#ffffff 92%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#ffffff',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-nextmonth button:active{
+    background:#d4d4d4;
+    background:url("img/nextmonth.svg") no-repeat center center, -moz-linear-gradient(top, #d4d4d4 70%, #ffffff 92%);
+    background:url("img/nextmonth.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(70%,#d4d4d4), color-stop(92%,#ffffff));
+    background:url("img/nextmonth.svg") no-repeat center center, -webkit-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/nextmonth.svg") no-repeat center center, -o-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/nextmonth.svg") no-repeat center center, -ms-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/nextmonth.svg") no-repeat center center, linear-gradient(to bottom, #d4d4d4 70%,#ffffff 92%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#ffffff',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-nextyear button:active{
+    background:#d4d4d4;
+    background:url("img/nextyear.svg") no-repeat center center, -moz-linear-gradient(top, #d4d4d4 70%, #ffffff 92%);
+    background:url("img/nextyear.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(70%,#d4d4d4), color-stop(92%,#ffffff));
+    background:url("img/nextyear.svg") no-repeat center center, -webkit-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/nextyear.svg") no-repeat center center, -o-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/nextyear.svg") no-repeat center center, -ms-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/nextyear.svg") no-repeat center center, linear-gradient(to bottom, #d4d4d4 70%,#ffffff 92%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#ffffff',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-prevyear button:active{
+    background:#d4d4d4;
+    background:url("img/prevyear.svg") no-repeat center center, -moz-linear-gradient(top, #d4d4d4 70%, #ffffff 92%);
+    background:url("img/prevyear.svg") no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(70%,#d4d4d4), color-stop(92%,#ffffff));
+    background:url("img/prevyear.svg") no-repeat center center, -webkit-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/prevyear.svg") no-repeat center center, -o-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/prevyear.svg") no-repeat center center, -ms-linear-gradient(top, #d4d4d4 70%,#ffffff 92%);
+    background:url("img/prevyear.svg") no-repeat center center, linear-gradient(to bottom, #d4d4d4 70%,#ffffff 92%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#ffffff',GradientType=0 );
+    border:1px solid #d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-weekdays td, .v-inline-datefield-calendarpanel-weekdays .v-first, .v-inline-datefield-calendarpanel-weekdays .v-last {
+    background:none;
+    color:#5f5247;
+    font-size:11px;
+    text-shadow:0 0 0;
+    text-transform:none;
+}
+
+.v-inline-datefield-calendarpanel-time select {
+    margin:8px 2px;
+}
+
+.v-inline-datefield-calendarpanel-weekdays td strong{
+    font-weight:normal;
+    border-top:none;
+    margin-top:8px;
+}
+
+.v-inline-datefield-calendarpanel-day, .v-inline-datefield-calendarpanel-weeknumber, .v-inline-datefield-calendarpanel-day-today{
+    border:1px solid #5f5247;
+    color:#3e3e3e;
+    margin:2px 0 0 2px;
+    padding:2px 3px 2px 0;
+    background:#ffffff;
+    background:-moz-linear-gradient(top, #ffffff 0%, #ffffff 80%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(80%,#ffffff));
+    background:-webkit-linear-gradient(top, #ffffff 0%,#ffffff 80%);
+    background:-o-linear-gradient(top, #ffffff 0%,#ffffff 80%);
+    background:-ms-linear-gradient(top, #ffffff 0%,#ffffff 80%);
+    background:linear-gradient(to bottom, #ffffff 0%,#ffffff 80%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.v-inline-datefield-calendarpanel-day-today{
+    border-color:#5f5247;
+    background:#d4d4d4;
+}
+
+.v-inline-datefield-calendarpanel-day-selected{
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-color:#5f5247;
+    color:#ffffff;
+    background:#5f5247;
+    text-shadow:0 0 0;
+    background:-moz-linear-gradient(top, #5f5247 0%, #5f5247 48%, #5f5247 51%, #5f5247 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#5f5247), color-stop(48%,#5f5247), color-stop(51%,#5f5247), color-stop(100%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:-o-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:-ms-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:linear-gradient(to bottom, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+}
+
+.v-inline-datefield-calendarpanel-day:hover, .v-inline-datefield-calendarpanel-weeknumber:hover, .v-inline-datefield-calendarpanel-day-today:hover{
+    color:#5f5247;
+    margin:2px 0 0 2px;
+    padding:2px 3px 2px 0;
+    border-color:#5f5247;
+    color:#ffffff;
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 0%, #5f5247 48%, #5f5247 51%, #5f5247 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#5f5247), color-stop(48%,#5f5247), color-stop(51%,#5f5247), color-stop(100%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:-o-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:-ms-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:linear-gradient(to bottom, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+}
+
+/* Table */
+
+.v-table-header-wrap, .white .v-table-header-wrap, .v-table-footer-wrap, .white .v-table-footer-wrap, .v-table-header-drag{
+    background:#ffffff;
+    background:-moz-linear-gradient(top,  #ffffff 25%, #d4d4d4 75%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#d4d4d4));
+    background:-webkit-linear-gradient(top,  #ffffff 25%,#d4d4d4 75%);
+    background:-o-linear-gradient(top,  #ffffff 25%,#d4d4d4 75%);
+    background:-ms-linear-gradient(top,  #ffffff 25%,#d4d4d4 75%);
+    background:linear-gradient(to bottom,  #ffffff 25%,#d4d4d4 75%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+    height:35px;
+    color:#5f5247;
+    font-size:12px;
+    text-transform:none;
+}
+
+.v-table-header-cell-asc, .v-table-header-cell-desc{
+    background:#5f5247;
+    background:-moz-linear-gradient(top, #5f5247 0%, #5f5247 48%, #5f5247 51%, #5f5247 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#5f5247), color-stop(48%,#5f5247), color-stop(51%,#5f5247), color-stop(100%,#5f5247));
+    background:-webkit-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:-o-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:-ms-linear-gradient(top, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    background:linear-gradient(to bottom, #5f5247 0%,#5f5247 48%,#5f5247 51%,#5f5247 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5247', endColorstr='#5f5247',GradientType=0 );
+    color:#ffffff;
+    text-shadow:0 1px 0 rgba(0, 0, 0, 0.9);
+}
+
+.v-table-header{
+    height:35px;
+}
+
+.v-table-resizer{
+    height:35px;
+    border-right:1px solid #ffffff;
+    background:#d4d4d4;
+    width:1px;
+}
+
+.v-table-caption-container, .v-table-header-drag {
+    margin-left:9px;
+    overflow:visible;
+    line-height:27px;
+}
+
+.v-table-header-cell-asc .v-table-sort-indicator, .v-table-header-cell-desc .v-table-sort-indicator {
+    float:right;
+    height:35px;
+    width:16px;
+}
+
+.v-table-header-cell-asc .v-table-sort-indicator {
+    background:url("img/asc.png") no-repeat 0 center transparent;
+}
+
+.v-table-header-cell-desc .v-table-sort-indicator {
+    background:url("img/desc.png") no-repeat 0 center transparent;
+}
+
+.v-table-row-odd {
+    background:none repeat scroll 0 0 #d4d4d4;
+}
+
+.v-table-row:hover, .v-table-row-odd:hover{
+    background:none repeat scroll 0 0 #c79769;
+}
+
+.v-table .v-selected, .black .v-table .v-selected{
+    background:#5f5247;
+}
+
+.v-table-cell-content{
+    vertical-align:middle;
+}
+
+.v-table-header-wrap, .white .v-table-header-wrap, .v-table-header-drag{
+    border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    border-color:#5f5247;
+    border-width:1px;
+    border-style:solid;
+}
+
+.v-table-body, .white .v-table-body{
+    border-color:#5f5247;
+    border-radius:0 0 5px 5px;
+    -webkit-border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+}
+
+.v-contextmenu .gwt-MenuItem-selected {
+    background:#5f5247;
+    text-shadow:0 0 0;
+}
+
+.username{
+    color:#ffffff;
+    width:auto !important;
+    padding-left:10px;
+}
+
+.v-caption-on-top > .v-caption-username{
+    display:inline-block;
+}
+
+/* Error messages */
+
+.loginError {
+    background:url("img/error.svg") no-repeat 0px center #d4d4d4;
+    color:#bd0a26;
+    font-size:14px;
+    font-weight:normal;
+    padding:6px 10px 6px 20px;
+}
+
+.v-errorindicator{
+    background:url("img/warning.svg") no-repeat right center transparent;
+    height:25px;
+    width:20px;
+}
+
+.v-checkbox label{
+    margin-top:3px;
+}
+
+.logout {
+    color: #ffffff;
+}
+
+.v-tree-node[aria-selected="true"] > .v-tree-node-caption > div > span {
+	background-color: rgb(205, 205, 205);	
+}
+
+.dpu-error-label{
+	color:#bd0a26;
+}

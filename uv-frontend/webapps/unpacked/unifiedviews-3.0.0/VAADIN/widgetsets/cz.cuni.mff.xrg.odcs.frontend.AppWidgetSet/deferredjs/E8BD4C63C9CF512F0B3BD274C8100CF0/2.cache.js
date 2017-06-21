@@ -1,0 +1,1 @@
+$wnd.cz_cuni_mff_xrg_odcs_frontend_AppWidgetSet.runAsyncCallback2('Abb(1292,1,mxd);_.Qc=function u2b(){lTb((!eTb&&(eTb=new qTb),eTb),this.b.e)};Krd(Ui)(2);\n//# sourceURL=cz.cuni.mff.xrg.odcs.frontend.AppWidgetSet-2.js\n')
