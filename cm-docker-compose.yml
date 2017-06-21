@@ -1,13 +1,13 @@
 version: '2'
 services:
  uvadddpus: 
-  image: tenforce/unified-views-add-dpus:feat-compact-modular
+  image: tenforce/unified-views-add-dpus:feat-compact-modular-3.0
   volumes_from:
     - uvshared
   links:
     - uvfrontend:frontend
  uvfrontend:
-  image: tenforce/unified-views-frontend:feat-compact-modular
+  image: tenforce/unified-views-frontend:feat-compact-modular-3.0
   restart: always
   ports:
     - "8080:8080"
@@ -20,7 +20,7 @@ services:
     - uvdb:mysql
     - uvbackend:uvbackend
  uvbackend:
-  image: tenforce/unified-views-backend:feat-compact-modular
+  image: tenforce/unified-views-backend:feat-compact-modular-3.0
   restart: always
   ports:
     - "8066:8066"
@@ -33,7 +33,7 @@ services:
   links:
     - uvdb:mysql
  uvdb:
-  image: tenforce/unified-views-mariadb:feat-compact-modular
+  image: tenforce/unified-views-mariadb:feat-compact-modular-3.0
   restart: always
   environment:
     MYSQL_ROOT_PASSWORD: "UV"
@@ -44,7 +44,7 @@ services:
 #    - /etc/localtime:/etc/localtime:ro
 
  uvshared:
-  image: tenforce/unified-views-shared:feat-compact-modular
+  image: tenforce/unified-views-shared:feat-compact-modular-3.0
   environment:
     UV_DATABASE_SQL_PASSWORD: "UV"
   volumes:
