@@ -9,8 +9,6 @@ EXPOSE 8080
 # Required for apt-add-repository
 RUN apt-get update
 RUN apt-get install -y tomcat7 tomcat7-admin bash logrotate 
-RUN apt-get install -y fastjar
-
 
 ADD startup-tomcat.sh /opt/startup-tomcat.sh
 RUN chmod +x /opt/startup-tomcat.sh
@@ -31,6 +29,10 @@ RUN chown root:tomcat7 /var/lib/tomcat7/conf/tomcat-users.xml
 #ADD unifiedviews.xml /etc/tomcat7/Catalina/localhost/unifiedviews.xml
 ADD contexts /contexts
 ADD webapps /webapps
+
+ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/master/3.0.0/master-3.0.0.war /webapps/master-3.0.0.war
+ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/frontend/3.0.0/frontend-3.0.0.war /webapps/unifiedviews-3.0.0.war 
+RUN chown -R tomcat7:tomcat7 /webapps
 
 ADD deployment /deployment
 
