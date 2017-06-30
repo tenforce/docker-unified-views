@@ -28,7 +28,7 @@ RUN chown root:tomcat7 /var/lib/tomcat7/conf/tomcat-users.xml
 # 2. the webapps directory contains the war one likes to deploy
 #ADD unifiedviews.xml /etc/tomcat7/Catalina/localhost/unifiedviews.xml
 ADD contexts /contexts
-ADD webapps /webapps
+RUN mkdir -p /webapps
 
 ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/master/3.0.0/master-3.0.0.war /webapps/master-3.0.0.war
 ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/frontend/3.0.0/frontend-3.0.0.war /webapps/unifiedviews-3.0.0.war 
