@@ -1,0 +1,31 @@
+version: '2'
+services:
+# uvadddpus: 
+#  image: tenforce/unified-views-add-dpus:feat-compact-modular-3.0
+#  volumes_from:
+#    - uvshared
+#  links:
+#    - uvfrontend:frontend
+ uv:
+  image: tenforce/unified-views
+  ports:
+    - "8080:8080"
+#  volumes:
+##    - /etc/timezone:/etc/timezone:ro
+##    - /etc/localtime:/etc/localtime:ro
+  environment:
+    UV_DATABASE_SQL_PASSWORD: "UV"
+  links:
+    - uvdb:mysql
+ uvdb:
+  image: tenforce/unified-views-mariadb:feat-compact-modular-3.0
+  environment:
+    MYSQL_ROOT_PASSWORD: "UV"
+    MYSQL_PASSWORD: "UV"
+  volumes:
+    - ./data/mysql:/var/lib/mysql
+#    - /etc/timezone:/etc/timezone:ro
+#    - /etc/localtime:/etc/localtime:ro
+
+
+

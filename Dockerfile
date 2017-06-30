@@ -1,29 +1,29 @@
-FROM ubuntu:14.04
+FROM tomcat:7-jre8 
 
-MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
+MAINTAINER Bert Van Nuffelen <Bert.Van.Nuffelen@tenforce.com>
 
-ENV UV_DATABASE_SQL_URL=jdbc:mysql://mysql:3306/unified_views_?characterEncoding=utf8  UV_DATABASE_SQL_USER=unified_views UV_DATABASE_SQL_PASSWORD=unified_views MASTER_USER=master MASTER_PASSWORD=commander
 
-RUN apt-get update \
-      && apt-get install -y openjdk-7-jdk maven tomcat7 curl git mysql-client \
-      && mkdir /packages \
-      && mkdir /config \
-      && mkdir /dpus \
-      && mkdir /logs && touch /logs/frontend.log && touch /logs/frontend_err.log \
-      && mkdir -p /unified-views/dpu \
-      && sed -i "s/^TOMCAT7_USER.*/TOMCAT7_USER=root/" /etc/default/tomcat7 \
-      && sed -i "s/^TOMCAT7_GROUP.*/TOMCAT7_GROUP=root/" /etc/default/tomcat7
+# libs
+ADD https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/backend-libs/3.0.0/backend-libs-3.0.0.zip /unified-views/lib/backend-libs-3.0.0.zip
+ADD https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/dpu-v2-compatibility-package/1.0.0/dpu-v2-compatibility-package-1.0.0.jar /unified-views/lib/dpu-v2-compatibility-package-1.0.0.jar
+RUN cd /unified-views/lib && unzip backend-libs-3.0.0.zip
 
-ADD tomcat-setenv.sh /usr/share/tomcat7/bin/setenv.sh
-ADD packages /packages
+# backend
+ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/backend/3.0.0/backend-3.0.0.jar /unified-views/backend.jar
+
+# frontend
+ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/master/3.0.0/master-3.0.0.war /usr/local/tomcat/webapps/master-3.0.0.war
+ADD http://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/frontend/3.0.0/frontend-3.0.0.war /usr/local/tomcat/webapps/unifiedviews-3.0.0.war 
+
 ADD config /config
-ADD startup.sh /
-ADD add-dpu.sh /
-ADD env-to-java-properties-file.sh /
 
 WORKDIR /unified-views
 
 EXPOSE 8080
+EXPOSE 8066
 EXPOSE 5001
 
-CMD ["/bin/bash", "/startup.sh"]
+RUN chmod +x /config/*.sh && chmod -R 777 /config
+
+
+CMD ["/config/start.sh", ""]

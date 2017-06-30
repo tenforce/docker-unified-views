@@ -1,5 +1,11 @@
-# Unified Views docker
-Docker for hosting Unified Views 2.1.0
+# UnifiedViews docker
+Docker for UnifiedViews 3.0.0 as a single entity.
+There are variants in which the application is composed according to its natural components (feature/compactmodular branches).
+
+The original master branch is now moved to 2.1.0 branch
+
+TODO: update documentation 
+TODO: this is work in progress
 
 ## Database setup
 Unified Views requires an SQL database to store its configuration. If you want to run the SQL database in a Docker container, you can use [MariaDB](https://registry.hub.docker.com/_/mariadb/).
