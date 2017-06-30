@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# 3.x versions 
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-distributionMetadata/3.0.0/uv-e-distributionMetadata-3.0.0.jar 
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-filesDownload/3.0.0/uv-e-filesDownload-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-relationalFromSql/3.0.0/uv-e-relationalFromSql-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-silkLinker/3.0.0/uv-e-silkLinker-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-l-filesToVirtuoso/3.0.0/uv-l-filesToVirtuoso-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-l-filesUpload/3.0.0/uv-l-filesUpload-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-l-relationalToSql/3.0.0/uv-l-relationalToSql-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-filesFilter/3.0.0/uv-t-filesFilter-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-filesFindAndReplace/3.0.0/uv-t-filesFindAndReplace-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-filesMerger/3.0.0/uv-t-filesMerger-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-filesRenamer/3.0.0/uv-t-filesRenamer-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-filesToRdf/3.0.0/uv-t-filesToRdf-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-filterValidXml/3.0.0/uv-t-filterValidXml-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-metadata/3.0.0/uv-t-metadata-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-rdfMerger/3.0.0/uv-t-rdfMerger-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-rdfToFiles/3.0.0/uv-t-rdfToFiles-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-relational/3.0.0/uv-t-relational-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-sparqlConstruct/3.0.0/uv-t-sparqlConstruct-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-sparqlSelect/3.0.0/uv-t-sparqlSelect-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-sparqlUpdate/3.0.0/uv-t-sparqlUpdate-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-tabular/3.0.0/uv-t-tabular-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-tabularToRelational/3.0.0/uv-t-tabularToRelational-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-unzipper/3.0.0/uv-t-unzipper-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-xslt/3.0.0/uv-t-xslt-3.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-zipper/3.0.0/uv-t-zipper-3.0.0.jar
+
+# 2.x versions
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-executeShellScript/2.0.0/uv-e-executeShellScript-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-relationalToRdf/2.0.0/uv-t-relationalToRdf-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-rdfGraphMerger/2.0.0/uv-t-rdfGraphMerger-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-gunzipper/2.0.0/uv-t-gunzipper-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-gzipper/2.0.0/uv-t-gzipper-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-q-sparqlAsk/2.0.0/uv-q-sparqlAsk-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-t-excelToCsv/2.0.0/uv-t-excelToCsv-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-l-rdfToVirtuoso/2.0.0/uv-l-rdfToVirtuoso-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-sparqlEndpoint/2.0.0/uv-e-sparqlEndpoint-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-l-filesToParliament/2.0.0/uv-l-filesToParliament-2.0.0.jar
+curl -O https://repository.unifiedviews.eu/nexus/content/repositories/releases/eu/unifiedviews/plugins/uv-e-httpRequest/2.0.0/uv-e-httpRequest-2.0.0.jar
